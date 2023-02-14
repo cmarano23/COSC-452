@@ -1,0 +1,54 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.331/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉evolvesum.core꞉> 
+#'evolvesum.core/new-individual
+clj꞉evolvesum.core꞉> 
+#'evolvesum.core/mutate
+clj꞉evolvesum.core꞉> 
+#'evolvesum.core/error
+clj꞉evolvesum.core꞉> 
+#'evolvesum.core/better
+clj꞉evolvesum.core꞉> 
+#'evolvesum.core/evolve
+clj꞉evolvesum.core꞉> 
+; Syntax error reading source at (REPL:50:1).
+; EOF while reading
+clj꞉evolvesum.core꞉> 
+Generation: 0 , Best error: 11
+Generation: 1 , Best error: 11
+Generation: 2 , Best error: 11
+Generation: 3 , Best error: 11
+Generation: 4 , Best error: 11
+Generation: 5 , Best error: 10
+Generation: 6 , Best error: 8
+Generation: 7 , Best error: 8
+Generation: 8 , Best error: 7
+Generation: 9 , Best error: 5
+Generation: 10 , Best error: 5
+Generation: 11 , Best error: 4
+Generation: 12 , Best error: 2
+Generation: 13 , Best error: 2
+Generation: 14 , Best error: 1
+Generation: 15 , Best error: 0
+Success: (1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 0 1 1 0 1 0 1 1 1 1 1 1)
+nil
+clj꞉evolvesum.core꞉> 

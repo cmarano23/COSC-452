@@ -1,0 +1,130 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.331/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉knapsack.core꞉> 
+#'knapsack.core/fitness
+clj꞉knapsack.core꞉> 
+#'knapsack.core/new-individual
+clj꞉knapsack.core꞉> 
+#'knapsack.core/fittest
+clj꞉knapsack.core꞉> 
+#'knapsack.core/select
+clj꞉knapsack.core꞉> 
+#'knapsack.core/mutate
+clj꞉knapsack.core꞉> 
+#'knapsack.core/crossover
+clj꞉knapsack.core꞉> 
+#'knapsack.core/make-child
+clj꞉knapsack.core꞉> 
+#'knapsack.core/report
+clj꞉knapsack.core꞉> 
+#'knapsack.core/evolve-knapsack
+clj꞉knapsack.core꞉> 
+{:generation 0, :best {:genome [1 0 0 1 1 0 1 1 1 1], :fitness 0}}
+{:generation 1, :best {:genome [1 0 0 1 1 0 1 1 0 1], :fitness 0}}
+{:generation 2, :best {:genome [1 1 1 1 0 1 0 0 0 0], :fitness 18}}
+{:generation 3, :best {:genome [1 1 1 1 0 1 0 0 0 0], :fitness 18}}
+{:generation 4, :best {:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}}
+{:generation 5, :best {:genome [1 1 1 1 0 1 0 0 0 0], :fitness 18}}
+{:generation 6, :best {:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}}
+{:generation 7, :best {:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}}
+{:generation 8, :best {:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}}
+{:generation 9, :best {:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}}
+{:generation 10, :best {:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}}
+{:genome [1 1 0 1 1 1 0 0 0 0], :fitness 18}
+clj꞉knapsack.core꞉> 
+{:object-sizes (85 72 84 74 6 25 21 73 61 72 49 37 45 23 71 7 80 81 85 63), :capacity 921}
+{:generation 0, :best {:genome [1 1 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 784}}
+{:generation 1, :best {:genome [1 1 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 784}}
+{:generation 2, :best {:genome [1 1 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 784}}
+{:generation 3, :best {:genome [1 1 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 784}}
+{:generation 4, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 5, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 6, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 7, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 8, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 9, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 10, :best {:genome [1 1 1 1 0 0 0 1 1 0 1 1 0 0 1 1 1 1 0 1], :fitness 837}}
+{:generation 11, :best {:genome [1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 897}}
+{:generation 12, :best {:genome [1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 897}}
+{:generation 13, :best {:genome [1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 897}}
+{:generation 14, :best {:genome [1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 897}}
+{:generation 15, :best {:genome [1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 897}}
+{:generation 16, :best {:genome [1 1 1 1 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 897}}
+{:generation 17, :best {:genome [1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 903}}
+{:generation 18, :best {:genome [1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 903}}
+{:generation 19, :best {:genome [1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 903}}
+{:generation 20, :best {:genome [1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 903}}
+{:genome [1 1 1 1 1 1 1 1 1 0 1 1 0 0 0 1 1 1 1 1], :fitness 903}
+clj꞉knapsack.core꞉> 
+{:object-sizes (50 30 71 1 44 58 4 1 39 81 30 63 31 35 24 64 22 71 65 61), :capacity 848}
+{:generation 0, :best {:genome [1 0 1 0 1 0 1 1 0 0 0 1 1 0 1 1 0 1 1 1], :fitness 549}}
+{:generation 1, :best {:genome [1 1 1 0 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1 0], :fitness 614}}
+{:generation 2, :best {:genome [1 1 1 0 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1 0], :fitness 614}}
+{:generation 3, :best {:genome [1 1 1 0 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1 0], :fitness 614}}
+{:generation 4, :best {:genome [1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 0 1 1 0], :fitness 644}}
+{:generation 5, :best {:genome [1 1 1 0 1 1 1 1 1 1 0 1 1 0 0 1 1 1 1 0], :fitness 694}}
+{:generation 6, :best {:genome [1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1], :fitness 727}}
+{:generation 7, :best {:genome [1 1 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1], :fitness 727}}
+{:generation 8, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1], :fitness 786}}
+{:generation 9, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 10, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 11, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 12, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 13, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 14, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 15, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 16, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 17, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 18, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 19, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:generation 20, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}}
+{:genome [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1], :fitness 821}
+clj꞉knapsack.core꞉> 
+nil
+clj꞉knapsack.core꞉> 
+nil
+clj꞉knapsack.core꞉> 
+[{:object-sizes (99 19 32 56 31 91 30 98 86 95 30 80 19 63 95 5 21 14 98 45), :capacity 1349}
+ {:generation 0, :best {:genome [1 1 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0], :fitness 683}}
+ {:generation 1, :best {:genome [1 1 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0], :fitness 683}}
+ {:generation 2, :best {:genome [1 1 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0], :fitness 683}}
+ {:generation 3, :best {:genome [1 0 1 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 0 0], :fitness 741}}
+ {:generation 4, :best {:genome [1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 0], :fitness 768}}
+ {:generation 5, :best {:genome [1 1 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0], :fitness 863}}
+ {:generation 6, :best {:genome [1 1 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1], :fitness 908}}
+ {:generation 7, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 8, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 9, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 10, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 11, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 12, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 13, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 14, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+ {:generation 15, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1], :fitness 1008}}
+ {:generation 16, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+ {:generation 17, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+ {:generation 18, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+ {:generation 19, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+ {:generation 20, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1], :fitness 1070}}]
+clj꞉knapsack.core꞉> 
+(683 683 683 741 768 863 908 971 971 971 971 971 971 971 971 1008 1022 1022 1022 1022 1070)
+clj꞉knapsack.core꞉> 

@@ -1,0 +1,96 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.331/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉rice.evo꞉> 
+#'rice.evo/students
+clj꞉rice.evo꞉> 
+#'rice.evo/prev-groups
+clj꞉rice.evo꞉> 
+#'rice.evo/new-groups
+clj꞉rice.evo꞉> 
+#'rice.evo/conflicts
+clj꞉rice.evo꞉> 
+#'rice.evo/better
+clj꞉rice.evo꞉> 
+#'rice.evo/mutate
+clj꞉rice.evo꞉> 
+#'rice.evo/evolve
+clj꞉rice.evo꞉> 
+Population size: 4
+Generation: 0 , least conflicts: 1
+Generation: 1 , least conflicts: 1
+Generation: 2 , least conflicts: 1
+Generation: 3 , least conflicts: 1
+Generation: 4 , least conflicts: 0
+Success: (#{Regina Deri <rderi25@amherst.edu> Stefan Walzer-Goldfeld <swalzergoldfeld23@amherst.edu> Charles Clary <cclary24@amherst.edu>} #{Carson Marano <cmarano23@amherst.edu> Andrew Ni <ani24@amherst.edu> Bayard DeMallie <bdemallie23@amherst.edu>} #{Ian Husler Matute <ihuslermatute23@amherst.edu> Michael Xu <mjxu25@amherst.edu> Mikhail Verozub <mverozub23@amherst.edu>} #{Esteban Sanchez <easanchez23@amherst.edu> William DeGroot <wdegroot23@amherst.edu> Tina Zhang <szhang24@amherst.edu>} #{Arjun Kejriwal <akejriwal24@amherst.edu> John Cox <jcox25@amherst.edu>} #{Megan Huang <mhuang25@amherst.edu> Alison Weiss <asweiss23@amherst.edu> Reihaneh Iranmanesh <riranmanesh25@amherst.edu>} #{Owen Cannon <ocannon24@amherst.edu> Jason DeGraff <jdegraaff25@amherst.edu> Sarah Park <shpark23@amherst.edu>})
+nil
+clj꞉rice.evo꞉> 
+Population size: 4
+Generation: 0 , least conflicts: 2
+Generation: 1 , least conflicts: 2
+Generation: 2 , least conflicts: 2
+Generation: 3 , least conflicts: 2
+Generation: 4 , least conflicts: 2
+Generation: 5 , least conflicts: 2
+Generation: 6 , least conflicts: 3
+Generation: 7 , least conflicts: 3
+Generation: 8 , least conflicts: 2
+Generation: 9 , least conflicts: 2
+Generation: 10 , least conflicts: 2
+Generation: 11 , least conflicts: 2
+Generation: 12 , least conflicts: 2
+Generation: 13 , least conflicts: 0
+Success: (#{Jason DeGraff <jdegraaff25@amherst.edu> Esteban Sanchez <easanchez23@amherst.edu> Ian Husler Matute <ihuslermatute23@amherst.edu>} #{Arjun Kejriwal <akejriwal24@amherst.edu> Reihaneh Iranmanesh <riranmanesh25@amherst.edu>} #{Megan Huang <mhuang25@amherst.edu> Alison Weiss <asweiss23@amherst.edu> Mikhail Verozub <mverozub23@amherst.edu>} #{Regina Deri <rderi25@amherst.edu> Stefan Walzer-Goldfeld <swalzergoldfeld23@amherst.edu> Sarah Park <shpark23@amherst.edu>} #{Carson Marano <cmarano23@amherst.edu> Andrew Ni <ani24@amherst.edu> Bayard DeMallie <bdemallie23@amherst.edu>} #{William DeGroot <wdegroot23@amherst.edu> Michael Xu <mjxu25@amherst.edu> John Cox <jcox25@amherst.edu>} #{Owen Cannon <ocannon24@amherst.edu> Tina Zhang <szhang24@amherst.edu> Charles Clary <cclary24@amherst.edu>})
+nil
+clj꞉rice.evo꞉> 
+#'rice.evo/student
+clj꞉rice.evo꞉> 
+:college
+clj꞉rice.evo꞉> 
+nil
+clj꞉rice.evo꞉> 
+nil
+clj꞉rice.evo꞉> 
+"Carson Marano"
+clj꞉rice.evo꞉> 
+"cmarano23@amherst.edu"
+clj꞉rice.evo꞉> 
+"Amherst College"
+clj꞉rice.evo꞉> 
+; Syntax error compiling def at (src/rice/evo.clj:28:1).
+; Too many arguments to def
+clj꞉rice.evo꞉> 
+#'rice.evo/newStudents
+clj꞉rice.evo꞉> 
+nil
+clj꞉rice.evo꞉> 
+[:name "Carson Marano"]
+clj꞉rice.evo꞉> 
+"Amherst College"
+clj꞉rice.evo꞉> 
+nil
+clj꞉rice.evo꞉> 
+nil
+clj꞉rice.evo꞉> 
+"cmarano23@amherst.edu"
+clj꞉rice.evo꞉> 
+"Bayard DeMallie"
+clj꞉rice.evo꞉> 

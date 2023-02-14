@@ -1,0 +1,22 @@
+{:object-sizes (99 19 32 56 31 91 30 98 86 95 30 80 19 63 95 5 21 14 98 45), :capacity 1349}
+{:generation 0, :best {:genome [1 1 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0], :fitness 683}}
+{:generation 1, :best {:genome [1 1 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0], :fitness 683}}
+{:generation 2, :best {:genome [1 1 1 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0], :fitness 683}}
+{:generation 3, :best {:genome [1 0 1 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 0 0], :fitness 741}}
+{:generation 4, :best {:genome [1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 0], :fitness 768}}
+{:generation 5, :best {:genome [1 1 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0], :fitness 863}}
+{:generation 6, :best {:genome [1 1 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1], :fitness 908}}
+{:generation 7, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 8, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 9, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 10, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 11, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 12, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 13, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 14, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 1 1], :fitness 971}}
+{:generation 15, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1], :fitness 1008}}
+{:generation 16, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+{:generation 17, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+{:generation 18, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+{:generation 19, :best {:genome [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1], :fitness 1022}}
+{:generation 20, :best {:genome [1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1], :fitness 1070}}

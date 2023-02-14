@@ -1,0 +1,1140 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.331/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉test.core꞉> 
+; Syntax error compiling if at (src/test/core.clj:4:3).
+; Too many arguments to if
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:4:10).
+; Unable to resolve symbol: % in this context
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:4:10).
+; Unable to resolve symbol: % in this context
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:4:3).
+; Unable to resolve symbol: True in this context
+clj꞉test.core꞉> 
+#'test.core/isEven
+clj꞉test.core꞉> 
+false
+clj꞉test.core꞉> 
+false
+clj꞉test.core꞉> 
+true
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:4:3).
+; [alphabet "abcdefghijklmnopqrstuvwxyz" alphabetLength (count alphabet) shiftChar [c] (let [x (if (Character/isUpperCase c) (Character/toUpperCase (nth alphabet (mod (+ (- c 65) n) alphabetLength))) (nth alphabet (mod (+ (- c 97) n) alphabetLength)))] (if (Character/isLetter c) x c))] - failed: even-number-of-forms? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+#'test.core/rollDie
+clj꞉test.core꞉> 
+5
+clj꞉test.core꞉> 
+1
+clj꞉test.core꞉> 
+2
+clj꞉test.core꞉> 
+3
+clj꞉test.core꞉> 
+3
+clj꞉test.core꞉> 
+2
+clj꞉test.core꞉> 
+1
+clj꞉test.core꞉> 
+1
+clj꞉test.core꞉> 
+4
+clj꞉test.core꞉> 
+4
+clj꞉test.core꞉> 
+5
+clj꞉test.core꞉> 
+3
+clj꞉test.core꞉> 
+4
+clj꞉test.core꞉> 
+0
+clj꞉test.core꞉> 
+2
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+"Spades"
+clj꞉test.core꞉> 
+"Hearts"
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:33:8).
+; Unable to resolve symbol: getCardNum in this context
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:33:8).
+; Unable to resolve symbol: getCardNum in this context
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+#'test.core/hitMe
+clj꞉test.core꞉> 
+"6 of Hearts"
+clj꞉test.core꞉> 
+"7 of Hearts"
+clj꞉test.core꞉> 
+"Ace of Spades"
+clj꞉test.core꞉> 
+#'test.core/getCard
+clj꞉test.core꞉> 
+"8 of Spades"
+clj꞉test.core꞉> 
+"9 of Clubs"
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer has:  7 of Hearts  and ?
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer has:  2 of Hearts  and  6 of Hearts
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  King of Diamonds
+Player has:  6 of Hearts  and  4 of Clubs
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  8 of Clubs
+Player has:  7 of Spades  and  Queen of Clubs
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  Ace of Hearts
+Player has:  10 of Diamonds  and  Ace of Hearts
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  King of Spades
+Player has:  9 of Diamonds  and  Queen of Diamonds
+Would you like to hit or stay? 
+hit
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+clj꞉test.core꞉> 
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+clj꞉test.core꞉> 
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hit in this context
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  9 of Spades
+Player has:  8 of Spades  and  5 of Clubs
+Would you like to hit or stay? 
+Player has:  8 of Spades  and  5 of Clubs  and  5 of Clubs
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+#'test.core/getCard
+clj꞉test.core꞉> 
+"9 of Clubs"
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  4 of Spades
+Player has:  8 of Diamonds  and  6 of Hearts
+Would you like to hit or stay? 
+Player has:  8 of Diamonds  and  6 of Hearts  and  6 of Hearts
+nil
+clj꞉test.core꞉> 
+{:Jack 10, :King 10, :Ace 11, :10 10, :4 4, :7 7, :1 1, :8 8, :9 9, :2 2, :5 5, :Queen 10, :3 3, :6 6}
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:39:6).
+; Map literal must contain an even number of forms
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:39:7).
+; Map literal must contain an even number of forms
+clj꞉test.core꞉> 
+{:Jack 10, :King 10, :Ace 11, :10 10, :4 4, :7 7, :1 1, :8 8, :9 9, :2 2, :5 5, :Queen 10, :3 3, :6 6}
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:39:18).
+; Map literal must contain an even number of forms
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:39:14).
+; Invalid token: :
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  8
+Player has:  5  and  King
+Would you like to hit? 
+Player has:  5  and  King  and  King . This results in a score of  #function[test.core/getScore] [[5 King]]
+nil
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  8
+Player has:  8  and  Jack
+Would you like to hit? 
+Player has:  8  and  Jack  and  Jack . This results in a score of  #function[test.core/getScore] [[8 Jack]]
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  3
+Player has:  9  and  8 . This results in a score of  #function[test.core/getScore] [[9 8]]
+Would you like to hit? 
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+9
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/eval7773 (REPL:47).
+; class clojure.lang.MapEntry cannot be cast to class java.lang.Number (clojure.lang.MapEntry is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/eval7775 (REPL:47).
+; class clojure.lang.MapEntry cannot be cast to class java.lang.Number (clojure.lang.MapEntry is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/eval7777 (REPL:47).
+; class clojure.lang.MapEntry cannot be cast to class java.lang.Number (clojure.lang.MapEntry is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+[:Ace 11]
+clj꞉test.core꞉> 
+[:Ace 11]
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/eval7783 (REPL:47).
+; class clojure.lang.MapEntry cannot be cast to class java.lang.Number (clojure.lang.MapEntry is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+[:Ace 11]
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:44:15).
+; Invalid token: :
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  6
+Player has:  3  and  Queen . This results in a score of  #function[test.core/getScore] [[3 Queen]]
+Would you like to hit? 
+Player has:  [3 Queen Ace]  and  nil  and  [3 Queen Ace] . This results in a score of  #function[test.core/getScore] [[[3 Queen Ace]]]
+nil
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  3
+Player has:  6  and  Queen . This results in a score of  #function[test.core/getScore] [[6 Queen]]
+Would you like to hit? 
+Player has:  6  and  Queen  and  Queen . This results in a score of  #function[test.core/getScore] [[6 Queen]]
+nil
+clj꞉test.core꞉> 
+#'test.core/getCard
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getCard (REPL:33).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/getCard
+clj꞉test.core꞉> 
+#'test.core/getCard
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getCard (REPL:33).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getCard (REPL:33).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getCard (REPL:33).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getCard (REPL:33).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  7
+Player has:  Queen  and  9 . This results in a score of  #function[test.core/getScore] [[Queen 9]]
+Would you like to hit? 
+Player has:  [Queen 9 4]  and  nil  and  [Queen 9 4] . This results in a score of  #function[test.core/getScore] [[[Queen 9 4]]]
+nil
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  Ace
+Player has:  7  and  2 . This results in a score of  #function[test.core/getScore] [[7 2]]
+Would you like to hit? 
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+Dealer is showing:  Jack
+Player has:  9  and  Jack . This results in a score of  #function[test.core/getScore] [[9 Jack]]
+Would you like to hit? 
+clj꞉test.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+Dealer is showing:  Jack
+Player has:  King  and  6 . This results in a score of  #function[test.core/getScore] [[King 6]]
+Would you like to hit? 
+clj꞉test.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+Dealer is showing:  Ace
+Player has:  9  and  6 . This results in a score of  #function[test.core/getScore] [[9 6]]
+Would you like to hit? 
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+; Syntax error reading source at (REPL:57:112).
+; Invalid token: :
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  2
+Player has:  Ace  and  8 . This results in a score of  #function[test.core/getScore] [[Ace 8]]
+Would you like to hit? 
+Player has:  Ace  and  8  and  8 . This results in a score of  #function[test.core/getScore] [[Ace 8]]
+nil
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  2
+Player has:  Queen  and  7 . This results in a score of  #function[test.core/getScore] [[Queen 7]]
+Would you like to hit? 
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  2
+Player has:  6  and  Jack . This results in a score of  #function[test.core/getScore] [[6 Jack]]
+Would you like to hit? 
+Player has:  [6 Jack 4]  and  nil  and  [6 Jack 4] . This results in a score of  #function[test.core/getScore] [[[6 Jack 4]]]
+nil
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  Ace
+Player has:  4  and  6 . This results in a score of  #function[test.core/getScore] [[4 6]]
+Would you like to hit? 
+Player has:  4  and  6  and  6 . This results in a score of  #function[test.core/getScore] [[4 6]]
+nil
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  2
+Player has:  2  and  4 . This results in a score of  #function[test.core/getScore] [[2 4]]
+Would you like to hit? (yes/no)
+Player has:  [2 4 9]  and  nil  and  [2 4 9] . This results in a score of  #function[test.core/getScore] [[[2 4 9]]]
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  3
+Player has:  8  and  8 . This results in a score of  #function[test.core/getScore] [[8 8]]
+Would you like to hit? (yes/no)
+Player has:  [[8 8 Queen]]
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  9
+Player has:  10  and  Queen . This results in a score of  #function[test.core/getScore] [[10 Queen]]
+Would you like to hit? (yes/no)
+Player has:  [[10 Queen 8]]
+Dealer has  [9 King]
+; Execution error (ArityException) at test.core/getScore (REPL:46).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉test.core꞉> 
+Dealer is showing:  King
+Player has:  Queen  and  9 . This results in a score of  #function[test.core/getScore] [[Queen 9]]
+Would you like to hit? (yes/no)
+Player has:  [Queen 9]
+Dealer has  [King 4]
+; Execution error (ArityException) at test.core/getScore (REPL:46).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  Ace
+Player has:  7  and  3 . This results in a score of  #function[test.core/getScore] [[7 3]]
+Would you like to hit? (yes/no)
+Player has:  [[7 3 Jack]]
+Dealer has  [Ace 6]
+; Execution error (ClassCastException) at test.core/getScore (REPL:46).
+; class clojure.lang.PersistentVector cannot be cast to class java.util.Map$Entry (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.util.Map$Entry is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+; Syntax error compiling def at (src/test/core.clj:50:1).
+; First argument to def must be a Symbol
+clj꞉test.core꞉> 
+; Syntax error compiling def at (src/test/core.clj:50:1).
+; First argument to def must be a Symbol
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:46:26).
+; Invalid token: :
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+; Syntax error compiling def at (src/test/core.clj:50:1).
+; First argument to def must be a Symbol
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  7
+Player has:  3  and  Ace . This results in a score of  #function[test.core/getScore] [[3 Ace]]
+Would you like to hit? (yes/no)
+Player has:  [[3 Ace Ace]]
+Dealer has  [7 4]
+; Execution error (ClassCastException) at test.core/getScore (REPL:46).
+; class clojure.lang.MapEntry cannot be cast to class java.lang.Number (clojure.lang.MapEntry is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+Dealer is showing:  2
+Player has:  5  and  Jack . This results in a score of  #function[test.core/getScore] [[5 Jack]]
+Would you like to hit? (yes/no)
+Player has:  [5 Jack]
+Dealer has  [2 4]
+; Execution error (NullPointerException) at test.core/getScore (REPL:46).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  3
+Player has:  Ace  and  Ace . This results in a score of  #function[test.core/getScore] [[Ace Ace]]
+Would you like to hit? (yes/no)
+Player has:  [Ace Ace]
+Dealer has  [3 3]
+; Execution error (NullPointerException) at test.core/getScore (REPL:46).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+Dealer is showing:  King
+Player has:  King  and  2 . This results in a score of  #function[test.core/getScore] [[King 2]]
+Would you like to hit? (yes/no)
+Player has:  [King 2]
+Dealer has  [King 3]
+; Execution error (NullPointerException) at test.core/getScore (REPL:47).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉test.core꞉> 
+; Execution error (NullPointerException) at test.core/getScore (REPL:47).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getScore (REPL:48).
+; class java.lang.Integer cannot be cast to class clojure.lang.IFn (java.lang.Integer is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getScore (REPL:48).
+; class java.lang.Integer cannot be cast to class clojure.lang.IFn (java.lang.Integer is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/eval7917 (REPL:59).
+; class clojure.lang.PersistentHashMap cannot be cast to class java.lang.Number (clojure.lang.PersistentHashMap is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉test.core꞉> 
+; Syntax error reading source at (REPL:59:124).
+; Invalid token: cardValues:
+clj꞉test.core꞉> 
+[[:Ace :Jack]]
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getScore (REPL:48).
+; class java.lang.Integer cannot be cast to class clojure.lang.IFn (java.lang.Integer is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/len
+clj꞉test.core꞉> 
+#'test.core/len
+clj꞉test.core꞉> 
+#'test.core/len
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getScore (REPL:47).
+; class java.lang.Integer cannot be cast to class clojure.lang.IFn (java.lang.Integer is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+[nil]
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  #function[test.core/getCardNum]  and  #function[test.core/getCardNum]
+Player has:  8  and  Ace . This results in a score of  #function[test.core/getScore] [[#function[test.core/getCardNum] #function[test.core/getCardNum]]]
+Would you like to hit? (yes/no)
+Player has:  [#function[test.core/getCardNum] #function[test.core/getCardNum]]
+Dealer has  [nil nil]
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  #function[test.core/getCardNum]  and  #function[test.core/getCardNum]
+Player has:  6  and  Queen . This results in a score of  #function[test.core/getScore] [[#function[test.core/getCardNum] #function[test.core/getCardNum]]]
+Would you like to hit? (yes/no)
+Player has:  [#function[test.core/getCardNum] #function[test.core/getCardNum]]
+Dealer has  [nil nil]
+nil
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  5  and  10
+Player has:  Ace  and  7 . This results in a score of  #function[test.core/getScore] [[#function[test.core/getCardNum] #function[test.core/getCardNum]]]
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+Dealer is showing:  4  and  2
+Player has:  9  and  9 . This results in a score of  #function[test.core/getScore] [[#function[test.core/getCardNum] #function[test.core/getCardNum]]]
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  2  and  2
+Player has:  Jack  and  King . This results in a score of  #function[test.core/getScore] [[nil nil]]
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+"9"
+clj꞉test.core꞉> 
+"10"
+clj꞉test.core꞉> 
+"King"
+clj꞉test.core꞉> 
+"10"
+clj꞉test.core꞉> 
+"King"
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+"2"
+clj꞉test.core꞉> 
+"2"
+clj꞉test.core꞉> 
+"7"
+clj꞉test.core꞉> 
+"9"
+clj꞉test.core꞉> 
+"Ace"
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+"8"
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+"9"
+clj꞉test.core꞉> 
+"2"
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+13
+clj꞉test.core꞉> 
+#'test.core/add
+clj꞉test.core꞉> 
+9
+clj꞉test.core꞉> 
+4.260869565217392
+clj꞉test.core꞉> 
+; Syntax error (ClassNotFoundException) compiling at (src/test/core.clj:15:1).
+; Math.PI
+clj꞉test.core꞉> 
+6.283185307179586
+clj꞉test.core꞉> 
+#'test.core/getArea
+clj꞉test.core꞉> 
+50.26548245743669
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:29:1).
+; Unable to resolve symbol: getVolume in this context
+clj꞉test.core꞉> 
+; Syntax error compiling at (src/test/core.clj:29:1).
+; Unable to resolve symbol: getVolume in this context
+clj꞉test.core꞉> 
+#'test.core/getVolume
+clj꞉test.core꞉> 
+65.44984694978734
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+"8"
+clj꞉test.core꞉> 
+"Queen"
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+"Queen"
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+9
+clj꞉test.core꞉> 
+6
+clj꞉test.core꞉> 
+3
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+:9
+clj꞉test.core꞉> 
+:Ace
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+"6"
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getScore (REPL:101).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/getScore (REPL:101).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+"2"
+clj꞉test.core꞉> 
+6
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/playBlackjack (REPL:113).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/playBlackjack (REPL:113).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/playBlackjack (REPL:117).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/keplersThirdLaw
+clj꞉test.core꞉> 
+7.254831686486395E24
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+; Execution error (ClassCastException) at test.core/playBlackjack (REPL:120).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  2  and  10
+; Execution error (ClassCastException) at test.core/playBlackjack (REPL:121).
+; class java.lang.String cannot be cast to class clojure.lang.IFn (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  9  and  Jack
+Player has:  6  and  Jack . This results in a score of  #function[test.core/getScore] [[6 Jack]]
+Would you like to hit? (yes/no)
+Player has:  [6 Jack]
+Dealer has  [9 Jack]
+nil
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  :6  and  :9
+Player has:  :2  and  :7 . This results in a score of  #function[test.core/getScore] [[:2 :7]]
+Would you like to hit? (yes/no)
+Player has:  [:2 :7]
+Dealer has  [:6 :9]
+nil
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+Dealer is showing:  :5  and  :Jack
+Player has:  :2  and  :King . This results in a score of  #function[test.core/getScore] [[:2 :King]]
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  :2  and  :8
+; Execution error (ArityException) at test.core/getScore (REPL:103).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  :6  and  :Queen
+Player has:  :6  and  :Jack . This results in a score of  (; Execution error (ArityException) at test.core/getScore$iter$fn$fn (REPL:108).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉test.core꞉> 
+; Syntax error macroexpanding for at (src/test/core.clj:107:3).
+; Invalid 'for' keyword :fn
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:107:3).
+; (inc i) - failed: vector? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:107:3).
+; (inc i) - failed: vector? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:107:3).
+; (inc i) - failed: vector? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:107:3).
+; (inc i) - failed: vector? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:107:3).
+; (inc i) - failed: vector? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/test/core.clj:107:3).
+; (inc i) - failed: vector? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  :9  and  :King
+Player has:  :Queen  and  :Ace . This results in a score of  nil
+Would you like to hit? (yes/no)
+Player has:  [:Queen :Ace]
+Dealer has  [:9 :King]
+nil
+clj꞉test.core꞉> 
+(11 10)
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  :2  and  :Jack
+Player has:  :7  and  :7 . This results in a score of  nil
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+; Execution error (ArityException) at test.core/eval8215 (REPL:136).
+; Wrong number of args (0) passed to: :7
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+(11 10)
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+[[:7 :7]]
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+; Execution error (ArityException) at test.core/eval8234 (REPL:133).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+; Execution error (ArityException) at test.core/eval8250 (REPL:133).
+; Wrong number of args (0) passed to: :7
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+; Execution error (ArityException) at test.core/eval8253 (REPL:133).
+; Wrong number of args (0) passed to: :7
+clj꞉test.core꞉> 
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  :Queen  and  :9
+Player has:  :8  and  :9 . This results in a score of  nil
+Would you like to hit? (yes/no)
+Player has:  [:8 :9]
+Dealer has  [:Queen :9]
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  :Ace  and  :6
+Player has:  :Queen  and  :Queen . This results in a score of  nil
+Would you like to hit? (yes/no)
+Player has:  [:Queen :Queen]
+Dealer has  [:Ace :6]
+nil
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+nil
+nil
+nil
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+17
+clj꞉test.core꞉> 
+; Execution error (NullPointerException) at test.core/getScore (REPL:107).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉test.core꞉> 
+13
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+13
+clj꞉test.core꞉> 
+#'test.core/add
+clj꞉test.core꞉> 
+9
+clj꞉test.core꞉> 
+4.260869565217392
+clj꞉test.core꞉> 
+6.283185307179586
+clj꞉test.core꞉> 
+#'test.core/getArea
+clj꞉test.core꞉> 
+50.26548245743669
+clj꞉test.core꞉> 
+#'test.core/getVolume
+clj꞉test.core꞉> 
+65.44984694978734
+clj꞉test.core꞉> 
+#'test.core/keplersThirdLaw
+clj꞉test.core꞉> 
+7.254831686486395E24
+clj꞉test.core꞉> 
+#'test.core/getSuit
+clj꞉test.core꞉> 
+#'test.core/cardValues
+clj꞉test.core꞉> 
+#'test.core/getCardNum
+clj꞉test.core꞉> 
+:5
+clj꞉test.core꞉> 
+11
+clj꞉test.core꞉> 
+10
+clj꞉test.core꞉> 
+(11 10)
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+#'test.core/getScore
+clj꞉test.core꞉> 
+21
+clj꞉test.core꞉> 
+17
+clj꞉test.core꞉> 
+13
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  :Ace  and  :6
+Player has:  :4  and  :3 . This results in a score of  nil
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+nil
+clj꞉test.core꞉> 
+Dealer is showing:  :4
+Player has:  :Queen  and  :8 . This results in a score of  nil
+Would you like to hit? (yes/no)
+Player has:  [:Queen :8]
+Dealer has  [:4 :5]
+nil
+clj꞉test.core꞉> 
+16
+clj꞉test.core꞉> 
+#'test.core/playBlackjack
+clj꞉test.core꞉> 
+Dealer is showing:  :6
+Player has:  :Ace  and  :7 . This results in a score of  #function[test.core/getScore] [[:Ace :7]]
+Would you like to hit? (yes/no)
+Sending interrupt.; Evaluation was interrupted
+clj꞉test.core꞉> 
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1638).
+; null
+clj꞉test.core꞉> 

@@ -1,0 +1,7 @@
+Who: Owen Cannon, Mikhail Verozub, Carson Marano
+When: 2/8 at 11am
+Where: Zoom
+What: 
+- Mikhail: Asked us about how we are finding Clojure. He is excited about the course, and he is excited to get more work with Clojure. He was worried about finding a good time to meet with new people every week, but I told him that it wasn't a big issue last semester in Machine Learning.
+- Owen: Talked about how he had a similar structure to these RICE reports in a previous class and how they were beneficial. He said he has been interested with learning Clojure and continuing to practice it.
+- Carson: I discussed how I had the same style RICE reports in Machine Learning with you last semester and that I was able to have some good discussions. I then said how I've been trying to mess around with the data structures this week and build a simple blackjack game to get familiar with Clojure. 
