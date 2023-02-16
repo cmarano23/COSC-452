@@ -5,18 +5,12 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-<<<<<<< HEAD
 ; Connecting using "deps.edn" project type.
 ; You can make Calva auto-select this:
 ; "calva.autoSelectReplConnectProjectType": "deps.edn"
 ;   - See https://calva.io/connect/#auto-select-project-type
 ; 
 ; Starting Jack-in Terminal: java -jar ".calva\deps.clj.jar" -Sdeps "{:deps {nrepl/nrepl {:mvn/version,""1.0.0""},cider/cider-nrepl {:mvn/version,""0.28.5""}}}" -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
-=======
-; Aborting jack-in. No project type selected.
-; Jacking in...
-; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.331/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
->>>>>>> 8e9d15f7333e30b48e5e1ec343b5d803163ee04f
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -35,12 +29,7 @@ clj꞉makeTeams.teams꞉> 
 clj꞉makeTeams.teams꞉> 
 "G"
 clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/names-with-value
-<<<<<<< HEAD
-=======
-clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/players-with-position
->>>>>>> 8e9d15f7333e30b48e5e1ec343b5d803163ee04f
 clj꞉makeTeams.teams꞉> 
 ["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
 clj꞉makeTeams.teams꞉> 
@@ -82,116 +71,45 @@ clj꞉makeTeams.teams꞉> 
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/num-G
 clj꞉makeTeams.teams꞉> 
-Number of goalies:  5
-nil
-clj꞉makeTeams.teams꞉> 
-5/2
-nil
-clj꞉makeTeams.teams꞉> 
-2
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/num-G
-clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/num-D
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/num-M
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/num-A
 clj꞉makeTeams.teams꞉> 
-; Syntax error compiling at (c:\Users\Carson\Documents\cosc452\COSC-452\portfolios\week2\makeTeams\src\makeTeams\teams.clj:105:1).
-; Unable to resolve symbol: new-teams in this context
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/new-teams
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/team-2-A
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
-clj꞉makeTeams.teams꞉> 
-Test:  #function[clojure.core/test]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Carson Ayden]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Spencer Rob Mitch]
-nil
+2
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/new-teams
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/team-2
 clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Spencer Ayden]
+Team 1 Goalies:  [Rob Ayden]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Mitch Carson Rob]
+Team 2 Goalies:  [Spencer Mitch Carson]
 nil
 clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/team-2
-clj꞉makeTeams.teams꞉> 
-Team 1 Goalies:  [Spencer Mitch]
+Team 1 Defenders:  [Myles Louie John Robinson Thompson Carter Ryan Patrick]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 2 Goalies:  [Rob Ayden Carson]
+Team 2 Defenders:  [Lawson Tim Jacob Jordan Bennet Jack Andrew Ethan]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 1 Defenders:  [Tim Carter Thompson Bennet Robinson Myles John Jack]
+Team 1 Midfielders:  [Zion Bayard Mason Alex V Ben Connor Nick Jack M]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 2 Defenders:  [Patrick Louie Jordan Jacob Andrew Ethan Lawson Ryan]
+Team 2 Midfielders:  [Matt S Brodie Will M Thomas Steve Paul Sam Will F]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 1 Midfielders:  [Will F Bayard Matt S Connor Zion Nick Paul Mason]
+Team 1 Attackers:  [Bob Jake Tanyr Dylan]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 2 Midfielders:  [Sam Alex V Will M Ben Steve Jack M Thomas Brodie]
+Team 2 Attackers:  [Montana Brock Alex Matt]
 nil
 clj꞉makeTeams.teams꞉> 
-Team 1 Attackers:  [Matt Brock Tanyr Montana]
+Team 1:  (Rob Ayden Myles Louie John Robinson Thompson Carter Ryan Patrick Zion Bayard Mason Alex V Ben Connor Nick Jack M Bob Jake Tanyr Dylan)
 nil
 clj꞉makeTeams.teams꞉> 
-Team 2 Attackers:  [Alex Jake Bob Dylan]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2 Attackers:  [Alex Jake Bob Dylan]
-nil
-clj꞉makeTeams.teams꞉> 
-Team 1:  (Spencer Mitch Tim Carter Thompson Bennet Robinson Myles John Jack Will F Bayard Matt S Connor Zion Nick Paul Mason Matt Brock Tanyr Montana)
-nil
-clj꞉makeTeams.teams꞉> 
-Team 2:  (Rob Ayden Carson Patrick Louie Jordan Jacob Andrew Ethan Lawson Ryan Sam Alex V Will M Ben Steve Jack M Thomas Brodie Alex Jake Bob Dylan)
+Team 2:  (Spencer Mitch Carson Lawson Tim Jacob Jordan Bennet Jack Andrew Ethan Matt S Brodie Will M Thomas Steve Paul Sam Will F Montana Brock Alex Matt)
 nil
 clj꞉makeTeams.teams꞉> 

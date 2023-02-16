@@ -69,12 +69,38 @@
 ;; Test the attackers
 (players-with-position players "A")
 
+;; Count the number of goalies
+(def num-G (count (players-with-position players "G")))
+
+;; Count the number of defenders
+(def num-D (count (players-with-position players "D")))
+
+;; Count the number of midfielders
+(def num-M (count (players-with-position players "M")))
+
+;; Count the number of attackers
+(def num-A (count (players-with-position players "A")))
+
 (quot num-G 2)
 
 (defn new-teams []
-  "Returns a vector random groups, each of which is set of students.
-   For now, the maximum set size is hardcoded here."
-  (mapv set (partition-all 22 (shuffle players))))
+  "Returns a vector of random teams, each of which is even numbers."
+  ;; Shuffle the players and split them into two teams
+  (let [goalies (shuffle (players-with-position players "G"))]
+    (def team-1-G (subvec goalies 0 (quot num-G 2)))
+    (def team-2-G (subvec goalies (quot num-G 2) num-G)))
+  (let [defenders (shuffle (players-with-position players "D"))]
+    (def team-1-D (subvec defenders 0 (quot num-D 2)))
+    (def team-2-D (subvec defenders (quot num-D 2) num-D)))
+  (let [midfielders (shuffle (players-with-position players "M"))]
+    (def team-1-M (subvec midfielders 0 (quot num-M 2)))
+    (def team-2-M (subvec midfielders (quot num-M 2) num-M)))
+  (let [attackers (shuffle (players-with-position players "A"))]
+    (def team-1-A (subvec attackers 0 (quot num-A 2)))
+    (def team-2-A (subvec attackers (quot num-A 2) num-A)))
+  ;; Concatenate team 1 and team 2
+  (def team-1 (concat team-1-G team-1-D team-1-M team-1-A))
+  (def team-2 (concat team-2-G team-2-D team-2-M team-2-A)))
 
 ;; Call new teams
 (new-teams)
