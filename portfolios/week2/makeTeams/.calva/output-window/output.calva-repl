@@ -5,6 +5,11 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "deps.edn"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
 ; Starting Jack-in Terminal: java -jar ".calva\deps.clj.jar" -Sdeps "{:deps {nrepl/nrepl {:mvn/version,""1.0.0""},cider/cider-nrepl {:mvn/version,""0.28.5""}}}" -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
 ; Hooking up nREPL sessions...
 ; Connected session: clj
@@ -22,178 +27,7 @@ nil
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/players
 clj꞉makeTeams.teams꞉> 
-"Carson"
-clj꞉makeTeams.teams꞉> 
-"Carson"
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/players
-clj꞉makeTeams.teams꞉> 
-{"Carson" "G"}
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval5887 (REPL:147).
-; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
-clj꞉makeTeams.teams꞉> 
-{"Carson" "G"}
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval5891 (REPL:147).
-; Wrong number of args (2) passed to: clojure.core/first--5449
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval5893 (REPL:147).
-; Wrong number of args (2) passed to: clojure.core/first--5449
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/playersNew
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/playersNew
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval5901 (REPL:147).
-; Wrong number of args (2) passed to: clojure.core/first--5449
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-nil
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/playersNew
-clj꞉makeTeams.teams꞉> 
 "G"
-clj꞉makeTeams.teams꞉> 
-; Syntax error compiling at (c:\Users\Carson\Documents\cosc452\COSC-452\portfolios\week2\makeTeams\src\makeTeams\teams.clj:149:1).
-; Unable to resolve symbol: value in this context
-clj꞉makeTeams.teams꞉> 
-#function[clojure.core/get]
-clj꞉makeTeams.teams꞉> 
-"G"
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval5918 (REPL:149).
-; Wrong number of args (2) passed to: clojure.core/keys
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval5920 (REPL:149).
-; Wrong number of args (2) passed to: clojure.core/keys
-clj꞉makeTeams.teams꞉> 
-{}
-clj꞉makeTeams.teams꞉> 
-{}
-clj꞉makeTeams.teams꞉> 
-{}
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/keys-with-same-value
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-; Execution error (IllegalArgumentException) at makeTeams.teams/keys-with-same-value$fn (REPL:151).
-; Key must be integer
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/keys-with-same-value
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/keys-with-same-value
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/names-with-value
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/playersNew
-clj꞉makeTeams.teams꞉> 
-"G"
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/names-with-value
-clj꞉makeTeams.teams꞉> 
-()
-clj꞉makeTeams.teams꞉> 
-; Syntax error reading source at (REPL:144:17).
-; Duplicate key: G
-clj꞉makeTeams.teams꞉> 
-; Syntax error reading source at (REPL:144:17).
-; Duplicate key: G
-clj꞉makeTeams.teams꞉> 
-; Syntax error reading source at (REPL:100:6).
-; Invalid token: :
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/names-with-value
-clj꞉makeTeams.teams꞉> 
-["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/names-with-value
-clj꞉makeTeams.teams꞉> 
-["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
-clj꞉makeTeams.teams꞉> 
-["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
-clj꞉makeTeams.teams꞉> 
-["Myles"
- "Tim"
- "Louie"
- "Lawson"
- "Patrick"
- "Ethan"
- "John"
- "Thompson"
- "Jacob"
- "Carter"
- "Robinson"
- "Andrew"
- "Bennet"
- "Ryan"
- "Jordan"
- "Jack"]
-clj꞉makeTeams.teams꞉> 
-["Myles"
- "Tim"
- "Louie"
- "Lawson"
- "Patrick"
- "Ethan"
- "John"
- "Thompson"
- "Jacob"
- "Carter"
- "Robinson"
- "Andrew"
- "Bennet"
- "Ryan"
- "Jordan"
- "Jack"]
-clj꞉makeTeams.teams꞉> 
-["Sam"
- "Will M"
- "Connor"
- "Steve"
- "Ben"
- "Bayard"
- "Nick"
- "Zion"
- "Thomas"
- "Matt S"
- "Brodie"
- "Alex V"
- "Will F"
- "Paul"
- "Mason"
- "Jack M"]
-clj꞉makeTeams.teams꞉> 
-["Montana" "Tanyr" "Dylan" "Matt" "Brock" "Alex" "Jake" "Bob"]
-clj꞉makeTeams.teams꞉> 
-#'makeTeams.teams/goalies
-clj꞉makeTeams.teams꞉> 
-; Execution error (ArityException) at makeTeams.teams/eval6059 (REPL:168).
-; Wrong number of args (0) passed to: clojure.lang.PersistentVector
 clj꞉makeTeams.teams꞉> 
 #'makeTeams.teams/names-with-value
 clj꞉makeTeams.teams꞉> 
@@ -234,4 +68,119 @@ clj꞉makeTeams.teams꞉> 
  "Jack M"]
 clj꞉makeTeams.teams꞉> 
 ["Montana" "Tanyr" "Dylan" "Matt" "Brock" "Alex" "Jake" "Bob"]
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-G
+clj꞉makeTeams.teams꞉> 
+Number of goalies:  5
+nil
+clj꞉makeTeams.teams꞉> 
+5/2
+nil
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-G
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-D
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-M
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-A
+clj꞉makeTeams.teams꞉> 
+; Syntax error compiling at (c:\Users\Carson\Documents\cosc452\COSC-452\portfolios\week2\makeTeams\src\makeTeams\teams.clj:105:1).
+; Unable to resolve symbol: new-teams in this context
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2-A
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Test:  #function[clojure.core/test]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Carson Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Spencer Rob Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Spencer Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Mitch Carson Rob]
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Spencer Mitch]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Rob Ayden Carson]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Defenders:  [Tim Carter Thompson Bennet Robinson Myles John Jack]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Defenders:  [Patrick Louie Jordan Jacob Andrew Ethan Lawson Ryan]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Midfielders:  [Will F Bayard Matt S Connor Zion Nick Paul Mason]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Midfielders:  [Sam Alex V Will M Ben Steve Jack M Thomas Brodie]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Attackers:  [Matt Brock Tanyr Montana]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Attackers:  [Alex Jake Bob Dylan]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Attackers:  [Alex Jake Bob Dylan]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Spencer Mitch Tim Carter Thompson Bennet Robinson Myles John Jack Will F Bayard Matt S Connor Zion Nick Paul Mason Matt Brock Tanyr Montana)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Rob Ayden Carson Patrick Louie Jordan Jacob Andrew Ethan Lawson Ryan Sam Alex V Will M Ben Steve Jack M Thomas Brodie Alex Jake Bob Dylan)
+nil
 clj꞉makeTeams.teams꞉> 

@@ -1,148 +1,54 @@
 (ns makeTeams.teams)
 
-;; Clojure code for producing even teams of players
-;; Inspired by Prof. Lee Spector's Rice Group Code
-
-;; Define a list of players
-;; (def players
-;;   [{:name "Carson"
-;;     :position "G"},
-;;    {:name "Mitch"
-;;     :position "G"},
-;;    {:name "Rob"
-;;     :position "G"},
-;;    {:name "Spencer"
-;;     :position "G"},
-;;    {:name "Ayden",
-;;     :position "G"},
-;;    {:name "Montana"
-;;     :position "A"},
-;;    {:name "Paul"
-;;     :position "M"},
-;;    {:name "Ethan"
-;;     :position "D"},
-;;    {:name "Matt"
-;;     :position "A"},
-;;    {:name "Tanyr",
-;;     :position "A"},
-;;    {:name "Bayard"
-;;     :position "M"},
-;;    {:name "Jake"
-;;     :position "A"},
-;;    {:name "Will M"
-;;     :position "M"},
-;;    {:name "Brodie"
-;;     :position "M"},
-;;    {:name "Brock",
-;;     :position "A"},
-;;    {:name "Will F"
-;;     :position "M"},
-;;    {:name "Mason"
-;;     :position "M"},
-;;    {:name "Connor"
-;;     :position "M"},
-;;    {:name "Thomas"
-;;     :position "M"},
-;;    {:name "Ryan",
-;;     :position "D"},
-;;    {:name "Nick"
-;;     :position "M"},
-;;    {:name "Dylan"
-;;     :position "A"},
-;;    {:name "Matt S"
-;;     :position "M"},
-;;    {:name "Robinson"
-;;     :position "D"},
-;;    {:name "John",
-;;     :position "D"},
-;;    {:name "Lawson"
-;;     :position "D"},
-;;    {:name "Steve"
-;;     :position "M"},
-;;    {:name "Jacob"
-;;     :position "D"},
-;;    {:name "Alex"
-;;     :position "A"},
-;;    {:name "Andrew",
-;;     :position "D"},
-;;    {:name "Jack"
-;;     :position "D"},
-;;    {:name "Louie"
-;;     :position "D"},
-;;    {:name "Tim"
-;;     :position "D"},
-;;    {:name "Jack M"
-;;     :position "M"},
-;;    {:name "Bennet",
-;;     :position "D"},
-;;    {:name "Myles"
-;;     :position "D"},
-;;    {:name "Alex V"
-;;     :position "M"},
-;;    {:name "Jordan"
-;;     :position "D"},
-;;    {:name "Thompson"
-;;     :position "D"},
-;;    {:name "Patrick",
-;;     :position "D"},
-;;    {:name "Zion"
-;;     :position "M"},
-;;    {:name "Bob"
-;;     :position "A"},
-;;    {:name "Ben"
-;;     :position "M"},
-;;    {:name "Sam",
-;;     :position "M"},
-;;    {:name "Carter"
-;;     :position "D"}])
+;; Clojure code for producing random, even teams of players
 
 ;; Define a map of players
 (def players
   {"Carson" "G",
-    "Mitch" "G",
-    "Rob" "G",
-    "Spencer" "G",
-    "Ayden" "G",
-    "Montana" "A",
-    "Paul" "M",
-    "Ethan" "D",
-    "Matt" "A",
-    "Tanyr" "A",
-    "Bayard" "M",
-    "Jake" "A",
-    "Will M" "M",
-    "Brodie" "M",
-    "Brock" "A",
-    "Will F" "M",
-    "Mason" "M",
-    "Connor" "M",
-    "Thomas" "M",
-    "Ryan" "D",
-    "Nick" "M",
-    "Dylan" "A",
-    "Matt S" "M",
-    "Robinson" "D",
-    "John" "D",
-    "Lawson" "D",
-    "Steve" "M",
-    "Jacob" "D",
-    "Alex" "A",
-    "Andrew" "D",
-    "Jack" "D",
-    "Louie" "D",
-    "Tim" "D",
-    "Jack M" "M",
-    "Bennet" "D",
-    "Myles" "D",
-    "Alex V" "M",
-    "Jordan" "D",
-    "Thompson" "D",
-    "Patrick" "D",
-    "Zion" "M",
-    "Bob" "A",
-    "Ben" "M",
-    "Sam" "M",
-    "Carter" "D"})
+   "Mitch" "G",
+   "Rob" "G",
+   "Spencer" "G",
+   "Ayden" "G",
+   "Montana" "A",
+   "Paul" "M",
+   "Ethan" "D",
+   "Matt" "A",
+   "Tanyr" "A",
+   "Bayard" "M",
+   "Jake" "A",
+   "Will M" "M",
+   "Brodie" "M",
+   "Brock" "A",
+   "Will F" "M",
+   "Mason" "M",
+   "Connor" "M",
+   "Thomas" "M",
+   "Ryan" "D",
+   "Nick" "M",
+   "Dylan" "A",
+   "Matt S" "M",
+   "Robinson" "D",
+   "John" "D",
+   "Lawson" "D",
+   "Steve" "M",
+   "Jacob" "D",
+   "Alex" "A",
+   "Andrew" "D",
+   "Jack" "D",
+   "Louie" "D",
+   "Tim" "D",
+   "Jack M" "M",
+   "Bennet" "D",
+   "Myles" "D",
+   "Alex V" "M",
+   "Jordan" "D",
+   "Thompson" "D",
+   "Patrick" "D",
+   "Zion" "M",
+   "Bob" "A",
+   "Ben" "M",
+   "Sam" "M",
+   "Carter" "D"})
 
 ;; Test a player name
 (get players "Carson")
@@ -152,75 +58,64 @@
   (vec (for [[name value] map-of-players :when (= value position)] name)))
 
 ;; Test the goalies
-(names-with-value playersNew "G")
+(names-with-value players "G")
 
 ;; Test the defenders
-(names-with-value playersNew "D")
+(names-with-value players "D")
 
 ;; Test the midfielders
-(names-with-value playersNew "M")
+(names-with-value players "M")
 
 ;; Test the attackers
-(names-with-value playersNew "A")
+(names-with-value players "A")
 
-;; Yesterday's teams
-(def prev-team [#{"Esteban Sanchez <easanchez23@amherst.edu>"
-                     "Alison Weiss <asweiss23@amherst.edu>"
-                     "Stefan Walzer-Goldfeld <swalzergoldfeld23@amherst.edu>"}
-                   #{"Andrew Ni <ani24@amherst.edu>"
-                     "Tina Zhang <szhang24@amherst.edu>"
-                     "Arjun Kejriwal <akejriwal24@amherst.edu>"}])
+;; Count the number of goalies
+(def num-G (count (names-with-value players "G")))
+
+;; Count the number of defenders
+(def num-D (count (names-with-value players "D")))
+
+;; Count the number of midfielders
+(def num-M (count (names-with-value players "M")))
+
+;; Count the number of attackers
+(def num-A (count (names-with-value players "A")))
+
+(quot num-G 2)
 
 (defn new-teams []
   "Returns a vector random groups, each of which is set of students.
    For now, the maximum set size is hardcoded here."
-  (mapv set (partition-all 22 (shuffle players))))
+  ;; Shuffle the players and split them into two teams
+  (let [goalies (shuffle (names-with-value players "G"))]
+    (def team-1-G (subvec goalies 0 (quot num-G 2)))
+    (def team-2-G (subvec goalies (quot num-G 2) num-G)))
+  (let [defenders (shuffle (names-with-value players "D"))]
+    (def team-1-D (subvec defenders 0 (quot num-D 2)))
+    (def team-2-D (subvec defenders (quot num-D 2) num-D)))
+  (let [midfielders (shuffle (names-with-value players "M"))]
+    (def team-1-M (subvec midfielders 0 (quot num-M 2)))
+    (def team-2-M (subvec midfielders (quot num-M 2) num-M)))
+  (let [attackers (shuffle (names-with-value players "A"))]
+    (def team-1-A (subvec attackers 0 (quot num-A 2)))
+    (def team-2-A (subvec attackers (quot num-A 2) num-A)))
+  ;; Concatenate team 1 and team 2
+  (def team-1 (concat team-1-G team-1-D team-1-M team-1-A))
+  (def team-2 (concat team-2-G team-2-D team-2-M team-2-A)))
 
-(defn conflicts [groups]
-  "Returns the number of groups overlapping with prev-groups by at 
-   least 10 members."
-  (count (filter (fn [g]
-                   (some (fn [prev]
-                           (>= (count (clojure.set/intersection g prev)) 
-                               10))
-                         (apply concat prev-team)))
-                 groups)))
+;; Call new teams
+(new-teams)
 
-(defn better [groups1 groups2]
-  "Returns true if groups1 is better than groups2."
-  (< (conflicts groups1) 
-     (conflicts groups2)))
+;; Print positions of teams
+(println "Team 1 Goalies: " team-1-G)
+(println "Team 2 Goalies: " team-2-G)
+(println "Team 1 Defenders: " team-1-D)
+(println "Team 2 Defenders: " team-2-D)
+(println "Team 1 Midfielders: " team-1-M)
+(println "Team 2 Midfielders: " team-2-M)
+(println "Team 1 Attackers: " team-1-A)
+(println "Team 2 Attackers: " team-2-A)
 
-(defn mutate [groups]
-  "Returns groups after a single random swap between two groups."
-  (let [shuffled (shuffle groups)
-        g1 (shuffle (vec (first shuffled)))
-        g2 (shuffle (vec (second shuffled)))]
-    (concat (drop 2 shuffled)
-            [(set (conj (rest g1) (first g2)))
-             (set (conj (rest g2) (first g1)))])))
-
-(defn evolve
-  "Runs a genetic algorithm, using the given population size and 
-   maximum number of generations, to find a good next set of RICE
-   groups. The population size should be an even number that is at
-   least 2, and it will be coerced to such a value if it isn't."
-  [popsize maxgens]
-  (let [ps (max 2 (if (odd? popsize)
-                    (inc popsize)
-                    popsize))]
-    (println "Population size:" ps)
-    (loop [generation 0
-           population (sort better (repeatedly ps new-teams))]
-      (let [best (first population)]
-        (println "Generation:" generation ", least conflicts:" (conflicts best))
-        (if (or (zero? (conflicts best)) ;; found groups with no conflicts
-                (>= generation maxgens)) ;; or tried for maxgens generations
-          (println "Success:" best)
-          (let [better-half (take (int (/ ps 2)) population)]
-            (recur
-             (inc generation)
-             (sort better (map mutate
-                               (concat better-half better-half))))))))))
-
-(evolve 4 100) 
+;; Print teams
+(println "Team 1: " team-1)
+(println "Team 2: " team-2)
