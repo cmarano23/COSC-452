@@ -148,20 +148,20 @@
 (get players "Carson")
 
 ;; Return all the players with a given position
-(defn names-with-value [map-of-players position]
+(defn players-with-position [map-of-players position]
   (vec (for [[name value] map-of-players :when (= value position)] name)))
 
 ;; Test the goalies
-(names-with-value playersNew "G")
+(players-with-position players "G")
 
 ;; Test the defenders
-(names-with-value playersNew "D")
+(players-with-position players "D")
 
 ;; Test the midfielders
-(names-with-value playersNew "M")
+(players-with-position players "M")
 
 ;; Test the attackers
-(names-with-value playersNew "A")
+(players-with-position players "A")
 
 ;; Yesterday's teams
 (def prev-team [#{"Esteban Sanchez <easanchez23@amherst.edu>"
