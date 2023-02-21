@@ -1,0 +1,105 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "deps.edn"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.332/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉dist.findDist꞉> 
+#'dist.findDist/all-cities
+clj꞉dist.findDist꞉> 
+#'dist.findDist/distances
+clj꞉dist.findDist꞉> 
+#'dist.findDist/total-distance
+clj꞉dist.findDist꞉> 
+224.59999999999997
+clj꞉dist.findDist꞉> 
+177.1
+clj꞉dist.findDist꞉> 
+#'dist.findDist/new-individual
+clj꞉dist.findDist꞉> 
+#'dist.findDist/best
+clj꞉dist.findDist꞉> 
+#'dist.findDist/select
+clj꞉dist.findDist꞉> 
+#'dist.findDist/mutate
+clj꞉dist.findDist꞉> 
+#'dist.findDist/make-child
+clj꞉dist.findDist꞉> 
+#'dist.findDist/report
+clj꞉dist.findDist꞉> 
+#'dist.findDist/evolve-tsp
+clj꞉dist.findDist꞉> 
+{:generation 0, :best-error 145.6, :diversity 1.0, :best-genome [springfield holyoke northampton greenfield belchertown amherst ashfield north-adams]}
+{:generation 1, :best-error 137.5, :diversity 0.98, :best-genome [springfield holyoke northampton greenfield amherst belchertown ashfield north-adams]}
+{:generation 2, :best-error 136.4, :diversity 0.98, :best-genome [springfield holyoke belchertown greenfield amherst northampton ashfield north-adams]}
+{:generation 3, :best-error 125.70000000000002, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst greenfield northampton ashfield north-adams]}
+{:generation 4, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 5, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 6, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 7, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 8, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 9, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 10, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 11, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 12, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 13, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 14, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 15, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 16, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 17, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 18, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 19, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 20, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 21, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 22, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 23, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 24, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 25, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 26, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 27, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 28, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 29, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 30, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 31, :best-error 117.69999999999999, :diversity 0.94, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 32, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 33, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 34, :best-error 117.69999999999999, :diversity 0.94, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 35, :best-error 117.69999999999999, :diversity 0.97, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 36, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 37, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 38, :best-error 117.69999999999999, :diversity 0.92, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 39, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 40, :best-error 117.69999999999999, :diversity 0.95, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 41, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 42, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 43, :best-error 117.69999999999999, :diversity 0.94, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 44, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 45, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 46, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 47, :best-error 117.69999999999999, :diversity 0.96, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 48, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 49, :best-error 117.69999999999999, :diversity 0.99, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:generation 50, :best-error 117.69999999999999, :diversity 0.98, :best-genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams]}
+{:genome [springfield holyoke belchertown amherst northampton greenfield ashfield north-adams],
+ :error 117.69999999999999}
+clj꞉dist.findDist꞉> 

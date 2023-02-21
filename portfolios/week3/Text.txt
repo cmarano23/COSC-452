@@ -3,3 +3,9 @@ I found all of the readings interesting this past week, especially the paper wri
 - There are some who still holdout and don't believe in the darwinian based approach
 - There have been great advancements in evolutionary algorithms (and even more so I can imagine in the time since publication)
 - "the prevailing assumption that general artificial intelligence can only be (or should only be) designed by intelligent human designers is flawed and should be rejected"
+
+I also found the video on Learning Classifier Systems really helpful. The video gave a good description about LCSes and some use cases. Find my notes below:
+- Type of evolutionary algorithm
+- Generated and evaluated on fitness score
+- Reproduction --> combine parts of old classifiers to make new ones (like in genetic evolution)
+- Good for noisy data

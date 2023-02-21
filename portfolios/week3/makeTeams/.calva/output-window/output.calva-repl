@@ -23,3 +23,233 @@
 clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/players
+clj꞉makeTeams.teams꞉> 
+"G"
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/players-with-position
+clj꞉makeTeams.teams꞉> 
+["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
+clj꞉makeTeams.teams꞉> 
+["Myles"
+ "Tim"
+ "Louie"
+ "Lawson"
+ "Patrick"
+ "Ethan"
+ "John"
+ "Thompson"
+ "Jacob"
+ "Carter"
+ "Robinson"
+ "Andrew"
+ "Bennet"
+ "Ryan"
+ "Jordan"
+ "Jack"]
+clj꞉makeTeams.teams꞉> 
+["Sam"
+ "Will M"
+ "Connor"
+ "Steve"
+ "Ben"
+ "Bayard"
+ "Nick"
+ "Zion"
+ "Thomas"
+ "Matt S"
+ "Brodie"
+ "Alex V"
+ "Will F"
+ "Paul"
+ "Mason"
+ "Jack M"]
+clj꞉makeTeams.teams꞉> 
+["Montana" "Tanyr" "Dylan" "Matt" "Brock" "Alex" "Jake" "Bob"]
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-G
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-D
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-M
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-A
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Spencer Carson]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Mitch Ayden Rob]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Defenders:  [Louie Thompson John Bennet Jack Patrick Carter Robinson]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Defenders:  [Jacob Tim Jordan Ethan Lawson Andrew Myles Ryan]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Midfielders:  [Sam Alex V Brodie Nick Zion Connor Will F Bayard]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Midfielders:  [Will M Jack M Matt S Thomas Mason Paul Steve Ben]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Attackers:  [Jake Montana Alex Tanyr]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Attackers:  [Bob Brock Dylan Matt]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Spencer Carson Louie Thompson John Bennet Jack Patrick Carter Robinson Sam Alex V Brodie Nick Zion Connor Will F Bayard Jake Montana Alex Tanyr)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Mitch Ayden Rob Jacob Tim Jordan Ethan Lawson Andrew Myles Ryan Will M Jack M Matt S Thomas Mason Paul Steve Ben Bob Brock Dylan Matt)
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Rob Carson Louie Robinson Ryan Tim Thompson Ethan Jacob Patrick Matt S Paul Bayard Thomas Zion Will F Steve Connor Tanyr Brock Montana Alex)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Spencer Mitch Ayden Jack Myles John Lawson Carter Bennet Andrew Jordan Ben Brodie Alex V Will M Mason Sam Nick Jack M Bob Dylan Matt Jake)
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/teams
+clj꞉makeTeams.teams꞉> 
+; Execution error (ArityException) at makeTeams.teams/eval7691 (REPL:107).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉makeTeams.teams꞉> 
+[]
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams-v2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Rob Mitch John Andrew Jack Lawson Jacob Patrick Tim Carter Matt S Paul Jack M Alex V Zion Brodie Ben Nick Montana Jake Tanyr Dylan)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Ayden Spencer Carson Thompson Ryan Jordan Myles Ethan Bennet Robinson Louie Mason Sam Will F Connor Bayard Will M Steve Thomas Matt Alex Bob Brock)
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Rob Ayden Myles Jordan Tim Carter Ryan Patrick John Robinson Will F Ben Will M Jack M Thomas Zion Bayard Sam Matt Montana Brock Bob)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Spencer Mitch Carson Andrew Thompson Jacob Louie Lawson Ethan Jack Bennet Nick Paul Matt S Connor Mason Steve Alex V Brodie Tanyr Dylan Alex Jake)
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Ayden Spencer John Ryan Tim Carter Ethan Jacob Bennet Jordan Nick Will M Jack M Paul Mason Sam Thomas Ben Montana Dylan Jake Matt)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Rob Mitch Carson Louie Andrew Patrick Myles Robinson Jack Lawson Thompson Brodie Connor Bayard Zion Steve Alex V Matt S Will F Bob Tanyr Brock Alex)
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+[("Rob"
+  "Mitch"
+  "Ethan"
+  "Bennet"
+  "Jordan"
+  "Andrew"
+  "Jack"
+  "Lawson"
+  "Myles"
+  "John"
+  "Jack M"
+  "Alex V"
+  "Matt S"
+  "Brodie"
+  "Paul"
+  "Sam"
+  "Connor"
+  "Ben"
+  "Bob"
+  "Montana"
+  "Matt"
+  "Dylan")
+ ("Ayden"
+  "Carson"
+  "Spencer"
+  "Patrick"
+  "Louie"
+  "Carter"
+  "Thompson"
+  "Tim"
+  "Ryan"
+  "Robinson"
+  "Jacob"
+  "Will F"
+  "Mason"
+  "Nick"
+  "Steve"
+  "Bayard"
+  "Thomas"
+  "Zion"
+  "Will M"
+  "Alex"
+  "Jake"
+  "Brock"
+  "Tanyr")]
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+[("Ayden"
+  "Mitch"
+  "Andrew"
+  "Carter"
+  "Thompson"
+  "Bennet"
+  "Lawson"
+  "Jacob"
+  "Ethan"
+  "Jack"
+  "Will F"
+  "Alex V"
+  "Nick"
+  "Bayard"
+  "Sam"
+  "Will M"
+  "Brodie"
+  "Ben"
+  "Montana"
+  "Matt"
+  "Jake"
+  "Dylan")
+ ("Rob"
+  "Spencer"
+  "Carson"
+  "John"
+  "Patrick"
+  "Tim"
+  "Louie"
+  "Jordan"
+  "Ryan"
+  "Robinson"
+  "Myles"
+  "Paul"
+  "Steve"
+  "Mason"
+  "Matt S"
+  "Jack M"
+  "Thomas"
+  "Connor"
+  "Zion"
+  "Brock"
+  "Bob"
+  "Alex"
+  "Tanyr")]
+clj꞉makeTeams.teams꞉> 
