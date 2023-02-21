@@ -1,0 +1,5 @@
+I found all of the readings interesting this past week, especially the paper written by Professor Spector on the Evolution of AI. It was really interesting how the article was written in 2006, but foreshadows a lot of developments that actually took place. In addition, there are a lot of parallels to the evolution of evolution that we are seeing now and what was discussed over a decade ago. Below you can find my notes on the reading:
+- Darwinian based evolutionary processes can help to shape developments in AI
+- There are some who still holdout and don't believe in the darwinian based approach
+- There have been great advancements in evolutionary algorithms (and even more so I can imagine in the time since publication)
+- "the prevailing assumption that general artificial intelligence can only be (or should only be) designed by intelligent human designers is flawed and should be rejected"

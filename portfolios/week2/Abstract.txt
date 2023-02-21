@@ -1,0 +1,8 @@
+This week, I completed the following tasks:
+- Met and discussed lingering syntax and data structures questions with my RICE group
+- Created working code that will split one lacrosse team into two even teams with an equal number of position groups on each team
+- I did a lot of problems on the '4ever-clojure' website
+- Read the wikipedia page on Genetic Algorithms
+- Read Chapter 4 of Clojure for the Brave and True
+
+All in all, I found this to be a very productive week. Coming into it, I was really struggling with how to best use maps and 'let' functions. I was able to incorporate these into my makeTeams code and feel far more familiar with them.

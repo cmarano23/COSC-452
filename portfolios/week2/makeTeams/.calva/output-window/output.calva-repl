@@ -113,3 +113,111 @@ clj꞉makeTeams.teams꞉> 
 Team 2:  (Spencer Mitch Carson Lawson Tim Jacob Jordan Bennet Jack Andrew Ethan Matt S Brodie Will M Thomas Steve Paul Sam Will F Montana Brock Alex Matt)
 nil
 clj꞉makeTeams.teams꞉> 
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.331/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/players
+clj꞉makeTeams.teams꞉> 
+"G"
+clj꞉makeTeams.teams꞉> 
+; Syntax error compiling at (src/makeTeams/teams.clj:61:1).
+; Unable to resolve symbol: players-with-position in this context
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/players-with-position
+clj꞉makeTeams.teams꞉> 
+["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
+clj꞉makeTeams.teams꞉> 
+["Myles"
+ "Tim"
+ "Louie"
+ "Lawson"
+ "Patrick"
+ "Ethan"
+ "John"
+ "Thompson"
+ "Jacob"
+ "Carter"
+ "Robinson"
+ "Andrew"
+ "Bennet"
+ "Ryan"
+ "Jordan"
+ "Jack"]
+clj꞉makeTeams.teams꞉> 
+["Sam"
+ "Will M"
+ "Connor"
+ "Steve"
+ "Ben"
+ "Bayard"
+ "Nick"
+ "Zion"
+ "Thomas"
+ "Matt S"
+ "Brodie"
+ "Alex V"
+ "Will F"
+ "Paul"
+ "Mason"
+ "Jack M"]
+clj꞉makeTeams.teams꞉> 
+["Montana" "Tanyr" "Dylan" "Matt" "Brock" "Alex" "Jake" "Bob"]
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-G
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-D
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-M
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-A
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/team-2
+clj꞉makeTeams.teams꞉> 
+Team 1 Goalies:  [Spencer Ayden]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Goalies:  [Rob Mitch Carson]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Defenders:  [Carter Jack Lawson Bennet Jordan Robinson Andrew Ethan]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Defenders:  [Patrick Thompson Tim Ryan Jacob Louie John Myles]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Midfielders:  [Nick Will F Will M Paul Bayard Jack M Matt S Sam]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Midfielders:  [Brodie Alex V Mason Steve Connor Thomas Zion Ben]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1 Attackers:  [Brock Dylan Bob Montana]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2 Attackers:  [Alex Matt Tanyr Jake]
+nil
+clj꞉makeTeams.teams꞉> 
+Team 1:  (Spencer Ayden Carter Jack Lawson Bennet Jordan Robinson Andrew Ethan Nick Will F Will M Paul Bayard Jack M Matt S Sam Brock Dylan Bob Montana)
+nil
+clj꞉makeTeams.teams꞉> 
+Team 2:  (Rob Mitch Carson Patrick Thompson Tim Ryan Jacob Louie John Myles Brodie Alex V Mason Steve Connor Thomas Zion Ben Alex Matt Tanyr Jake)
+nil
+clj꞉makeTeams.teams꞉> 

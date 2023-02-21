@@ -1,0 +1,19 @@
+This week, we read a couple articles. Below you can find my notes on those texts and takeaways
+
+Genetic Algorithm Wiki:
+- Inspired by natural selection
+- Evolution starts form random generated individuals and is iterative
+- Each iteration is a "generation"
+- Also a component of fitness
+- Typical genetic algo requires:
+	- genetic representation of solution domain
+	- a fitness function to evaluate solution domain
+- Initial pop. is typically randomly selected
+- solutions are selected through a fitness-based process
+- fitness measures the quality of the solution
+This reading was very informative and reiterated some of my conceptual knowledge that I picked up in Machine Learning last semester.
+
+Clojure for Brave and True - Ch. 4:
+I didn't take line for line notes on this text, but I have big takeaways. The idea of "Programming to Abstractions" is a pretty new concept to me. I have really only dealt with object oriented programming and haven't thought to much about the abstraction aspect of coding. One idea that helped me in the reading was thinking of abstraction as a "named collections of operations".
+The next section was very helpful for understanding the data structures of lists, vectors, sets, and maps. 
+Throughout the rest of the chapter, there are many useful functions such as 'reduce', 'take-while', and 'filter'. This chapter was incredibly helpful to my understanding.
