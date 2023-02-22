@@ -1,9 +1,9 @@
-Who: Alison Weiss, Michael Xu, Carson Marano
-When: 2/14 at 1PM (after class)
-Where: Science Center
+Who: Andrew Ni, William DeGroot Carson Marano
+When: 2/21 at 7PM
+Where: Zoom
 What: 
-- Mike: Random string of length and characters. He had a defined list of letters, but when he was calling his code he kept running into ClassCastException errors. I received these errors last week when I was trying to implement my blackjack game, but I was unsure how to work around it. I eventually changed how I was accessing the values stored in a map, and that is how I no longer ran into this issue.
--Alison: Alison is working on having random vectors of integers and then try to evolve to see if any of the number are in consecutive order. She is doing well with getting the random integers but is struggling to see if they are actually consecutive numbers. She is going to keep working at it to see if she can figure out the consecutive check.
-- Carson: I am working on taking in a vector of maps containing a player's name and position and then dividing up those players by position to make even teams for lacrosse. I am struggling on how best to approach this, but using Prof. Spector's code as inspiration and help in structuring my own.
+- Andrew: Andrew was working on the traveling salesmen code, but did not finish before Prof. Spector  showed his example. He is currently exploring new ideas and going to find a way to incorporate his existing code into something new.
+- William: William is working on a graph theory problem. He mentioned how he is trying to incorporate a genetic algorithm to try and help solve the problems.
+- Carson: Last week, I wrote code to split a lacrosse team into even numbers randomly by position. This week, I built off of that by cleaning up my code to remove inline def statements and replace them with lets, and also added in an evolutionary algorithm aspect based on Prof. Spector's RICE group code.
 
-Overall, we had a good discussion about lingering syntax and symbol questions in Clojure, and were able to help each other with clarification about some things.
+We also had a side discussion about Prof. Spector's essay on AI and how it is relevant with the release of Chat GPT and other competing AI chatbots. In addition, we helped each other through some code relating to evolutionary algorithms and specifically genetic algorithms	.
