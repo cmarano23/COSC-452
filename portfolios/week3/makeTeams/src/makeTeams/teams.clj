@@ -1,6 +1,7 @@
 (ns makeTeams.teams)
 
 ;; Clojure code for producing random, even teams of players
+;; Some code taken / adapted from Prof. Spector's RICE Group Generation Code
 
 ;; Define a map of players
 (def players
@@ -133,3 +134,154 @@
 
 ;; Call new teams
 (new-teams)
+
+;; Previous Teams
+(def prev-teams [[#{"Mitch"
+                  "Ayden"
+                  "Robinson"
+                  "Ryan"
+                  "Ethan"
+                  "Carter"
+                  "Jordan"
+                  "Jacob"
+                  "John"
+                  "Louie"
+                  "Thomas"
+                  "Steve"
+                  "Brodie"
+                  "Will F"
+                  "Will M"
+                  "Alex V"
+                  "Sam"
+                  "Mason"
+                  "Montana"
+                  "Alex"
+                  "Tanyr"
+                  "Bob"}
+                 #{"Spencer"
+                  "Rob"
+                  "Carson"
+                  "Myles"
+                  "Lawson"
+                  "Thompson"
+                  "Patrick"
+                  "Andrew"
+                  "Jack"
+                  "Tim"
+                  "Bennet"
+                  "Ben"
+                  "Matt S"
+                  "Jack M"
+                  "Nick"
+                  "Paul"
+                  "Connor"
+                  "Zion"
+                  "Bayard"
+                  "Dylan"
+                  "Brock"
+                  "Jake"
+                  "Matt"}]
+                 [#{"Ayden"
+                  "Spencer"
+                  "Bennet"
+                  "Tim"
+                  "Patrick"
+                  "Robinson"
+                  "Jordan"
+                  "Jacob"
+                  "Lawson"
+                  "Thompson"
+                  "Paul"
+                  "Brodie"
+                  "Ben"
+                  "Will M"
+                  "Matt S"
+                  "Steve"
+                  "Mason"
+                  "Connor"
+                  "Brock"
+                  "Bob"
+                  "Alex"
+                  "Montana"}
+                 #{"Rob"
+                  "Mitch"
+                  "Carson"
+                  "Myles"
+                  "Carter"
+                  "Jack"
+                  "Ethan"
+                  "Andrew"
+                  "Louie"
+                  "John"
+                  "Ryan"
+                  "Bayard"
+                  "Will F"
+                  "Nick"
+                  "Zion"
+                  "Thomas"
+                  "Alex V"
+                  "Jack M"
+                  "Sam"
+                  "Tanyr"
+                  "Matt"
+                  "Jake"
+                  "Dylan"}]])
+
+;; Find and ID Conflicts
+(defn conflicts
+  "Returns the number of teams overlapping with prev-teams by at 
+   least 12 members."
+  [teams]
+  (count (filter (fn [g]
+                   (some (fn [prev]
+                           (>= (count (clojure.set/intersection (set g) prev))
+                               12))
+                         (apply concat prev-teams)))
+                 teams)))
+
+;; Test conflicts
+(conflicts (new-teams))
+
+;; Function to check if one set of teams is better than the other
+(defn better
+  "Returns true if teams-1 is better than teams-2."
+  [teams-1 teams-2]
+  (< (conflicts teams-1) 
+     (conflicts teams-2)))
+
+;; A function to mutate a set of teams
+(defn mutate
+  "Returns teams after a single random swap between two teams."
+  [teams]
+  (let [shuffled (shuffle teams)
+        t1 (shuffle (vec (first shuffled)))
+        t2 (shuffle (vec (second shuffled)))]
+    (concat (drop 2 shuffled)
+            [(set (conj (rest t1) (first t2)))
+             (set (conj (rest t2) (first t1)))])))
+
+;; Function to evolve the teams
+(defn evolve
+  "Runs a genetic algorithm, using the given population size and 
+   maximum number of generations, to find a good next set of RICE
+   groups. The population size should be an even number that is at
+   least 20, and it will be coerced to such a value if it isn't."
+  [popsize maxgens]
+  (let [ps (max 20 (if (odd? popsize)
+                    (inc popsize)
+                    popsize))]
+    (println "Population size:" ps)
+    (loop [generation 0
+           population (sort better (repeatedly ps new-teams))]
+      (let [best (first population)]
+        (println "Generation:" generation ", least conflicts:" (conflicts best))
+        (if (or (zero? (conflicts best)) ;; found groups with no conflicts
+                (>= generation maxgens)) ;; or tried for maxgens generations
+          (println "Success:" best)
+          (let [better-half (take (int (/ ps 2)) population)]
+            (recur
+             (inc generation)
+             (sort better (map mutate
+                               (concat better-half better-half))))))))))
+
+(evolve 22 100)

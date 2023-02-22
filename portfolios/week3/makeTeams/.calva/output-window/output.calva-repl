@@ -253,3 +253,1122 @@ clj꞉makeTeams.teams꞉> 
   "Alex"
   "Tanyr")]
 clj꞉makeTeams.teams꞉> 
+("Carson"
+ "Rob"
+ "Lawson"
+ "John"
+ "Myles"
+ "Jordan"
+ "Andrew"
+ "Ethan"
+ "Jacob"
+ "Carter"
+ "Matt S"
+ "Jack M"
+ "Will M"
+ "Brodie"
+ "Will F"
+ "Nick"
+ "Connor"
+ "Bayard"
+ "Tanyr"
+ "Bob"
+ "Matt"
+ "Brock")
+clj꞉makeTeams.teams꞉> 
+("Ayden"
+ "Carson"
+ "Rob"
+ "Ryan"
+ "Lawson"
+ "Patrick"
+ "Jacob"
+ "John"
+ "Bennet"
+ "Robinson"
+ "Jordan"
+ "Jack M"
+ "Will M"
+ "Thomas"
+ "Zion"
+ "Bayard"
+ "Sam"
+ "Ben"
+ "Nick"
+ "Matt"
+ "Bob"
+ "Montana"
+ "Tanyr")
+clj꞉makeTeams.teams꞉> 
+[("Mitch"
+  "Ayden"
+  "Robinson"
+  "Ryan"
+  "Ethan"
+  "Carter"
+  "Jordan"
+  "Jacob"
+  "John"
+  "Louie"
+  "Thomas"
+  "Steve"
+  "Brodie"
+  "Will F"
+  "Will M"
+  "Alex V"
+  "Sam"
+  "Mason"
+  "Montana"
+  "Alex"
+  "Tanyr"
+  "Bob")
+ ("Spencer"
+  "Rob"
+  "Carson"
+  "Myles"
+  "Lawson"
+  "Thompson"
+  "Patrick"
+  "Andrew"
+  "Jack"
+  "Tim"
+  "Bennet"
+  "Ben"
+  "Matt S"
+  "Jack M"
+  "Nick"
+  "Paul"
+  "Connor"
+  "Zion"
+  "Bayard"
+  "Dylan"
+  "Brock"
+  "Jake"
+  "Matt")]
+clj꞉makeTeams.teams꞉> 
+("Ayden"
+ "Rob"
+ "Robinson"
+ "Louie"
+ "Carter"
+ "Andrew"
+ "Ethan"
+ "Tim"
+ "Myles"
+ "John"
+ "Steve"
+ "Bayard"
+ "Paul"
+ "Jack M"
+ "Brodie"
+ "Connor"
+ "Nick"
+ "Matt S"
+ "Alex"
+ "Brock"
+ "Matt"
+ "Bob")
+clj꞉makeTeams.teams꞉> 
+[("Ayden"
+  "Spencer"
+  "Bennet"
+  "Tim"
+  "Patrick"
+  "Robinson"
+  "Jordan"
+  "Jacob"
+  "Lawson"
+  "Thompson"
+  "Paul"
+  "Brodie"
+  "Ben"
+  "Will M"
+  "Matt S"
+  "Steve"
+  "Mason"
+  "Connor"
+  "Brock"
+  "Bob"
+  "Alex"
+  "Montana")
+ ("Rob"
+  "Mitch"
+  "Carson"
+  "Myles"
+  "Carter"
+  "Jack"
+  "Ethan"
+  "Andrew"
+  "Louie"
+  "John"
+  "Ryan"
+  "Bayard"
+  "Will F"
+  "Nick"
+  "Zion"
+  "Thomas"
+  "Alex V"
+  "Jack M"
+  "Sam"
+  "Tanyr"
+  "Matt"
+  "Jake"
+  "Dylan")]
+clj꞉makeTeams.teams꞉> 
+; Syntax error compiling at (src/makeTeams/teams.clj:237:26).
+; Unable to resolve symbol: prev-teams in this context
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/prev-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+; Execution error (IllegalArgumentException) at makeTeams.teams/conflicts$fn$fn (REPL:235).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉makeTeams.teams꞉> 
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/players
+clj꞉makeTeams.teams꞉> 
+"G"
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/players-with-position
+clj꞉makeTeams.teams꞉> 
+["Carson" "Ayden" "Mitch" "Spencer" "Rob"]
+clj꞉makeTeams.teams꞉> 
+["Myles"
+ "Tim"
+ "Louie"
+ "Lawson"
+ "Patrick"
+ "Ethan"
+ "John"
+ "Thompson"
+ "Jacob"
+ "Carter"
+ "Robinson"
+ "Andrew"
+ "Bennet"
+ "Ryan"
+ "Jordan"
+ "Jack"]
+clj꞉makeTeams.teams꞉> 
+["Sam"
+ "Will M"
+ "Connor"
+ "Steve"
+ "Ben"
+ "Bayard"
+ "Nick"
+ "Zion"
+ "Thomas"
+ "Matt S"
+ "Brodie"
+ "Alex V"
+ "Will F"
+ "Paul"
+ "Mason"
+ "Jack M"]
+clj꞉makeTeams.teams꞉> 
+["Montana" "Tanyr" "Dylan" "Matt" "Brock" "Alex" "Jake" "Bob"]
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-G
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-D
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-M
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/num-A
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/new-teams
+clj꞉makeTeams.teams꞉> 
+[("Mitch"
+  "Carson"
+  "Thompson"
+  "Robinson"
+  "John"
+  "Patrick"
+  "Ryan"
+  "Ethan"
+  "Jacob"
+  "Andrew"
+  "Jack M"
+  "Connor"
+  "Mason"
+  "Brodie"
+  "Bayard"
+  "Paul"
+  "Matt S"
+  "Sam"
+  "Bob"
+  "Dylan"
+  "Montana"
+  "Matt")
+ ("Rob"
+  "Ayden"
+  "Spencer"
+  "Carter"
+  "Tim"
+  "Bennet"
+  "Jack"
+  "Jordan"
+  "Myles"
+  "Lawson"
+  "Louie"
+  "Thomas"
+  "Nick"
+  "Will M"
+  "Will F"
+  "Alex V"
+  "Zion"
+  "Steve"
+  "Ben"
+  "Jake"
+  "Brock"
+  "Alex"
+  "Tanyr")]
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/prev-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+; Execution error (IllegalArgumentException) at makeTeams.teams/conflicts$fn$fn (REPL:235).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉makeTeams.teams꞉> 
+; Syntax error (ArityException) compiling count at (src/makeTeams/teams.clj:235:32).
+; Wrong number of args (2) passed to: clojure.core/count--inliner--5586
+clj꞉makeTeams.teams꞉> 
+; Syntax error reading source at (REPL:235:79).
+; Map literal must contain an even number of forms
+clj꞉makeTeams.teams꞉> 
+; Syntax error (ArityException) compiling count at (src/makeTeams/teams.clj:235:32).
+; Wrong number of args (2) passed to: clojure.core/count--inliner--5586
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+; Execution error (IllegalArgumentException) at makeTeams.teams/conflicts$fn$fn (REPL:235).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Spencer Rob Lawson Jack Patrick Myles Louie Tim Carter Jordan Sam Brodie Thomas Steve Ben Jack M Bayard Alex V Dylan Matt Alex Montana) (Mitch Ayden Carson Ethan Andrew Robinson Jacob Thompson Bennet Ryan John Paul Matt S Mason Will M Nick Will F Connor Zion Tanyr Jake Brock Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Mitch Andrew Jordan Myles Lawson Tim Ethan Ryan Bennet Thomas Nick Jack M Steve Will F Alex V Sam Brodie Tanyr Jake Matt Bob) (Spencer Carson Ayden Carter Robinson Jack Louie Jacob Thompson Patrick John Bayard Connor Will M Zion Mason Ben Paul Matt S Montana Brock Dylan Alex)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Spencer John Andrew Thompson Ryan Louie Robinson Tim Patrick Brodie Mason Nick Alex V Zion Ben Thomas Sam Matt Tanyr Montana Bob) (Ayden Mitch Carson Myles Ethan Lawson Jacob Bennet Carter Jack Jordan Matt S Paul Bayard Will M Connor Will F Jack M Steve Jake Brock Alex Dylan)]
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Mitch Carson Jordan Carter John Tim Ethan Patrick Jack Andrew Zion Mason Nick Alex V Matt S Sam Paul Jack M Brock Alex Bob Montana) (Ayden Rob Spencer Lawson Myles Jacob Ryan Louie Bennet Robinson Thompson Will M Bayard Brodie Will F Connor Thomas Ben Steve Matt Jake Dylan Tanyr)]
+nil
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/prev-teams
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+; Execution error (ClassCastException) at makeTeams.teams/conflicts$fn$fn (REPL:236).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IPersistentSet (clojure.lang.LazySeq and clojure.lang.IPersistentSet are in unnamed module of loader 'app')
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 2
+Generation: 1 , least conflicts: 2
+Generation: 2 , least conflicts: 2
+Generation: 3 , least conflicts: 2
+Generation: 4 , least conflicts: 2
+Generation: 5 , least conflicts: 2
+Generation: 6 , least conflicts: 2
+Generation: 7 , least conflicts: 2
+Generation: 8 , least conflicts: 2
+Generation: 9 , least conflicts: 2
+Generation: 10 , least conflicts: 2
+Generation: 11 , least conflicts: 2
+Generation: 12 , least conflicts: 2
+Generation: 13 , least conflicts: 2
+Generation: 14 , least conflicts: 2
+Generation: 15 , least conflicts: 2
+Generation: 16 , least conflicts: 2
+Generation: 17 , least conflicts: 2
+Generation: 18 , least conflicts: 2
+Generation: 19 , least conflicts: 2
+Generation: 20 , least conflicts: 2
+Generation: 21 , least conflicts: 2
+Generation: 22 , least conflicts: 2
+Generation: 23 , least conflicts: 2
+Generation: 24 , least conflicts: 2
+Generation: 25 , least conflicts: 2
+Generation: 26 , least conflicts: 2
+Generation: 27 , least conflicts: 2
+Generation: 28 , least conflicts: 2
+Generation: 29 , least conflicts: 2
+Generation: 30 , least conflicts: 2
+Generation: 31 , least conflicts: 2
+Generation: 32 , least conflicts: 2
+Generation: 33 , least conflicts: 2
+Generation: 34 , least conflicts: 2
+Generation: 35 , least conflicts: 2
+Generation: 36 , least conflicts: 2
+Generation: 37 , least conflicts: 2
+Generation: 38 , least conflicts: 2
+Generation: 39 , least conflicts: 2
+Generation: 40 , least conflicts: 2
+Generation: 41 , least conflicts: 2
+Generation: 42 , least conflicts: 2
+Generation: 43 , least conflicts: 2
+Generation: 44 , least conflicts: 2
+Generation: 45 , least conflicts: 2
+Generation: 46 , least conflicts: 2
+Generation: 47 , least conflicts: 2
+Generation: 48 , least conflicts: 2
+Generation: 49 , least conflicts: 2
+Generation: 50 , least conflicts: 2
+Generation: 51 , least conflicts: 2
+Generation: 52 , least conflicts: 2
+Generation: 53 , least conflicts: 2
+Generation: 54 , least conflicts: 2
+Generation: 55 , least conflicts: 2
+Generation: 56 , least conflicts: 2
+Generation: 57 , least conflicts: 2
+Generation: 58 , least conflicts: 2
+Generation: 59 , least conflicts: 2
+Generation: 60 , least conflicts: 2
+Generation: 61 , least conflicts: 2
+Generation: 62 , least conflicts: 2
+Generation: 63 , least conflicts: 2
+Generation: 64 , least conflicts: 2
+Generation: 65 , least conflicts: 2
+Generation: 66 , least conflicts: 2
+Generation: 67 , least conflicts: 2
+Generation: 68 , least conflicts: 2
+Generation: 69 , least conflicts: 2
+Generation: 70 , least conflicts: 2
+Generation: 71 , least conflicts: 2
+Generation: 72 , least conflicts: 2
+Generation: 73 , least conflicts: 2
+Generation: 74 , least conflicts: 2
+Generation: 75 , least conflicts: 2
+Generation: 76 , least conflicts: 2
+Generation: 77 , least conflicts: 2
+Generation: 78 , least conflicts: 2
+Generation: 79 , least conflicts: 2
+Generation: 80 , least conflicts: 2
+Generation: 81 , least conflicts: 2
+Generation: 82 , least conflicts: 2
+Generation: 83 , least conflicts: 2
+Generation: 84 , least conflicts: 2
+Generation: 85 , least conflicts: 2
+Generation: 86 , least conflicts: 2
+Generation: 87 , least conflicts: 2
+Generation: 88 , least conflicts: 2
+Generation: 89 , least conflicts: 2
+Generation: 90 , least conflicts: 2
+Generation: 91 , least conflicts: 2
+Generation: 92 , least conflicts: 2
+Generation: 93 , least conflicts: 2
+Generation: 94 , least conflicts: 2
+Generation: 95 , least conflicts: 2
+Generation: 96 , least conflicts: 2
+Generation: 97 , least conflicts: 2
+Generation: 98 , least conflicts: 2
+Generation: 99 , least conflicts: 2
+Generation: 100 , least conflicts: 2
+Success: (#{Sam Myles Montana Tim Will M Lawson Ayden Ben Patrick Bayard Nick Tanyr Ethan Zion Matt S Jacob Carter Rob Ryan Will F Jake Mason Jack M} #{Louie Carson Connor Steve Dylan Thomas Mitch John Spencer Thompson Matt Brodie Robinson Andrew Bennet Brock Alex V Alex Jordan Paul Bob Jack})
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Ayden John Myles Jordan Robinson Ethan Jacob Tim Thompson Paul Bayard Jack M Mason Will M Will F Nick Zion Matt Alex Bob Dylan) (Spencer Mitch Carson Jack Andrew Carter Lawson Bennet Patrick Ryan Louie Matt S Steve Thomas Sam Connor Alex V Ben Brodie Jake Tanyr Brock Montana)]
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Carson Tim Robinson Ethan Louie Andrew Jack Carter Bennet Nick Brodie Steve Mason Sam Paul Jack M Matt S Dylan Bob Tanyr Alex) (Spencer Mitch Ayden John Lawson Patrick Thompson Jordan Ryan Jacob Myles Will F Bayard Thomas Connor Ben Alex V Will M Zion Jake Matt Brock Montana)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Ayden Jacob Patrick Bennet Carter John Ethan Louie Lawson Alex V Ben Matt S Will M Paul Bayard Sam Steve Tanyr Jake Brock Dylan) (Carson Mitch Spencer Jack Thompson Tim Robinson Myles Andrew Ryan Jordan Zion Mason Will F Connor Nick Jack M Thomas Brodie Montana Matt Alex Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Mitch Ryan Andrew Carter Jacob Louie Thompson Lawson Jordan Will M Will F Nick Connor Bayard Jack M Brodie Matt S Alex Brock Montana Jake) (Ayden Carson Spencer Myles Bennet Jack Ethan Tim John Patrick Robinson Mason Zion Paul Alex V Ben Steve Thomas Sam Matt Bob Dylan Tanyr)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Ayden Spencer Andrew Louie Tim Jordan Robinson Lawson Carter Patrick Alex V Zion Thomas Steve Jack M Will F Brodie Will M Jake Alex Brock Montana) (Carson Rob Mitch Ryan John Ethan Thompson Jack Jacob Myles Bennet Ben Matt S Bayard Nick Paul Sam Connor Mason Tanyr Matt Dylan Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+1
+clj꞉makeTeams.teams꞉> 
+1
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+1
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+0
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+1
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/better
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/mutate
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/evolve
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Carson John Robinson Carter Patrick Jordan Lawson Jacob Thompson Sam Will F Jack M Will M Alex V Ben Brodie Zion Brock Dylan Jake Montana) (Spencer Ayden Mitch Ryan Myles Jack Louie Andrew Tim Bennet Ethan Paul Steve Connor Mason Thomas Nick Matt S Bayard Tanyr Matt Alex Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Carson Mitch Tim Lawson Jacob Louie Jordan Bennet Myles Andrew Jack M Mason Connor Brodie Will F Steve Ben Alex V Montana Tanyr Jake Dylan) (Spencer Rob Ayden Ethan Carter Jack Thompson Patrick Ryan Robinson John Sam Zion Thomas Paul Bayard Will M Matt S Nick Alex Brock Matt Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Carson Ayden Ryan Myles Ethan Louie Robinson Thompson Patrick Carter Paul Jack M Ben Will F Bayard Mason Nick Matt S Montana Bob Jake Dylan) (Mitch Rob Spencer Jack Andrew Lawson Bennet Tim John Jordan Jacob Connor Zion Will M Brodie Alex V Steve Sam Thomas Alex Tanyr Brock Matt)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Spencer Myles Tim John Jordan Bennet Ryan Robinson Andrew Alex V Steve Bayard Sam Thomas Brodie Ben Nick Matt Bob Brock Dylan) (Carson Mitch Ayden Lawson Carter Louie Ethan Jack Jacob Thompson Patrick Mason Paul Matt S Zion Will F Jack M Will M Connor Jake Tanyr Montana Alex)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Carson Spencer Jacob Ryan Andrew Tim Bennet Louie Robinson Carter Ben Will M Nick Bayard Alex V Jack M Thomas Connor Matt Brock Montana Tanyr) (Mitch Ayden Rob Patrick Thompson Ethan Lawson Myles Jack John Jordan Will F Paul Mason Matt S Zion Steve Sam Brodie Jake Alex Dylan Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Spencer Ayden Myles Jordan Lawson Andrew Jacob Ethan Jack Patrick Nick Thomas Sam Ben Paul Alex V Bayard Mason Alex Dylan Matt Bob) (Mitch Carson Rob Thompson Bennet John Tim Ryan Louie Robinson Carter Will M Matt S Steve Jack M Brodie Will F Connor Zion Brock Montana Tanyr Jake)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Spencer Rob Patrick Myles Ethan Jordan Andrew Lawson Louie Thompson Steve Nick Paul Alex V Thomas Mason Matt S Brodie Matt Alex Jake Tanyr) (Mitch Carson Ayden Bennet Jack John Tim Robinson Ryan Jacob Carter Bayard Jack M Connor Will M Zion Will F Sam Ben Montana Dylan Brock Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Mitch Carson Thompson Jacob John Robinson Andrew Jack Lawson Ryan Alex V Paul Connor Bayard Will M Zion Mason Jack M Brock Bob Jake Montana) (Rob Ayden Spencer Carter Jordan Tim Ethan Louie Myles Bennet Patrick Sam Will F Steve Nick Matt S Thomas Ben Brodie Dylan Alex Matt Tanyr)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Mitch Spencer Ryan Myles Andrew Patrick Robinson Carter Louie Thompson Ben Alex V Sam Will M Paul Jack M Nick Zion Brock Matt Montana Bob) (Ayden Rob Carson Tim Lawson Jacob Ethan Jordan John Jack Bennet Matt S Mason Steve Thomas Will F Brodie Connor Bayard Jake Dylan Tanyr Alex)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Ayden Rob Jack Louie Ryan Thompson Robinson Andrew Ethan John Ben Thomas Steve Bayard Matt S Connor Nick Mason Bob Montana Matt Brock) (Spencer Mitch Carson Lawson Myles Patrick Bennet Tim Carter Jacob Jordan Alex V Brodie Zion Will F Jack M Sam Will M Paul Tanyr Alex Dylan Jake)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Spencer Rob Patrick Lawson Louie Jacob Andrew Bennet John Carter Nick Alex V Connor Zion Will M Bayard Thomas Brodie Montana Dylan Matt Alex) (Ayden Carson Mitch Thompson Tim Ryan Ethan Jordan Myles Jack Robinson Ben Mason Steve Will F Jack M Matt S Sam Paul Tanyr Jake Brock Bob)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Rob Spencer Lawson Louie John Carter Jack Bennet Thompson Ethan Will F Brodie Matt S Steve Will M Sam Ben Zion Matt Tanyr Alex Dylan) (Ayden Carson Mitch Jacob Ryan Robinson Jordan Myles Andrew Patrick Tim Bayard Jack M Mason Paul Nick Alex V Thomas Connor Jake Bob Montana Brock)]
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 0
+Success: [(Ayden Carson Patrick Myles Andrew Tim Louie Ethan Ryan Jordan Connor Thomas Jack M Nick Ben Mason Steve Bayard Alex Dylan Montana Brock) (Rob Spencer Mitch Jacob Robinson Lawson John Jack Thompson Carter Bennet Paul Sam Alex V Will F Matt S Brodie Will M Zion Bob Jake Tanyr Matt)]
+nil
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+#'makeTeams.teams/conflicts
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+1
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+2
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 1
+Generation: 1 , least conflicts: 1
+Generation: 2 , least conflicts: 1
+Generation: 3 , least conflicts: 1
+Generation: 4 , least conflicts: 1
+Generation: 5 , least conflicts: 1
+Generation: 6 , least conflicts: 1
+Generation: 7 , least conflicts: 1
+Generation: 8 , least conflicts: 1
+Generation: 9 , least conflicts: 1
+Generation: 10 , least conflicts: 1
+Generation: 11 , least conflicts: 1
+Generation: 12 , least conflicts: 1
+Generation: 13 , least conflicts: 1
+Generation: 14 , least conflicts: 1
+Generation: 15 , least conflicts: 1
+Generation: 16 , least conflicts: 1
+Generation: 17 , least conflicts: 1
+Generation: 18 , least conflicts: 1
+Generation: 19 , least conflicts: 1
+Generation: 20 , least conflicts: 1
+Generation: 21 , least conflicts: 2
+Generation: 22 , least conflicts: 1
+Generation: 23 , least conflicts: 1
+Generation: 24 , least conflicts: 1
+Generation: 25 , least conflicts: 1
+Generation: 26 , least conflicts: 1
+Generation: 27 , least conflicts: 1
+Generation: 28 , least conflicts: 1
+Generation: 29 , least conflicts: 1
+Generation: 30 , least conflicts: 1
+Generation: 31 , least conflicts: 1
+Generation: 32 , least conflicts: 1
+Generation: 33 , least conflicts: 1
+Generation: 34 , least conflicts: 1
+Generation: 35 , least conflicts: 1
+Generation: 36 , least conflicts: 2
+Generation: 37 , least conflicts: 1
+Generation: 38 , least conflicts: 1
+Generation: 39 , least conflicts: 1
+Generation: 40 , least conflicts: 1
+Generation: 41 , least conflicts: 1
+Generation: 42 , least conflicts: 1
+Generation: 43 , least conflicts: 1
+Generation: 44 , least conflicts: 1
+Generation: 45 , least conflicts: 1
+Generation: 46 , least conflicts: 1
+Generation: 47 , least conflicts: 2
+Generation: 48 , least conflicts: 2
+Generation: 49 , least conflicts: 1
+Generation: 50 , least conflicts: 1
+Generation: 51 , least conflicts: 2
+Generation: 52 , least conflicts: 1
+Generation: 53 , least conflicts: 1
+Generation: 54 , least conflicts: 1
+Generation: 55 , least conflicts: 1
+Generation: 56 , least conflicts: 1
+Generation: 57 , least conflicts: 1
+Generation: 58 , least conflicts: 2
+Generation: 59 , least conflicts: 1
+Generation: 60 , least conflicts: 1
+Generation: 61 , least conflicts: 1
+Generation: 62 , least conflicts: 1
+Generation: 63 , least conflicts: 1
+Generation: 64 , least conflicts: 1
+Generation: 65 , least conflicts: 1
+Generation: 66 , least conflicts: 1
+Generation: 67 , least conflicts: 2
+Generation: 68 , least conflicts: 1
+Generation: 69 , least conflicts: 2
+Generation: 70 , least conflicts: 1
+Generation: 71 , least conflicts: 1
+Generation: 72 , least conflicts: 1
+Generation: 73 , least conflicts: 1
+Generation: 74 , least conflicts: 2
+Generation: 75 , least conflicts: 1
+Generation: 76 , least conflicts: 1
+Generation: 77 , least conflicts: 1
+Generation: 78 , least conflicts: 1
+Generation: 79 , least conflicts: 1
+Generation: 80 , least conflicts: 1
+Generation: 81 , least conflicts: 1
+Generation: 82 , least conflicts: 1
+Generation: 83 , least conflicts: 1
+Generation: 84 , least conflicts: 1
+Generation: 85 , least conflicts: 1
+Generation: 86 , least conflicts: 1
+Generation: 87 , least conflicts: 1
+Generation: 88 , least conflicts: 1
+Generation: 89 , least conflicts: 1
+Generation: 90 , least conflicts: 1
+Generation: 91 , least conflicts: 1
+Generation: 92 , least conflicts: 1
+Generation: 93 , least conflicts: 2
+Generation: 94 , least conflicts: 1
+Generation: 95 , least conflicts: 1
+Generation: 96 , least conflicts: 1
+Generation: 97 , least conflicts: 1
+Generation: 98 , least conflicts: 2
+Generation: 99 , least conflicts: 2
+Generation: 100 , least conflicts: 2
+Success: (#{Sam Myles Louie Carson Ayden Ben Tanyr Dylan Thomas Mitch Matt S Spencer Thompson Jacob Carter Matt Robinson Ryan Will F Jordan Paul Jack M Jack} #{Montana Tim Will M Lawson Connor Steve Patrick Bayard Nick Ethan Zion John Brodie Rob Andrew Bennet Brock Alex V Alex Jake Bob Mason})
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 20
+Generation: 0 , least conflicts: 1
+Generation: 1 , least conflicts: 1
+Generation: 2 , least conflicts: 1
+Generation: 3 , least conflicts: 2
+Generation: 4 , least conflicts: 1
+Generation: 5 , least conflicts: 1
+Generation: 6 , least conflicts: 1
+Generation: 7 , least conflicts: 1
+Generation: 8 , least conflicts: 1
+Generation: 9 , least conflicts: 1
+Generation: 10 , least conflicts: 2
+Generation: 11 , least conflicts: 2
+Generation: 12 , least conflicts: 1
+Generation: 13 , least conflicts: 1
+Generation: 14 , least conflicts: 1
+Generation: 15 , least conflicts: 1
+Generation: 16 , least conflicts: 1
+Generation: 17 , least conflicts: 1
+Generation: 18 , least conflicts: 2
+Generation: 19 , least conflicts: 1
+Generation: 20 , least conflicts: 1
+Generation: 21 , least conflicts: 1
+Generation: 22 , least conflicts: 2
+Generation: 23 , least conflicts: 1
+Generation: 24 , least conflicts: 1
+Generation: 25 , least conflicts: 2
+Generation: 26 , least conflicts: 1
+Generation: 27 , least conflicts: 1
+Generation: 28 , least conflicts: 1
+Generation: 29 , least conflicts: 1
+Generation: 30 , least conflicts: 1
+Generation: 31 , least conflicts: 1
+Generation: 32 , least conflicts: 1
+Generation: 33 , least conflicts: 1
+Generation: 34 , least conflicts: 1
+Generation: 35 , least conflicts: 1
+Generation: 36 , least conflicts: 1
+Generation: 37 , least conflicts: 1
+Generation: 38 , least conflicts: 1
+Generation: 39 , least conflicts: 1
+Generation: 40 , least conflicts: 2
+Generation: 41 , least conflicts: 1
+Generation: 42 , least conflicts: 1
+Generation: 43 , least conflicts: 1
+Generation: 44 , least conflicts: 1
+Generation: 45 , least conflicts: 1
+Generation: 46 , least conflicts: 1
+Generation: 47 , least conflicts: 2
+Generation: 48 , least conflicts: 1
+Generation: 49 , least conflicts: 1
+Generation: 50 , least conflicts: 1
+Generation: 51 , least conflicts: 1
+Generation: 52 , least conflicts: 1
+Generation: 53 , least conflicts: 1
+Generation: 54 , least conflicts: 2
+Generation: 55 , least conflicts: 1
+Generation: 56 , least conflicts: 1
+Generation: 57 , least conflicts: 1
+Generation: 58 , least conflicts: 1
+Generation: 59 , least conflicts: 1
+Generation: 60 , least conflicts: 1
+Generation: 61 , least conflicts: 1
+Generation: 62 , least conflicts: 1
+Generation: 63 , least conflicts: 1
+Generation: 64 , least conflicts: 1
+Generation: 65 , least conflicts: 1
+Generation: 66 , least conflicts: 1
+Generation: 67 , least conflicts: 1
+Generation: 68 , least conflicts: 1
+Generation: 69 , least conflicts: 1
+Generation: 70 , least conflicts: 1
+Generation: 71 , least conflicts: 1
+Generation: 72 , least conflicts: 1
+Generation: 73 , least conflicts: 1
+Generation: 74 , least conflicts: 1
+Generation: 75 , least conflicts: 1
+Generation: 76 , least conflicts: 1
+Generation: 77 , least conflicts: 2
+Generation: 78 , least conflicts: 1
+Generation: 79 , least conflicts: 1
+Generation: 80 , least conflicts: 1
+Generation: 81 , least conflicts: 1
+Generation: 82 , least conflicts: 1
+Generation: 83 , least conflicts: 1
+Generation: 84 , least conflicts: 1
+Generation: 85 , least conflicts: 1
+Generation: 86 , least conflicts: 2
+Generation: 87 , least conflicts: 1
+Generation: 88 , least conflicts: 1
+Generation: 89 , least conflicts: 1
+Generation: 90 , least conflicts: 1
+Generation: 91 , least conflicts: 1
+Generation: 92 , least conflicts: 1
+Generation: 93 , least conflicts: 1
+Generation: 94 , least conflicts: 1
+Generation: 95 , least conflicts: 1
+Generation: 96 , least conflicts: 1
+Generation: 97 , least conflicts: 1
+Generation: 98 , least conflicts: 1
+Generation: 99 , least conflicts: 1
+Generation: 100 , least conflicts: 1
+Success: (#{Sam Will M Lawson Connor Ayden Ben Nick Tanyr Ethan Dylan Thomas Mitch Matt S Spencer Carter Matt Robinson Brock Ryan Jordan Jake Paul Jack} #{Myles Montana Tim Louie Carson Steve Patrick Bayard Zion John Thompson Jacob Brodie Rob Andrew Bennet Alex V Alex Will F Bob Mason Jack M})
+nil
+clj꞉makeTeams.teams꞉> 
+Population size: 22
+Generation: 0 , least conflicts: 2
+Generation: 1 , least conflicts: 1
+Generation: 2 , least conflicts: 2
+Generation: 3 , least conflicts: 2
+Generation: 4 , least conflicts: 1
+Generation: 5 , least conflicts: 1
+Generation: 6 , least conflicts: 2
+Generation: 7 , least conflicts: 2
+Generation: 8 , least conflicts: 2
+Generation: 9 , least conflicts: 2
+Generation: 10 , least conflicts: 2
+Generation: 11 , least conflicts: 1
+Generation: 12 , least conflicts: 1
+Generation: 13 , least conflicts: 1
+Generation: 14 , least conflicts: 1
+Generation: 15 , least conflicts: 1
+Generation: 16 , least conflicts: 1
+Generation: 17 , least conflicts: 1
+Generation: 18 , least conflicts: 1
+Generation: 19 , least conflicts: 1
+Generation: 20 , least conflicts: 1
+Generation: 21 , least conflicts: 1
+Generation: 22 , least conflicts: 1
+Generation: 23 , least conflicts: 1
+Generation: 24 , least conflicts: 1
+Generation: 25 , least conflicts: 1
+Generation: 26 , least conflicts: 1
+Generation: 27 , least conflicts: 1
+Generation: 28 , least conflicts: 1
+Generation: 29 , least conflicts: 1
+Generation: 30 , least conflicts: 1
+Generation: 31 , least conflicts: 1
+Generation: 32 , least conflicts: 1
+Generation: 33 , least conflicts: 1
+Generation: 34 , least conflicts: 2
+Generation: 35 , least conflicts: 2
+Generation: 36 , least conflicts: 2
+Generation: 37 , least conflicts: 2
+Generation: 38 , least conflicts: 1
+Generation: 39 , least conflicts: 1
+Generation: 40 , least conflicts: 1
+Generation: 41 , least conflicts: 1
+Generation: 42 , least conflicts: 1
+Generation: 43 , least conflicts: 1
+Generation: 44 , least conflicts: 1
+Generation: 45 , least conflicts: 1
+Generation: 46 , least conflicts: 1
+Generation: 47 , least conflicts: 1
+Generation: 48 , least conflicts: 1
+Generation: 49 , least conflicts: 1
+Generation: 50 , least conflicts: 1
+Generation: 51 , least conflicts: 1
+Generation: 52 , least conflicts: 1
+Generation: 53 , least conflicts: 1
+Generation: 54 , least conflicts: 1
+Generation: 55 , least conflicts: 1
+Generation: 56 , least conflicts: 1
+Generation: 57 , least conflicts: 1
+Generation: 58 , least conflicts: 1
+Generation: 59 , least conflicts: 1
+Generation: 60 , least conflicts: 1
+Generation: 61 , least conflicts: 2
+Generation: 62 , least conflicts: 1
+Generation: 63 , least conflicts: 1
+Generation: 64 , least conflicts: 1
+Generation: 65 , least conflicts: 1
+Generation: 66 , least conflicts: 1
+Generation: 67 , least conflicts: 2
+Generation: 68 , least conflicts: 1
+Generation: 69 , least conflicts: 1
+Generation: 70 , least conflicts: 1
+Generation: 71 , least conflicts: 1
+Generation: 72 , least conflicts: 1
+Generation: 73 , least conflicts: 1
+Generation: 74 , least conflicts: 1
+Generation: 75 , least conflicts: 1
+Generation: 76 , least conflicts: 1
+Generation: 77 , least conflicts: 1
+Generation: 78 , least conflicts: 1
+Generation: 79 , least conflicts: 2
+Generation: 80 , least conflicts: 1
+Generation: 81 , least conflicts: 1
+Generation: 82 , least conflicts: 2
+Generation: 83 , least conflicts: 1
+Generation: 84 , least conflicts: 2
+Generation: 85 , least conflicts: 1
+Generation: 86 , least conflicts: 1
+Generation: 87 , least conflicts: 1
+Generation: 88 , least conflicts: 1
+Generation: 89 , least conflicts: 1
+Generation: 90 , least conflicts: 2
+Generation: 91 , least conflicts: 1
+Generation: 92 , least conflicts: 1
+Generation: 93 , least conflicts: 1
+Generation: 94 , least conflicts: 1
+Generation: 95 , least conflicts: 1
+Generation: 96 , least conflicts: 1
+Generation: 97 , least conflicts: 1
+Generation: 98 , least conflicts: 1
+Generation: 99 , least conflicts: 1
+Generation: 100 , least conflicts: 1
+Success: (#{Sam Myles Louie Carson Steve Ben Nick Zion John Thompson Jacob Carter Matt Brodie Bennet Brock Alex Jordan Bob Mason Jack M Jack} #{Montana Tim Will M Lawson Connor Ayden Patrick Bayard Tanyr Ethan Dylan Thomas Mitch Matt S Spencer Rob Robinson Andrew Alex V Ryan Will F Jake Paul})
+nil
+clj꞉makeTeams.teams꞉> 
