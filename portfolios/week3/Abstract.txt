@@ -1,7 +1,11 @@
 In this week's portfolio, you can find the following:
 
-- RICE: My typical RICE report
+- RICE: My typical RICE report is found in the file 'RICE.txt'
 
-- Text: My notes on the text and videos this week
+- Text: My notes on the text and videos this week, as well as future project ideas, is found in 'Text.txt'
 
-- Code: This week for my code, I built upon last weeks code that made lacrosse teams of even numbers and positions. I started by removing all inline def statements from my functions and replacing them with let statements. This made my previous code a lot cleaner. I then created an evolutionary algorithm to make the best possible lacrosse teams given previous teams and calculating the conflicts, similarly to Prof. Spector's RICE group generation code (which I used as a guide to make mine).
+- Code: My code this week is in the file 'teams.clj'. I built upon last weeks code that made lacrosse teams of even numbers and positions. 
+I started by removing all inline def statements from my functions and replacing them with let statements. 
+This made my previous code a lot cleaner. I then created an evolutionary algorithm to make the best possible lacrosse teams given 
+previous teams and calculating the conflicts, similarly to Prof. Spector's RICE group generation code 
+(which I used as a guide to make mine).
