@@ -181,51 +181,54 @@
                   "Brock"
                   "Jake"
                   "Matt"}]
-                 [#{"Ayden"
-                  "Spencer"
-                  "Bennet"
-                  "Tim"
-                  "Patrick"
-                  "Robinson"
-                  "Jordan"
-                  "Jacob"
-                  "Lawson"
-                  "Thompson"
-                  "Paul"
-                  "Brodie"
-                  "Ben"
-                  "Will M"
-                  "Matt S"
-                  "Steve"
-                  "Mason"
-                  "Connor"
-                  "Brock"
-                  "Bob"
-                  "Alex"
-                  "Montana"}
-                 #{"Rob"
-                  "Mitch"
-                  "Carson"
-                  "Myles"
-                  "Carter"
-                  "Jack"
-                  "Ethan"
-                  "Andrew"
-                  "Louie"
-                  "John"
-                  "Ryan"
-                  "Bayard"
-                  "Will F"
-                  "Nick"
-                  "Zion"
-                  "Thomas"
-                  "Alex V"
-                  "Jack M"
-                  "Sam"
-                  "Tanyr"
-                  "Matt"
-                  "Jake"
-                  "Dylan"}]])
+                ;;  [#{"Ayden"
+                ;;   "Spencer"
+                ;;   "Bennet"
+                ;;   "Tim"
+                ;;   "Patrick"
+                ;;   "Robinson"
+                ;;   "Jordan"
+                ;;   "Jacob"
+                ;;   "Lawson"
+                ;;   "Thompson"
+                ;;   "Paul"
+                ;;   "Brodie"
+                ;;   "Ben"
+                ;;   "Will M"
+                ;;   "Matt S"
+                ;;   "Steve"
+                ;;   "Mason"
+                ;;   "Connor"
+                ;;   "Brock"
+                ;;   "Bob"
+                ;;   "Alex"
+                ;;   "Montana"}
+                ;;  #{"Mitch"
+                ;;   "Rob"
+                ;;   "Carson"
+                ;;   "Myles"
+                ;;   "Carter"
+                ;;   "Jack"
+                ;;   "Ethan"
+                ;;   "Andrew"
+                ;;   "Louie"
+                ;;   "John"
+                ;;   "Ryan"
+                ;;   "Bayard"
+                ;;   "Will F"
+                ;;   "Nick"
+                ;;   "Zion"
+                ;;   "Thomas"
+                ;;   "Alex V"
+                ;;   "Jack M"
+                ;;   "Sam"
+                ;;   "Tanyr"
+                ;;   "Matt"
+                ;;   "Jake"
+                ;;   "Dylan"}]
+                  ])
+
+
 
 ;; Find and ID Conflicts
 (defn conflicts
@@ -267,7 +270,7 @@
    groups. The population size should be an even number that is at
    least 20, and it will be coerced to such a value if it isn't."
   [popsize maxgens]
-  (let [ps (max 20 (if (odd? popsize)
+  (let [ps (max 22 (if (odd? popsize)
                     (inc popsize)
                     popsize))]
     (println "Population size:" ps)
@@ -284,4 +287,4 @@
              (sort better (map mutate
                                (concat better-half better-half))))))))))
 
-(evolve 22 100)
+(evolve 22 1000)

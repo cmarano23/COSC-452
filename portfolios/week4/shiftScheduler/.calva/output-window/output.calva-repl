@@ -1,0 +1,859 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "deps.edn"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.335/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 16 8}
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 14 16 10 18 8}
+clj꞉shiftScheduler.shifts꞉> 
+"Sam"
+clj꞉shiftScheduler.shifts꞉> 
+"Ryan"
+clj꞉shiftScheduler.shifts꞉> 
+"Sam"
+clj꞉shiftScheduler.shifts꞉> 
+"Carson"
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/new-schedule
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 20, "Ryan" 18, "Bob" 18, "Sam" 12, "George" 12, "Jack" 16}
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 12, "Ryan" 10, "Bob" 8, "Sam" 12, "George" 8, "Jack" 10}
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 12, "Ryan" 14, "Bob" 16, "Sam" 14, "George" 14, "Jack" 20}
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 20, "Ryan" 14, "Bob" 16, "Sam" 12, "George" 10, "Jack" 20}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+1
+clj꞉shiftScheduler.shifts꞉> 
+4
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 16, Ryan 10, Bob 8, Sam 12, George 16, Jack 10}
+Schedule 2:  {Carson 12, Ryan 10, Bob 18, Sam 12, George 14, Jack 10}
+Overlap:  2
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (IllegalArgumentException) at shiftScheduler.shifts/overlap (REPL:37).
+; contains? not supported on type: clojure.lang.APersistentMap$ValSeq
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+6
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+4
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 16, Ryan 18, Bob 16, Sam 14, George 10, Jack 20}
+overlap:  5
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 20, Ryan 10, Bob 18, Sam 20, George 10, Jack 16}
+overlap:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 20, Ryan 18, Bob 16, Sam 14, George 12, Jack 20}
+overlap:  5
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 8, Ryan 18, Bob 18, Sam 14, George 14, Jack 10}
+overlap:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 14 18 8}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 8, Ryan 10, Bob 16, Sam 14, George 14, Jack 20}
+overlap:  #{20 14 16 10 8}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 16 10 18 8}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 8, Ryan 18, Bob 8, Sam 20, George 18, Jack 20}
+overlap:  #{20 18 8}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 16, Ryan 14, Bob 8, Sam 12, George 16, Jack 20}
+overlap:  #{20 12 14 16 8}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/overlap (REPL:37).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+5
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 18, Bob 16, Sam 14, George 14, Jack 16}
+overlap:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+5/2
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 14, Bob 16, Sam 14, George 16, Jack 16}
+overlap:  3/2
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/overlap$fn (REPL:38).
+; class clojure.lang.MapEntry cannot be cast to class java.lang.Number (clojure.lang.MapEntry is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+5
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 8, Ryan 10, Bob 18, Sam 14, George 12, Jack 20}
+overlap:  6
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+(1 2 1 1 1)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 20, Ryan 10, Bob 16, Sam 14, George 16, Jack 20}
+overlap:  (2 1 2 1)
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+{8 2, 14 1, 20 2, 10 1}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 14, Bob 16, Sam 12, George 18, Jack 16}
+overlap:  {12 2, 14 1, 16 2, 18 1}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+(2 2)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 16, Ryan 18, Bob 18, Sam 14, George 8, Jack 10}
+overlap:  (2)
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 16, Ryan 10, Bob 8, Sam 14, George 12, Jack 20}
+overlap:  ()
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 8, Ryan 18, Bob 8, Sam 12, George 16, Jack 20}
+overlap:  (2)
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+1
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 16, Ryan 14, Bob 16, Sam 20, George 18, Jack 16}
+overlap:  1
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/overlap (REPL:39).
+; class java.lang.Integer cannot be cast to class clojure.lang.IFn (java.lang.Integer is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 14, Bob 18, Sam 20, George 16, Jack 20}
+overlap:  1
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/overlap
+clj꞉shiftScheduler.shifts꞉> 
+1
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-overlap
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 16, Ryan 18, Bob 8, Sam 20, George 14, Jack 16}
+overlap:  1
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 10, Bob 18, Sam 14, George 8, Jack 16}
+numOverlaps:  0
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+(2 3)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.APersistentMap$KeySeq/first (APersistentMap.java:168).
+; class java.lang.Long cannot be cast to class java.util.Map$Entry (java.lang.Long and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+{20 1, 14 1, 16 1, 12 1, 8 1, 10 1}
+clj꞉shiftScheduler.shifts꞉> 
+{8 1, 18 1, 16 1, 14 1, 12 1, 20 1}
+clj꞉shiftScheduler.shifts꞉> 
+{16 1, 10 1, 8 2, 14 1, 20 1}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+(14)
+clj꞉shiftScheduler.shifts꞉> 
+(16 14)
+clj꞉shiftScheduler.shifts꞉> 
+()
+clj꞉shiftScheduler.shifts꞉> 
+(20)
+clj꞉shiftScheduler.shifts꞉> 
+(12 16)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlapTimes
+clj꞉shiftScheduler.shifts꞉> 
+(18 20)
+clj꞉shiftScheduler.shifts꞉> 
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "deps.edn"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; nREPL Connection was closed
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.335/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 16 8}
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 14 16 10 18 8}
+clj꞉shiftScheduler.shifts꞉> 
+"Jack"
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/new-schedule
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 20, "Ryan" 18, "Bob" 8, "Sam" 20, "George" 14, "Jack" 10}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 10, Bob 18, Sam 12, George 12, Jack 10}
+numOverlaps:  2
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlapTimes
+clj꞉shiftScheduler.shifts꞉> 
+(20 14)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/conflicts
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+2
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-conflicts
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 20, Ryan 14, Bob 8, Sam 12, George 8, Jack 16}
+Schedule 2:  {Carson 8, Ryan 10, Bob 16, Sam 14, George 12, Jack 10}
+conflicts:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/better
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+true
+clj꞉shiftScheduler.shifts꞉> 
+true
+clj꞉shiftScheduler.shifts꞉> 
+true
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+true
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+(#{["Sam" 14] ["Bob" 18] ["Jack" 16] ["Carson" 12] ["Sam" 12] ["George" 18]}
+ #{["Carson" 8] ["George" 12] ["Ryan" 10] ["Bob" 18] ["Ryan" 18] ["Jack" 10]})
+clj꞉shiftScheduler.shifts꞉> 
+(#{["George" 14] ["Bob" 8] ["George" 8] ["Jack" 16] ["Sam" 12] ["Ryan" 14]}
+ #{["Carson" 8] ["Carson" 20] ["Sam" 14] ["Bob" 18] ["Jack" 16] ["Ryan" 14]})
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Population size: 6
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:123).
+; Wrong number of args (0) passed to: shiftScheduler.shifts/new-schedule
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Population size: 6
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:123).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+; Syntax error compiling at (src/shiftScheduler/shifts.clj:119:35).
+; Unable to resolve symbol: ps in this context
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/numOverlaps (REPL:37).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/numOverlaps (REPL:37).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Population size: 6
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:123).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Population size: 6
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:123).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+(12 18)
+clj꞉shiftScheduler.shifts꞉> 
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "deps.edn"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; nREPL Connection was closed
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.335/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 16 8}
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 14 16 10 18 8}
+clj꞉shiftScheduler.shifts꞉> 
+"Bob"
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/new-schedule
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 12, "Ryan" 14, "Bob" 8, "Sam" 12, "George" 8, "Jack" 20}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+1
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Carson 12, Ryan 14, Bob 16, Sam 12, George 8, Jack 16}
+numOverlaps:  2
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlapTimes
+clj꞉shiftScheduler.shifts꞉> 
+(20)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/conflicts
+clj꞉shiftScheduler.shifts꞉> 
+1
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-conflicts
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 12, Ryan 14, Bob 18, Sam 12, George 12, Jack 10}
+Schedule 2:  {Carson 16, Ryan 10, Bob 8, Sam 14, George 20, Jack 16}
+conflicts:  2
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/better
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+(18)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/person-with-time
+clj꞉shiftScheduler.shifts꞉> 
+["Carson"]
+clj꞉shiftScheduler.shifts꞉> 
+[]
+clj꞉shiftScheduler.shifts꞉> 
+["Carson" "Bob"]
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 8, "Ryan" 18, "Bob" 16, "Sam" 20, "George" 20, "Jack" 20}
+clj꞉shiftScheduler.shifts꞉> 
+{"Carson" 8, "Ryan" 18, "Bob" 18, "Sam" 14, "George" 20, "Jack" 10}
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 20, Ryan 18, Bob 16, Sam 14, George 14, Jack 16}
+Schedule 2:  {Carson 12, Ryan 18, Bob 16, Sam 12, George 20, Jack 16}
+Mutated:  {Carson 20, Ryan 18, Bob 16, Sam 14, George 14, Jack 16}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 16, Ryan 18, Bob 8, Sam 12, George 14, Jack 20}
+Schedule 2:  {Carson 16, Ryan 10, Bob 18, Sam 14, George 10, Jack 20}
+s1overlap: ()
+s1people: ()
+newMap: {}
+swapped: {Carson 16, Ryan 18, Bob 8, Sam 12, George 14, Jack 20}
+Mutated:  {Carson 16, Ryan 18, Bob 8, Sam 12, George 14, Jack 20}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 16, Ryan 10, Bob 18, Sam 14, George 14, Jack 10}
+Schedule 2:  {Carson 8, Ryan 18, Bob 18, Sam 20, George 16, Jack 16}
+s1overlap: (10 14)
+s1people: ([Ryan Jack] [Sam George])
+newMap: {}
+swapped: {Carson 16, Ryan 10, Bob 18, Sam 14, George 14, Jack 10}
+Mutated:  {Carson 16, Ryan 10, Bob 18, Sam 14, George 14, Jack 10}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 16, Ryan 14, Bob 18, Sam 20, George 18, Jack 20}
+Schedule 2:  {Carson 16, Ryan 14, Bob 18, Sam 12, George 12, Jack 20}
+test: nil
+s1overlap: (18 20)
+s1people: ([Bob George] [Sam Jack])
+newMap: {}
+swapped: {Carson 16, Ryan 14, Bob 18, Sam 20, George 18, Jack 20}
+Mutated:  {Carson 16, Ryan 14, Bob 18, Sam 20, George 18, Jack 20}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 12, Ryan 18, Bob 8, Sam 12, George 10, Jack 20}
+Schedule 2:  {Carson 8, Ryan 10, Bob 8, Sam 20, George 20, Jack 20}
+test: nil
+s1overlap: (12)
+s1people: ([Carson Sam])
+newMap: {}
+swapped: {Carson 12, Ryan 18, Bob 8, Sam 12, George 10, Jack 20}
+Mutated:  {Carson 12, Ryan 18, Bob 8, Sam 12, George 10, Jack 20}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 8, Ryan 18, Bob 8, Sam 14, George 20, Jack 10}
+Schedule 2:  {Carson 8, Ryan 18, Bob 16, Sam 20, George 10, Jack 10}
+s2times: (nil)
+s1overlap: (8)
+s1people: ([Carson Bob])
+newMap: {[Carson Bob] nil}
+swapped: {Carson 8, Ryan 18, Bob 8, Sam 14, George 20, Jack 10, [Carson Bob] nil}
+Mutated:  {Carson 8, Ryan 18, Bob 8, Sam 14, George 20, Jack 10, [Carson Bob] nil}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 20, Ryan 18, Bob 8, Sam 20, George 10, Jack 10}
+Schedule 2:  {Carson 16, Ryan 18, Bob 18, Sam 14, George 10, Jack 20}
+s2times: (nil nil)
+s1overlap: (20 10)
+s1people: ([Carson Sam] [George Jack])
+newMap: {[Carson Sam] nil, [George Jack] nil}
+swapped: {Carson 20, Ryan 18, Bob 8, Sam 20, George 10, Jack 10, [Carson Sam] nil, [George Jack] nil}
+Mutated:  {Carson 20, Ryan 18, Bob 8, Sam 20, George 10, Jack 10, [Carson Sam] nil, [George Jack] nil}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 12, Ryan 14, Bob 18, Sam 14, George 10, Jack 20}
+Schedule 2:  {Carson 8, Ryan 14, Bob 8, Sam 20, George 16, Jack 16}
+s2times: (14 20)
+s1overlap: (14)
+s1people: ([Ryan Sam])
+newMap: {Ryan 14, Sam 20}
+swapped: {Carson 12, Ryan 14, Bob 18, Sam 20, George 10, Jack 20}
+Mutated:  {Carson 12, Ryan 14, Bob 18, Sam 20, George 10, Jack 20}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Carson 20, Ryan 10, Bob 8, Sam 20, George 20, Jack 16}
+Schedule 2:  {Carson 20, Ryan 18, Bob 18, Sam 20, George 8, Jack 10}
+s2times: (20 20 8)
+s1overlap: (20)
+s1people: ([Carson Sam George])
+newMap: {Carson 20, Sam 20, George 8}
+Mutated:  {Carson 20, Ryan 10, Bob 8, Sam 20, George 8, Jack 16}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Population size: 6
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:140).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/numOverlaps (REPL:37).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Population size: 6
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:140).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+; Syntax error compiling at (src/shiftScheduler/shifts.clj:157:34).
+; Unable to resolve symbol: maxgens in this context
+clj꞉shiftScheduler.shifts꞉> 
+; Syntax error compiling at (src/shiftScheduler/shifts.clj:161:15).
+; Unable to resolve symbol: maxgens in this context
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:157).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:157).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ArityException) at shiftScheduler.shifts/evolve (REPL:157).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/evolve (REPL:157).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.lang.Number (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/evolve (REPL:158).
+; class clojure.lang.PersistentArrayMap cannot be cast to class java.lang.Number (clojure.lang.PersistentArrayMap is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+; Execution error (ClassCastException) at shiftScheduler.shifts/evolve (REPL:158).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 12, Ryan 10, Bob 18, Sam 20, George 8, Jack 16}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 8, Ryan 18, Bob 16, Sam 20, George 14, Jack 10}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 20, Ryan 18, Bob 16, Sam 12, George 14, Jack 10}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 16, Ryan 18, Bob 8, Sam 12, George 14, Jack 20}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 12, Ryan 10, Bob 16, Sam 14, George 8, Jack 20}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 2
+; Execution error (ClassCastException) at shiftScheduler.shifts/findOverlapTimes (REPL:59).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 16 8}
+clj꞉shiftScheduler.shifts꞉> 
+#{20 12 14 16 10 18 8}
+clj꞉shiftScheduler.shifts꞉> 
+"John"
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/new-schedule
+clj꞉shiftScheduler.shifts꞉> 
+{"Sam" 14,
+ "Lori" 16,
+ "Carson" 8,
+ "Dylan" 16,
+ "John" 12,
+ "George" 18,
+ "Carter" 14,
+ "Smith" 16,
+ "Ryan" 18,
+ "Paul" 10,
+ "Bob" 18,
+ "Jack" 10}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+3
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-numOverlaps
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Sam 12, Lori 20, Carson 8, Dylan 16, John 20, George 8, Carter 18, Smith 8, Ryan 18, Paul 12, Bob 18, Jack 10}
+numOverlaps:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlapTimes
+clj꞉shiftScheduler.shifts꞉> 
+(12 16 8 14)
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/conflicts
+clj꞉shiftScheduler.shifts꞉> 
+6
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/test-conflicts
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Sam 20, Lori 20, Carson 8, Dylan 12, John 12, George 20, Carter 14, Smith 8, Ryan 18, Paul 20, Bob 8, Jack 20}
+Schedule 2:  {Sam 14, Lori 10, Carson 20, Dylan 8, John 14, George 20, Carter 14, Smith 8, Ryan 14, Paul 20, Bob 18, Jack 20}
+conflicts:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/better
+clj꞉shiftScheduler.shifts꞉> 
+false
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/person-with-time
+clj꞉shiftScheduler.shifts꞉> 
+["Smith"]
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/mutate
+clj꞉shiftScheduler.shifts꞉> 
+Schedule 1:  {Sam 14, Lori 16, Carson 12, Dylan 8, John 12, George 20, Carter 10, Smith 16, Ryan 18, Paul 18, Bob 18, Jack 16}
+Schedule 2:  {Sam 20, Lori 16, Carson 12, Dylan 12, John 14, George 12, Carter 10, Smith 8, Ryan 10, Paul 12, Bob 18, Jack 10}
+s2times: (16 8 10 12 14 10 12 18)
+s1overlap: (16 12 18)
+s1people: ([Lori Smith Jack] [Carson John] [Ryan Paul Bob])
+newMap: {Lori 16, Smith 8, Jack 10, Carson 12, John 14, Ryan 10, Paul 12, Bob 18}
+Mutated:  {Sam 14, Lori 16, Carson 12, Dylan 8, John 14, George 20, Carter 10, Smith 8, Ryan 10, Paul 12, Bob 18, Jack 10}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+s2times: (12 8 20 8 16 14 18 18 18 12)
+s1overlap: (12 20 14 18)
+s1people: ([Sam Carson] [Lori Dylan Jack] [John George Carter] [Smith Paul])
+newMap: {Sam 12, Lori 20, Carson 8, Dylan 8, John 14, George 18, Carter 18, Smith 18, Paul 12, Jack 16}
+{"Sam" 12,
+ "Lori" 20,
+ "Carson" 8,
+ "Dylan" 8,
+ "John" 14,
+ "George" 18,
+ "Carter" 18,
+ "Smith" 18,
+ "Ryan" 10,
+ "Paul" 12,
+ "Bob" 8,
+ "Jack" 16}
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/evolve
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 2
+; Execution error (ClassCastException) at shiftScheduler.shifts/findOverlapTimes (REPL:65).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 2
+; Execution error (ClassCastException) at shiftScheduler.shifts/findOverlapTimes (REPL:65).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 8, Ryan 14, Bob 18, Sam 20, George 12, Jack 10}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 12, Ryan 18, Bob 8, Sam 20, George 14, Jack 16}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 16, Ryan 14, Bob 18, Sam 20, George 8, Jack 10}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 8, Ryan 14, Bob 18, Sam 20, George 12, Jack 10, Dylan 22}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 0
+Success: {Carson 20, Ryan 14, Bob 18, Sam 12, George 10, Jack 16, Dylan 22, Carter 6}
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+Generation: 0 , least conflicts: 1
+; Execution error (ClassCastException) at shiftScheduler.shifts/findOverlapTimes (REPL:65).
+; class java.lang.String cannot be cast to class java.util.Map$Entry (java.lang.String and java.util.Map$Entry are in module java.base of loader 'bootstrap')
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/availability
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlapTimes
+clj꞉shiftScheduler.shifts꞉> 
+(8 18 16)
+clj꞉shiftScheduler.shifts꞉> 
+(10 18 12 20)
+clj꞉shiftScheduler.shifts꞉> 
+(12 20 16 18)
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Sam 12, Lori 20, Carson 12, Dylan 22, John 16, George 12, Carter 14, Smith 8, Ryan 18, Paul 6, Bob 18, Jack 20}
+numOverlaps:  3
+nil
+clj꞉shiftScheduler.shifts꞉> 
+Schedule:  {Sam 12, Lori 10, Carson 20, Dylan 18, John 12, George 20, Carter 20, Smith 22, Ryan 10, Paul 10, Bob 16, Jack 16}
+numOverlaps:  4
+nil
+clj꞉shiftScheduler.shifts꞉> 
+#'shiftScheduler.shifts/findOverlapTimes
+clj꞉shiftScheduler.shifts꞉> 
+(20 16 12 18)
+clj꞉shiftScheduler.shifts꞉> 
