@@ -13,9 +13,9 @@
    "Dylan" #{12, 16, 18, 22},
    "Carter" #{6, 14, 20},
    "Smith" #{8, 10, 12, 22},
-   "John" #{12, 16, 20},
-   "Paul" #{6, 8, 10, 12, 14, 16, 18, 20},
-   "Lori" #{10, 16, 20, 22}})
+   "John" #{12, 15, 16, 20},
+   "Paul" #{6, 8, 10, 12, 13, 14, 16, 18, 20},
+   "Lori" #{10, 16, 17, 20, 22}})
 
 ;; Test a person's availability
 (get availability "Carson")
@@ -39,10 +39,13 @@
 (defn numOverlaps
   "Finds the overlap between people in a schedule"
   [schedule]
-  (println "numOverlaps schedule: " schedule)
+  ;; (println "numOverlaps schedule: " schedule)
   (let [s (vals schedule)
         multiples (frequencies s)
         overmap (filter #(> % 1) (vals multiples))]
+    ;; (println "s: " s)
+    ;; (println "multiples: " multiples)
+    ;; (println "overmap: " overmap)
     (count overmap)))
 
 ;; Test the numOverlaps function
@@ -115,53 +118,106 @@
   "Returns schedules after a swap of times."
   [schedules]
   (let [s1overlap (findOverlapTimes (first schedules))
+        s2overlap (findOverlapTimes (second schedules))
         s1people (for [time s1overlap] (person-with-time (first schedules) time))
+        s2people (for [time s2overlap] (person-with-time (second schedules) time))
         s1peopleconcat (apply concat s1people)
+        s2peopleconcat (apply concat s2people)
+        s1times (for [person s2peopleconcat] (get (first schedules) person))
         s2times (for [person s1peopleconcat] (get (second schedules) person))
-        newMap (zipmap s1peopleconcat s2times)
-        swapped (merge (first schedules) newMap)]
-    ;; (println "s2times:" s2times)
-    ;; (println "s1overlap:" s1overlap)
-    ;; (println "s1peopleconcat:" s1peopleconcat)
-    ;; (println "newMap:" newMap)
-    (println "swapped: " swapped)
-    swapped))
+        newMap1 (zipmap s1peopleconcat s2times)
+        newMap2 (zipmap s2peopleconcat s1times)
+        swapped1 (merge (first schedules) newMap1)
+        swapped2 (merge (second schedules) newMap2)]
+    (concat (drop 2 schedules)
+            [swapped1 swapped2])))
 
 ;; Test the mutate function
-(let [s1 (new-schedule availability)
-      s2 (new-schedule availability)
-      s3 (new-schedule availability)
-      mu1 (mutate [s1 s2])
-      mu2 (mutate [mu1 s3])]
-  (println "Schedule 1: " s1)
-  (println "Schedule 2: " s2)
-  (println "Mutated: " mu2))
+;; (let [s1 (new-schedule availability)
+;;       s2 (new-schedule availability)
+;;       s3 (new-schedule availability)
+;;       mu1 (mutate [s1 s2])
+;;       mu2 (mutate [mu1 s3])]
+;;   (println "Schedule 1: " s1)
+;;   (println "Schedule 2: " s2)
+;;   (println "Mutated: " mu2))
 
 (mutate [(new-schedule availability) (new-schedule availability)])
 
-;; evolution function from scratch
+;; The old not as efficient mutate function
+(defn old-mutate
+  "Returns teams after a single random swap between two schedules."
+  [schedules]
+  (let [shuffled (shuffle schedules)
+        t1 (shuffle (vec (first shuffled)))
+        t2 (shuffle (vec (second shuffled)))]
+    (concat (drop 2 shuffled)
+            [(set (conj (rest t1) (first t2)))
+             (set (conj (rest t2) (first t1)))])))
+
+;; evolution function
 (defn evolve
   "Runs an evolutionary algorithm"
   [maxgens]
   (loop [generation 0
-         population (vec (sort better (repeatedly 12 #(new-schedule availability))))]
+         population (vec (sort better (repeatedly 100 #(new-schedule availability))))]
     (let [best (first population)]
       (println "Generation:" generation ", least overlaps:" (numOverlaps best))
       (if (or (zero? (numOverlaps best)) ;; found groups with no conflicts
               (>= generation maxgens)) ;; or tried for maxgens generations
         (println "Success:" best)
-        (let [better-half (take (int (/ 12 2)) population)
-              best-two (take 2 population)]
-          (println "best-two: " best-two)
-          (println "here")
-          ;; (println "sort thing: " (sort better (mutate best-two)))
+        (let [better-half (take (int (/ 100 2)) population)]
+          ;; (println "best: " best)
+          ;; (println "overlap: " (findOverlapTimes best))
           (recur
            (inc generation)
-           (sort better (mutate better-half))))))))
+           (sort better (mutate better-half ))))))))
 
-;; Test the evolve function
-(evolve 100)
+;; Try to implement some sort of tournamnet selection
 
-;; Error is coming from the mutate function only performing on first two schedules
-;; Thus, the numOverlaps function is receiving only a vector of a key and value instead of the entire map
-;; I need to figure out how to get the mutate function to perform on all schedules in the better-half vector
+;; evolution function
+(defn random-evolve
+  "Runs an evolutionary algorithm"
+  [maxgens]
+  (loop [generation 0
+         population (vec (sort better (repeatedly 100 #(new-schedule availability))))]
+    (let [best (first population)]
+      (println "Generation:" generation ", least overlaps:" (numOverlaps best))
+      (if (or (zero? (numOverlaps best)) ;; found groups with no conflicts
+              (>= generation maxgens)) ;; or tried for maxgens generations
+        (println "Success:" best)
+        (let [random-half (take (int (/ 100 2)) (shuffle population))]
+          ;; (println "best: " best)
+          ;; (println "overlap: " (findOverlapTimes best))
+          (recur
+           (inc generation)
+           (mutate random-half)))))))
+
+;; evolution function using the old mutate function
+(defn old-evolve
+  "Runs an evolutionary algorithm"
+  [maxgens]
+  (loop [generation 0
+         population (vec (sort better (repeatedly 100 #(new-schedule availability))))]
+    (let [best (first population)]
+      (println "Generation:" generation ", least overlaps:" (numOverlaps best))
+      (if (or (zero? (numOverlaps best)) ;; found groups with no conflicts
+              (>= generation maxgens)) ;; or tried for maxgens generations
+        (println "Success:" best)
+        (let [better-half (take (int (/ 100 2)) population)]
+          ;; (println "best: " best)
+          ;; (println "overlap: " (findOverlapTimes best))
+          (recur
+           (inc generation)
+           (sort better (old-mutate (concat better-half better-half)))))))))
+
+;; Test evolve
+(evolve 1000)
+
+;; Test the random evolve function
+(random-evolve 1000)
+
+;; Test the old evolve function
+(old-evolve 1000)
+
+;; Random works best!
