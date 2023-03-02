@@ -1,0 +1,19 @@
+Find below my notes on readings:
+
+Automatic Quantum Computer Programming: A Genetic Programming Approach Chapter 5
+- The beginning of the chapter details what programming by genetic algorithms really entails, and how it uses the foundation of biology and darwinism to form computer programs
+- Genetic programming is basically an "automatic programming system"
+- You feed into a genetic program what you want it to do and some data to do it
+- The chapter then goes in to discuss different standard genetic programming mutations
+- Walks through symbolic regression
+
+geneticprogramming.com
+- Really interesting website with tons of resources on genetic programming
+- Has resources for tree-based GP, Stack-based GP, Linear GP, Cartesian GP, and many more
+- Offers a brief history of Genetic Programming
+- Software section discusses ways to implement GP (like Clojure)
+
+Future project ideas after reading Bibliography on GP:
+- Cellular automata rules using GP (http://web.wakayama-u.ac.jp/~sakama/papers/jca07.pdf)
+- Generating Mazes with GP (https://ieeexplore.ieee.org/document/9122338)
+- Interesting Project: Using GP to play RTS video games (https://ieeexplore.ieee.org/document/5286453)

@@ -1,0 +1,11 @@
+In this week's portfolio, you can find the following:
+
+- RICE: My typical RICE report is found in the file 'RICE.txt'
+
+- Text: All of my notes on the readings this week, as well as some future project ideas, is found in 'Text.txt'
+
+- Code: My code this week is in the file 'shifts.clj'. I created a new program that set out to create an ideal work schedule based on availability times of the employees. 
+I was able to make the program work for a map of 6 employees, but have now run into trouble when expanding to 12 employees. 
+I was able to trace back the source of my error to my 'mutate' function, which I wrote to swap all times with multiple people booked with the time of another schedule. 
+The issue with this function is that it only takes two schedules, and doesn't handle more than two.
+When I try to run an evolve function, I run into an issue because of the limitations of my mutate.

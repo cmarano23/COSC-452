@@ -1,0 +1,7 @@
+Who: John Cox, Esteban Sanchez, Carson Marano
+When: 3/1 at 7:30PM
+Where: Zoom
+What: 
+- Esteban: Esteban worked on code to create an ideal practice schedule. His code takes in a list of peoples' available dates and then perform some sort of evolutionary algorithm to figure out what day works best for everyone. He said the code would perform as usual, but every now and then would run into an issue where the best date could not be found.
+-John: John discussed out he has a plan to create code that would take in a list of people, their ideal dorm placement, and their resulting happiness level based on a dorm to then find an ideal dorm placement for each person. He is still early in development of the code but is looking to use an evolutionary algorithm to get each person the happiest that they can be.
+- Carson: This week, I worked on code that would create an ideal work shift schedule based on peoples' availabilities and names. I was able to get my code to work on a smaller sample size of names and times, but my code currently only works if it is able to get the ideal schedule in the first generation. I was able to trace back the problem to find that it stems from my 'mutate' function. I am going to continue to work on it to see if I can fix the problem.
