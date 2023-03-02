@@ -39,6 +39,7 @@
 (defn numOverlaps
   "Finds the overlap between people in a schedule"
   [schedule]
+  (println "numOverlaps schedule: " schedule)
   (let [s (vals schedule)
         multiples (frequencies s)
         overmap (filter #(> % 1) (vals multiples))]
@@ -64,6 +65,9 @@
   (let [s (vals schedule)
         multiples (frequencies s)
         keys (keep #(if (> (val %) 1) (key %)) multiples)]
+    ;; (println "s: " s)
+    ;; (println "multiples: " multiples)
+    ;; (println "keys: " keys)
     keys))
 
 (findOverlapTimes (new-schedule availability))
@@ -116,61 +120,48 @@
         s2times (for [person s1peopleconcat] (get (second schedules) person))
         newMap (zipmap s1peopleconcat s2times)
         swapped (merge (first schedules) newMap)]
-    (println "s2times:" s2times)
-    (println "s1overlap:" s1overlap)
-    (println "s1people:" s1people)
-    (println "newMap:" newMap)
+    ;; (println "s2times:" s2times)
+    ;; (println "s1overlap:" s1overlap)
+    ;; (println "s1peopleconcat:" s1peopleconcat)
+    ;; (println "newMap:" newMap)
+    (println "swapped: " swapped)
     swapped))
 
 ;; Test the mutate function
 (let [s1 (new-schedule availability)
-      s2 (new-schedule availability)]
+      s2 (new-schedule availability)
+      s3 (new-schedule availability)
+      mu1 (mutate [s1 s2])
+      mu2 (mutate [mu1 s3])]
   (println "Schedule 1: " s1)
   (println "Schedule 2: " s2)
-  (println "Mutated: " (mutate [s1 s2])))
+  (println "Mutated: " mu2))
 
 (mutate [(new-schedule availability) (new-schedule availability)])
-
-;; Evolution function
-;; (defn evolve
-;;   "Runs a genetic algorithm, using the given population size and 
-;;    maximum number of generations, to find a good next set of RICE
-;;    groups. The population size should be an even number that is at
-;;    least 2, and it will be coerced to such a value if it isn't."
-;;   [popsize maxgens]
-;;   (let [ps (max 2 (if (odd? popsize)
-;;                     (inc popsize)
-;;                     popsize))]
-;;     (println "Population size:" ps)
-;;     (loop [generation 0
-;;            population (sort better (repeatedly ps (new-schedule availability)))]
-;;       (let [best (first population)]
-;;         (println "Generation:" generation ", least conflicts:" (numOverlaps best))
-;;         (if (or (zero? (numOverlaps best)) ;; found groups with no conflicts
-;;                 (>= generation maxgens)) ;; or tried for maxgens generations
-;;           (println "Success:" best)
-;;           (let [better-half (take (int (/ ps 2)) population)]
-;;             (recur
-;;              (inc generation)
-;;              (sort better (map mutate
-;;                                (concat better-half better-half))))))))))
 
 ;; evolution function from scratch
 (defn evolve
   "Runs an evolutionary algorithm"
   [maxgens]
   (loop [generation 0
-         population (sort better (repeatedly maxgens #(new-schedule availability)))]
+         population (vec (sort better (repeatedly 12 #(new-schedule availability))))]
     (let [best (first population)]
-      (println "Generation:" generation ", least conflicts:" (numOverlaps best))
+      (println "Generation:" generation ", least overlaps:" (numOverlaps best))
       (if (or (zero? (numOverlaps best)) ;; found groups with no conflicts
               (>= generation maxgens)) ;; or tried for maxgens generations
         (println "Success:" best)
-        (let [better-half (take (int (/ 100 2)) population)]
+        (let [better-half (take (int (/ 12 2)) population)
+              best-two (take 2 population)]
+          (println "best-two: " best-two)
+          (println "here")
+          ;; (println "sort thing: " (sort better (mutate best-two)))
           (recur
            (inc generation)
-           (sort better (map mutate
-                             (concat better-half better-half)))))))))
+           (sort better (mutate better-half))))))))
 
 ;; Test the evolve function
 (evolve 100)
+
+;; Error is coming from the mutate function only performing on first two schedules
+;; Thus, the numOverlaps function is receiving only a vector of a key and value instead of the entire map
+;; I need to figure out how to get the mutate function to perform on all schedules in the better-half vector
