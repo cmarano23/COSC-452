@@ -1,0 +1,8 @@
+In this week's portfolio, you can find the following:
+
+- RICE: My typical RICE report is found in the file 'RICE.txt'
+
+- Text: All of my notes on the readings this week, as well as some future project ideas, is found in 'Text.txt'
+
+- Code: My code this week is split between two files: 'shifts.clj' and 'cell.clj'. In 'shifts.clj', I was able to fix the error that I was receiving last week and developed three different evolution models with various changes between them. By changing aspects of the mutate function, I was able to make that work with a full set of schedules being read in. I then made three evolution models: 1) old-evolve which was based on the old-mutate function of the RICE group code 2) evolve which sorts the schedules then performs mutations on best two 3) random-evolve which uses random tournament selection to pick schedules and then mutate. Random-evolve was found to be the best because it never got caught in repetitive loops of any kind.
+The other file, 'cell.clj', is an implementation of cellular automata in Clojure. The program works by asking the user for a rule number, a number of rows to print, and the number of cells per row and then outputs the cellular automata based on these specifications. I am hoping to build off of this code in the future to incorporate	some sort of evolutionary algorithm into it.

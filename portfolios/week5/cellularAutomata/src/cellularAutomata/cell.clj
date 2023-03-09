@@ -31,8 +31,8 @@
   [ruleNum]
     (let [ruleNumBinary (Integer/toBinaryString ruleNum)]
         (if (< (count ruleNumBinary) 8)
-        (removeParentheses (str (repeat (- 8 (count ruleNumBinary)) 0) ruleNumBinary))
-        ruleNumBinary)))
+            (removeParentheses (str (repeat (- 8 (count ruleNumBinary)) 0) ruleNumBinary))
+            ruleNumBinary)))
 
 ;; Test the convertRuleToBinary function
 (convertRuleToBinary (askRule))

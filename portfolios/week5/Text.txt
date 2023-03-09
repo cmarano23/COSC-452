@@ -1,0 +1,19 @@
+Below, find some notes on readings this past week. All in all, the discussion / videos on push / propel / propeller were really interesting but a bit confusing to be honest.
+
+Propel and Propeller readme: 
+- Interesting concept and evolution from push
+- A little bit confused about differences between the two
+- Seems like propel is just a fork of Tom Helmuth's little Push GP implementation in Clojure
+- Would be interesting to think of project applications with Propeller
+
+An Even Quicker Introduction to the Push Programming Language:
+- Helps to clear up some confussion
+- Makes understanding push a lot easier when you get to walk through it here
+- Stack based
+
+Online Push Interpreter:
+- Really cool to be able to go through step by step
+- confusing to use from a human perspective, but I suppose thats why its supposed to be utilized by the computer
+
+Project Ideas:
+- I've been really thinking about how I can use evolution and GP to solve or understand cellular automata and I think one project idea could be to use these things to resolve what rule has been outputted and followed by the cellular automata.

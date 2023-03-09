@@ -1,0 +1,7 @@
+Who: Arjun Kejriwal, Megan Huang, Carson Marano
+When: 3/8 at 7:30PM
+Where: Zoom
+What: 
+- Arjun: Thought of a potential final project revolving around finance. He wants to optimize portfolios of different assets using a GP or evolutionary algorithm. He worked on cross over and variation functions to try and get the basis of Clojure GP work, and created a preliminary algorithm that would evaluate a portfolio based off profit. In the future, he is going to incorporate a lot more metrics / criteria to measure a portfolios worth.
+- Megan: She is wondering for applications of push or propeller and we got into a discussion on that. Furthermore, she is thinking of projects and wanting to focus her work on Logic and questions like the 3SAT problem. She mentioned implementing schema in an evolutionary algorithm and has been trying to work on that this past week but has run into issues with there evolve function. I suggested she may want to take a similar approach to how I resolved my problem last week.
+- Carson: I figured out the issues of my code from last week and was able to make my evolutionary algorithm work by using a tournament-selection model and closing schedules randomly. I then talked about how I had implemented cellular automata in Clojure and some of the troubles that I had to make it work, including how to figure out how to store previous rows in order to generate new ones with the immutable data structures.
