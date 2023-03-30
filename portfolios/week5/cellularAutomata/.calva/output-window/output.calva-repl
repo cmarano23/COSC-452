@@ -268,3 +268,4 @@ Please enter the number of cells per row (above 0):
 [■ ■ □ ■ ■ □ ■ □ □ □ □ □ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ □ ■]
 [[1 1 0 1 1 0 1 0 0 0 0 0 1 1 1 0 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 0 1 0 1]]
 clj꞉cellularAutomata.cell꞉> 
+; nREPL Connection was closed

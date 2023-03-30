@@ -1,0 +1,7 @@
+In this week's portfolio, focused on again doing research into papers on final projects and finishing the evolve function (as well as the mutate/crossover) of my cellular automata rule guesser. Figuring out the evolve function took a good chunk of time, as well as I was in the process of finishing my CS comp assignment this week. Below you can find a recap of each file:
+
+- RICE: My typical RICE report is found in the file 'RICE.txt'
+
+- Text: All of my notes project ideas and papers that I read on Cellular Automata, is found in 'Text.txt'
+
+- Code: In cell.clj, I built upon my code from last week and was able to get my evolve and the genetic algorithm to run correctly. The evolve function is called 'figureOutRuleWithEvo' and it works by first gathering all of the fitnesses for each rule, then sorting them so that the leading candidates are at the front of that list. Then we call crossover on the top two, check their fitness, and continue to repeat until we've found the rule. Each generation, the function outputs both the leading candidate and their fitness function.

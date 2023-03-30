@@ -75,29 +75,6 @@
 
 (findOverlapTimes (new-schedule availability))
 
-;; Function to find overlap between two schedules
-(defn conflicts
-  "Finds the conflicts between two schedules"
-  [schedule1 schedule2]
-  (let [s1 (set (vals schedule1))
-        s2 (set (vals schedule2))]
-    (count (clojure.set/intersection s1 s2))))
-
-;; Test the conflicts function
-(conflicts (new-schedule availability) (new-schedule availability))
-
-;; Function to test the conflicts function
-(defn test-conflicts
-  "Tests the conflicts function"
-  []
-  (let [s1 (new-schedule availability)
-        s2 (new-schedule availability)]
-    (println "Schedule 1: " s1)
-    (println "Schedule 2: " s2)
-    (println "conflicts: " (conflicts s1 s2))))
-
-(test-conflicts)
-
 (defn better
   "Returns true if the first schedule is better than second schedule, and false otherwise."
   [s1 s2]

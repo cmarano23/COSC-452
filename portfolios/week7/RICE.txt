@@ -1,0 +1,7 @@
+Who: Ian Husler Matute, Reihaneh Iranmanesh, Carson Marano
+When: 3/30 at 10AM
+Where: Zoom
+What: 
+- Ian: Ian spent the majority of his time this week brainstorming final project ideas and doing research into different topics that he'd like to explore. He was really trying to find good projects that could explore and have interesting results with genetic algorithms over typical ML algorithms that he has used before. Finally, he spent some time working with propeller.
+- Reihaneh: Reihaneh spent a lot of time looking into the applications of things that use both deep / machine learning and evolution as this is a final project interest. In addition, Reihaneh also dove into various hyper parameter optimization options for genetic programming, like lexicase selection. Finally, Reihaneh found some different datasets to test the hyper parameter optimization options on.
+- Carson: I was able to finish the evolution function for my 1D cellular automata rule guesser code that I had been working on. I also did a significant amount of research into CAs and final project ideas revolving around them. I also had to spend a good amount of time this week wrapping up my CS comp that was due on Wednesday.

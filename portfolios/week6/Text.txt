@@ -1,0 +1,39 @@
+This week and over spring break, I spent a lot of time reading papers on cellular automata projects involving Genetic Algorithms and evolutionary computation in addition to the assigned readings. Find my notes below:
+
+Some of the papers I read were:
+- Identifying Cellular Automata Rules (http://web.wakayama-u.ac.jp/~sakama/papers/jca07.pdf)
+- A symbiosis between cellular automata and genetic algorithms (https://www.sciencedirect.com/science/article/abs/pii/S0960077920301211)
+- Evolving Cellular Automata with Genetic Algorithms: A Review of Recent Work (https://melaniemitchell.me/PapersContent/evca-review.pdf)
+
+Now notes on readings:
+
+An Analysis of Selection in Genetic Programming
+- Tournament selection can date back to 1980s
+- standard samples k randomly for pop. N into tournament of k and selects best fitness
+- Couple examples of selection pressure in EA: takeover time, selection intensity, loss of diversity, reproduction rate
+- Other selections:
+ ~ roulette wheel selection
+ ~ ranking selection
+ ~ fitness uniform selection
+ ~ reserve selection
+
+Lexicase selection notes
+- Lexicase selection picks parents based on performance of training case errors rather than fitness metrics
+- Lexicase works well, but its still active area of study to understand why
+- Lexicase rarely uses majority of training cases --> efficient?
+- Blueprint for algo
+ 1) Candidates
+ 2) Cases
+ 3) Optional pre-selection candidates
+ 4) Loop
+    ~ discard candidates with lowest error for first case
+    ~ if one left, it is parent
+    ~ if only one case left, randomly choose a parent
+    ~ other --> remove first item from case
+- Specialists have low error on some training, and high on other
+
+Benchmarking Parent Selection for Program Synthesis by
+Genetic Programming
+- Down-sampled lexical selection was best
+- uniform was worst, with novelty search, fitness-proportionate, and Pareto tournament closely in front
+- lexicase-based selection outperformed almost all other parent selection methods

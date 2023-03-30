@@ -1,0 +1,2520 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: java -jar '/Users/carsonmarano/.vscode/extensions/betterthantomorrow.calva-2.0.340/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Using host:port localhost:54074 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (src/cellularAutomata/cell.clj:240:21).
+; Unable to resolve symbol: getFitness in this context
+clj꞉cellularAutomata.cell꞉> 
+; Evaluating file: cell.clj
+Please enter a rule number between 0 and 255: 
+Please enter a rule number between 0 and 255: 
+Please enter a rule number between 0 and 255: 
+Please enter a rule number between 0 and 255: 
+[□ □ □ □ ■ □ □ □ □]
+Please enter a rule number between 0 and 255: 
+Please enter a number of rows (above 0): 
+Please enter the number of cells per row (above 0): 
+[■]
+Generation:  0  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  1  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  2  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  3  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  4  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  5  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  6  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  7  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  8  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  9  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  10  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  11  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  12  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  13  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  14  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  15  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  16  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  17  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  18  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  19  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  20  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  21  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  22  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  23  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  24  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  25  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  26  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  27  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  28  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  29  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  30  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  31  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  32  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  33  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  34  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  35  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  36  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  37  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  38  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  39  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  40  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  41  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  42  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  43  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  44  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  45  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  46  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  47  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  48  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  49  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  50  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  51  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  52  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  53  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  54  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  55  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  56  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  57  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  58  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  59  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  60  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  61  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  62  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  63  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  64  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  65  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  66  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  67  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  68  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  69  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  70  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  71  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  72  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  73  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  74  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  75  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  76  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  77  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  78  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  79  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  80  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  81  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  82  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  83  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  84  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  85  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  86  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  87  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  88  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  89  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  90  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  91  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  92  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  93  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  94  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  95  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  96  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  97  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  98  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  99  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  100  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  1  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  2  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  3  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  4  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  5  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  6  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  7  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  8  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  9  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  10  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  11  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  12  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  13  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  14  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  15  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  16  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  17  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  18  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  19  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  20  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  21  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  22  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  23  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  24  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  25  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  26  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  27  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  28  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  29  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  30  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  31  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  32  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  33  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  34  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  35  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  36  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  37  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  38  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  39  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  40  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  41  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  42  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  43  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  44  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  45  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  46  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  47  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  48  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  49  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  50  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  51  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  52  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  53  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  54  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  55  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  56  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  57  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  58  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  59  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  60  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  61  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  62  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  63  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  64  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  65  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  66  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  67  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  68  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  69  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  70  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  71  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  72  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  73  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  74  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  75  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  76  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  77  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  78  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  79  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  80  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  81  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  82  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  83  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  84  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  85  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  86  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  87  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  88  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  89  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  90  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  91  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  92  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  93  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  94  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  95  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  96  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  97  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  98  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  99  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Generation:  100  Leading Candidate:  [69 1.0]  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  69  Fitness:  1.0
+Generation:  1  Leading Candidate:  69  Fitness:  1.0
+Generation:  2  Leading Candidate:  69  Fitness:  1.0
+Generation:  3  Leading Candidate:  69  Fitness:  1.0
+Generation:  4  Leading Candidate:  69  Fitness:  1.0
+Generation:  5  Leading Candidate:  69  Fitness:  1.0
+Generation:  6  Leading Candidate:  69  Fitness:  1.0
+Generation:  7  Leading Candidate:  69  Fitness:  1.0
+Generation:  8  Leading Candidate:  69  Fitness:  1.0
+Generation:  9  Leading Candidate:  69  Fitness:  1.0
+Generation:  10  Leading Candidate:  69  Fitness:  1.0
+Generation:  11  Leading Candidate:  69  Fitness:  1.0
+Generation:  12  Leading Candidate:  69  Fitness:  1.0
+Generation:  13  Leading Candidate:  69  Fitness:  1.0
+Generation:  14  Leading Candidate:  69  Fitness:  1.0
+Generation:  15  Leading Candidate:  69  Fitness:  1.0
+Generation:  16  Leading Candidate:  69  Fitness:  1.0
+Generation:  17  Leading Candidate:  69  Fitness:  1.0
+Generation:  18  Leading Candidate:  69  Fitness:  1.0
+Generation:  19  Leading Candidate:  69  Fitness:  1.0
+Generation:  20  Leading Candidate:  69  Fitness:  1.0
+Generation:  21  Leading Candidate:  69  Fitness:  1.0
+Generation:  22  Leading Candidate:  69  Fitness:  1.0
+Generation:  23  Leading Candidate:  69  Fitness:  1.0
+Generation:  24  Leading Candidate:  69  Fitness:  1.0
+Generation:  25  Leading Candidate:  69  Fitness:  1.0
+Generation:  26  Leading Candidate:  69  Fitness:  1.0
+Generation:  27  Leading Candidate:  69  Fitness:  1.0
+Generation:  28  Leading Candidate:  69  Fitness:  1.0
+Generation:  29  Leading Candidate:  69  Fitness:  1.0
+Generation:  30  Leading Candidate:  69  Fitness:  1.0
+Generation:  31  Leading Candidate:  69  Fitness:  1.0
+Generation:  32  Leading Candidate:  69  Fitness:  1.0
+Generation:  33  Leading Candidate:  69  Fitness:  1.0
+Generation:  34  Leading Candidate:  69  Fitness:  1.0
+Generation:  35  Leading Candidate:  69  Fitness:  1.0
+Generation:  36  Leading Candidate:  69  Fitness:  1.0
+Generation:  37  Leading Candidate:  69  Fitness:  1.0
+Generation:  38  Leading Candidate:  69  Fitness:  1.0
+Generation:  39  Leading Candidate:  69  Fitness:  1.0
+Generation:  40  Leading Candidate:  69  Fitness:  1.0
+Generation:  41  Leading Candidate:  69  Fitness:  1.0
+Generation:  42  Leading Candidate:  69  Fitness:  1.0
+Generation:  43  Leading Candidate:  69  Fitness:  1.0
+Generation:  44  Leading Candidate:  69  Fitness:  1.0
+Generation:  45  Leading Candidate:  69  Fitness:  1.0
+Generation:  46  Leading Candidate:  69  Fitness:  1.0
+Generation:  47  Leading Candidate:  69  Fitness:  1.0
+Generation:  48  Leading Candidate:  69  Fitness:  1.0
+Generation:  49  Leading Candidate:  69  Fitness:  1.0
+Generation:  50  Leading Candidate:  69  Fitness:  1.0
+Generation:  51  Leading Candidate:  69  Fitness:  1.0
+Generation:  52  Leading Candidate:  69  Fitness:  1.0
+Generation:  53  Leading Candidate:  69  Fitness:  1.0
+Generation:  54  Leading Candidate:  69  Fitness:  1.0
+Generation:  55  Leading Candidate:  69  Fitness:  1.0
+Generation:  56  Leading Candidate:  69  Fitness:  1.0
+Generation:  57  Leading Candidate:  69  Fitness:  1.0
+Generation:  58  Leading Candidate:  69  Fitness:  1.0
+Generation:  59  Leading Candidate:  69  Fitness:  1.0
+Generation:  60  Leading Candidate:  69  Fitness:  1.0
+Generation:  61  Leading Candidate:  69  Fitness:  1.0
+Generation:  62  Leading Candidate:  69  Fitness:  1.0
+Generation:  63  Leading Candidate:  69  Fitness:  1.0
+Generation:  64  Leading Candidate:  69  Fitness:  1.0
+Generation:  65  Leading Candidate:  69  Fitness:  1.0
+Generation:  66  Leading Candidate:  69  Fitness:  1.0
+Generation:  67  Leading Candidate:  69  Fitness:  1.0
+Generation:  68  Leading Candidate:  69  Fitness:  1.0
+Generation:  69  Leading Candidate:  69  Fitness:  1.0
+Generation:  70  Leading Candidate:  69  Fitness:  1.0
+Generation:  71  Leading Candidate:  69  Fitness:  1.0
+Generation:  72  Leading Candidate:  69  Fitness:  1.0
+Generation:  73  Leading Candidate:  69  Fitness:  1.0
+Generation:  74  Leading Candidate:  69  Fitness:  1.0
+Generation:  75  Leading Candidate:  69  Fitness:  1.0
+Generation:  76  Leading Candidate:  69  Fitness:  1.0
+Generation:  77  Leading Candidate:  69  Fitness:  1.0
+Generation:  78  Leading Candidate:  69  Fitness:  1.0
+Generation:  79  Leading Candidate:  69  Fitness:  1.0
+Generation:  80  Leading Candidate:  69  Fitness:  1.0
+Generation:  81  Leading Candidate:  69  Fitness:  1.0
+Generation:  82  Leading Candidate:  69  Fitness:  1.0
+Generation:  83  Leading Candidate:  69  Fitness:  1.0
+Generation:  84  Leading Candidate:  69  Fitness:  1.0
+Generation:  85  Leading Candidate:  69  Fitness:  1.0
+Generation:  86  Leading Candidate:  69  Fitness:  1.0
+Generation:  87  Leading Candidate:  69  Fitness:  1.0
+Generation:  88  Leading Candidate:  69  Fitness:  1.0
+Generation:  89  Leading Candidate:  69  Fitness:  1.0
+Generation:  90  Leading Candidate:  69  Fitness:  1.0
+Generation:  91  Leading Candidate:  69  Fitness:  1.0
+Generation:  92  Leading Candidate:  69  Fitness:  1.0
+Generation:  93  Leading Candidate:  69  Fitness:  1.0
+Generation:  94  Leading Candidate:  69  Fitness:  1.0
+Generation:  95  Leading Candidate:  69  Fitness:  1.0
+Generation:  96  Leading Candidate:  69  Fitness:  1.0
+Generation:  97  Leading Candidate:  69  Fitness:  1.0
+Generation:  98  Leading Candidate:  69  Fitness:  1.0
+Generation:  99  Leading Candidate:  69  Fitness:  1.0
+Generation:  100  Leading Candidate:  69  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  69  Fitness:  1.0
+Generation:  1  Leading Candidate:  177  Fitness:  1.0
+Generation:  2  Leading Candidate:  197  Fitness:  1.0
+Generation:  3  Leading Candidate:  141  Fitness:  1.0
+Generation:  4  Leading Candidate:  69  Fitness:  1.0
+Generation:  5  Leading Candidate:  57  Fitness:  1.0
+Generation:  6  Leading Candidate:  163  Fitness:  1.0
+Generation:  7  Leading Candidate:  13  Fitness:  1.0
+Generation:  8  Leading Candidate:  141  Fitness:  1.0
+Generation:  9  Leading Candidate:  99  Fitness:  1.0
+Generation:  10  Leading Candidate:  57  Fitness:  1.0
+Generation:  11  Leading Candidate:  135  Fitness:  1.0
+Generation:  12  Leading Candidate:  177  Fitness:  1.0
+Generation:  13  Leading Candidate:  163  Fitness:  1.0
+Generation:  14  Leading Candidate:  149  Fitness:  1.0
+Generation:  15  Leading Candidate:  141  Fitness:  1.0
+Generation:  16  Leading Candidate:  149  Fitness:  1.0
+Generation:  17  Leading Candidate:  99  Fitness:  1.0
+Generation:  18  Leading Candidate:  99  Fitness:  1.0
+Generation:  19  Leading Candidate:  197  Fitness:  1.0
+Generation:  20  Leading Candidate:  149  Fitness:  1.0
+Generation:  21  Leading Candidate:  57  Fitness:  1.0
+Generation:  22  Leading Candidate:  77  Fitness:  1.0
+Generation:  23  Leading Candidate:  177  Fitness:  1.0
+Generation:  24  Leading Candidate:  13  Fitness:  1.0
+Generation:  25  Leading Candidate:  13  Fitness:  1.0
+Generation:  26  Leading Candidate:  177  Fitness:  1.0
+Generation:  27  Leading Candidate:  69  Fitness:  1.0
+Generation:  28  Leading Candidate:  13  Fitness:  1.0
+Generation:  29  Leading Candidate:  77  Fitness:  1.0
+Generation:  30  Leading Candidate:  57  Fitness:  1.0
+Generation:  31  Leading Candidate:  77  Fitness:  1.0
+Generation:  32  Leading Candidate:  57  Fitness:  1.0
+Generation:  33  Leading Candidate:  149  Fitness:  1.0
+Generation:  34  Leading Candidate:  197  Fitness:  1.0
+Generation:  35  Leading Candidate:  57  Fitness:  1.0
+Generation:  36  Leading Candidate:  177  Fitness:  1.0
+Generation:  37  Leading Candidate:  197  Fitness:  1.0
+Generation:  38  Leading Candidate:  149  Fitness:  1.0
+Generation:  39  Leading Candidate:  13  Fitness:  1.0
+Generation:  40  Leading Candidate:  149  Fitness:  1.0
+Generation:  41  Leading Candidate:  99  Fitness:  1.0
+Generation:  42  Leading Candidate:  69  Fitness:  1.0
+Generation:  43  Leading Candidate:  69  Fitness:  1.0
+Generation:  44  Leading Candidate:  149  Fitness:  1.0
+Generation:  45  Leading Candidate:  13  Fitness:  1.0
+Generation:  46  Leading Candidate:  149  Fitness:  1.0
+Generation:  47  Leading Candidate:  99  Fitness:  1.0
+Generation:  48  Leading Candidate:  69  Fitness:  1.0
+Generation:  49  Leading Candidate:  99  Fitness:  1.0
+Generation:  50  Leading Candidate:  77  Fitness:  1.0
+Generation:  51  Leading Candidate:  69  Fitness:  1.0
+Generation:  52  Leading Candidate:  57  Fitness:  1.0
+Generation:  53  Leading Candidate:  99  Fitness:  1.0
+Generation:  54  Leading Candidate:  57  Fitness:  1.0
+Generation:  55  Leading Candidate:  13  Fitness:  1.0
+Generation:  56  Leading Candidate:  77  Fitness:  1.0
+Generation:  57  Leading Candidate:  163  Fitness:  1.0
+Generation:  58  Leading Candidate:  141  Fitness:  1.0
+Generation:  59  Leading Candidate:  163  Fitness:  1.0
+Generation:  60  Leading Candidate:  149  Fitness:  1.0
+Generation:  61  Leading Candidate:  141  Fitness:  1.0
+Generation:  62  Leading Candidate:  99  Fitness:  1.0
+Generation:  63  Leading Candidate:  77  Fitness:  1.0
+Generation:  64  Leading Candidate:  77  Fitness:  1.0
+Generation:  65  Leading Candidate:  99  Fitness:  1.0
+Generation:  66  Leading Candidate:  69  Fitness:  1.0
+Generation:  67  Leading Candidate:  177  Fitness:  1.0
+Generation:  68  Leading Candidate:  99  Fitness:  1.0
+Generation:  69  Leading Candidate:  177  Fitness:  1.0
+Generation:  70  Leading Candidate:  197  Fitness:  1.0
+Generation:  71  Leading Candidate:  197  Fitness:  1.0
+Generation:  72  Leading Candidate:  149  Fitness:  1.0
+Generation:  73  Leading Candidate:  99  Fitness:  1.0
+Generation:  74  Leading Candidate:  177  Fitness:  1.0
+Generation:  75  Leading Candidate:  149  Fitness:  1.0
+Generation:  76  Leading Candidate:  141  Fitness:  1.0
+Generation:  77  Leading Candidate:  69  Fitness:  1.0
+Generation:  78  Leading Candidate:  197  Fitness:  1.0
+Generation:  79  Leading Candidate:  149  Fitness:  1.0
+Generation:  80  Leading Candidate:  149  Fitness:  1.0
+Generation:  81  Leading Candidate:  77  Fitness:  1.0
+Generation:  82  Leading Candidate:  69  Fitness:  1.0
+Generation:  83  Leading Candidate:  57  Fitness:  1.0
+Generation:  84  Leading Candidate:  197  Fitness:  1.0
+Generation:  85  Leading Candidate:  177  Fitness:  1.0
+Generation:  86  Leading Candidate:  57  Fitness:  1.0
+Generation:  87  Leading Candidate:  149  Fitness:  1.0
+Generation:  88  Leading Candidate:  177  Fitness:  1.0
+Generation:  89  Leading Candidate:  77  Fitness:  1.0
+Generation:  90  Leading Candidate:  77  Fitness:  1.0
+Generation:  91  Leading Candidate:  163  Fitness:  1.0
+Generation:  92  Leading Candidate:  141  Fitness:  1.0
+Generation:  93  Leading Candidate:  57  Fitness:  1.0
+Generation:  94  Leading Candidate:  135  Fitness:  1.0
+Generation:  95  Leading Candidate:  197  Fitness:  1.0
+Generation:  96  Leading Candidate:  57  Fitness:  1.0
+Generation:  97  Leading Candidate:  57  Fitness:  1.0
+Generation:  98  Leading Candidate:  69  Fitness:  1.0
+Generation:  99  Leading Candidate:  177  Fitness:  1.0
+Generation:  100  Leading Candidate:  141  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  141  Fitness:  1.0
+Generation:  1  Leading Candidate:  197  Fitness:  1.0
+Generation:  2  Leading Candidate:  135  Fitness:  1.0
+Generation:  3  Leading Candidate:  69  Fitness:  1.0
+Generation:  4  Leading Candidate:  13  Fitness:  1.0
+Generation:  5  Leading Candidate:  77  Fitness:  1.0
+Generation:  6  Leading Candidate:  135  Fitness:  1.0
+Generation:  7  Leading Candidate:  99  Fitness:  1.0
+Generation:  8  Leading Candidate:  197  Fitness:  1.0
+Generation:  9  Leading Candidate:  197  Fitness:  1.0
+Generation:  10  Leading Candidate:  197  Fitness:  1.0
+Generation:  11  Leading Candidate:  135  Fitness:  1.0
+Generation:  12  Leading Candidate:  69  Fitness:  1.0
+Generation:  13  Leading Candidate:  135  Fitness:  1.0
+Generation:  14  Leading Candidate:  99  Fitness:  1.0
+Generation:  15  Leading Candidate:  13  Fitness:  1.0
+Generation:  16  Leading Candidate:  197  Fitness:  1.0
+Generation:  17  Leading Candidate:  69  Fitness:  1.0
+Generation:  18  Leading Candidate:  69  Fitness:  1.0
+Generation:  19  Leading Candidate:  135  Fitness:  1.0
+Generation:  20  Leading Candidate:  141  Fitness:  1.0
+Generation:  21  Leading Candidate:  149  Fitness:  1.0
+Generation:  22  Leading Candidate:  135  Fitness:  1.0
+Generation:  23  Leading Candidate:  69  Fitness:  1.0
+Generation:  24  Leading Candidate:  135  Fitness:  1.0
+Generation:  25  Leading Candidate:  13  Fitness:  1.0
+Generation:  26  Leading Candidate:  163  Fitness:  1.0
+Generation:  27  Leading Candidate:  177  Fitness:  1.0
+Generation:  28  Leading Candidate:  135  Fitness:  1.0
+Generation:  29  Leading Candidate:  135  Fitness:  1.0
+Generation:  30  Leading Candidate:  149  Fitness:  1.0
+Generation:  31  Leading Candidate:  77  Fitness:  1.0
+Generation:  32  Leading Candidate:  177  Fitness:  1.0
+Generation:  33  Leading Candidate:  135  Fitness:  1.0
+Generation:  34  Leading Candidate:  69  Fitness:  1.0
+Generation:  35  Leading Candidate:  77  Fitness:  1.0
+Generation:  36  Leading Candidate:  77  Fitness:  1.0
+Generation:  37  Leading Candidate:  163  Fitness:  1.0
+Generation:  38  Leading Candidate:  163  Fitness:  1.0
+Generation:  39  Leading Candidate:  69  Fitness:  1.0
+Generation:  40  Leading Candidate:  99  Fitness:  1.0
+Generation:  41  Leading Candidate:  163  Fitness:  1.0
+Generation:  42  Leading Candidate:  99  Fitness:  1.0
+Generation:  43  Leading Candidate:  77  Fitness:  1.0
+Generation:  44  Leading Candidate:  99  Fitness:  1.0
+Generation:  45  Leading Candidate:  149  Fitness:  1.0
+Generation:  46  Leading Candidate:  141  Fitness:  1.0
+Generation:  47  Leading Candidate:  57  Fitness:  1.0
+Generation:  48  Leading Candidate:  141  Fitness:  1.0
+Generation:  49  Leading Candidate:  141  Fitness:  1.0
+Generation:  50  Leading Candidate:  57  Fitness:  1.0
+Generation:  51  Leading Candidate:  135  Fitness:  1.0
+Generation:  52  Leading Candidate:  149  Fitness:  1.0
+Generation:  53  Leading Candidate:  163  Fitness:  1.0
+Generation:  54  Leading Candidate:  57  Fitness:  1.0
+Generation:  55  Leading Candidate:  177  Fitness:  1.0
+Generation:  56  Leading Candidate:  149  Fitness:  1.0
+Generation:  57  Leading Candidate:  163  Fitness:  1.0
+Generation:  58  Leading Candidate:  149  Fitness:  1.0
+Generation:  59  Leading Candidate:  197  Fitness:  1.0
+Generation:  60  Leading Candidate:  135  Fitness:  1.0
+Generation:  61  Leading Candidate:  163  Fitness:  1.0
+Generation:  62  Leading Candidate:  69  Fitness:  1.0
+Generation:  63  Leading Candidate:  13  Fitness:  1.0
+Generation:  64  Leading Candidate:  135  Fitness:  1.0
+Generation:  65  Leading Candidate:  135  Fitness:  1.0
+Generation:  66  Leading Candidate:  177  Fitness:  1.0
+Generation:  67  Leading Candidate:  57  Fitness:  1.0
+Generation:  68  Leading Candidate:  69  Fitness:  1.0
+Generation:  69  Leading Candidate:  13  Fitness:  1.0
+Generation:  70  Leading Candidate:  141  Fitness:  1.0
+Generation:  71  Leading Candidate:  99  Fitness:  1.0
+Generation:  72  Leading Candidate:  77  Fitness:  1.0
+Generation:  73  Leading Candidate:  57  Fitness:  1.0
+Generation:  74  Leading Candidate:  141  Fitness:  1.0
+Generation:  75  Leading Candidate:  13  Fitness:  1.0
+Generation:  76  Leading Candidate:  163  Fitness:  1.0
+Generation:  77  Leading Candidate:  13  Fitness:  1.0
+Generation:  78  Leading Candidate:  197  Fitness:  1.0
+Generation:  79  Leading Candidate:  99  Fitness:  1.0
+Generation:  80  Leading Candidate:  163  Fitness:  1.0
+Generation:  81  Leading Candidate:  163  Fitness:  1.0
+Generation:  82  Leading Candidate:  141  Fitness:  1.0
+Generation:  83  Leading Candidate:  13  Fitness:  1.0
+Generation:  84  Leading Candidate:  177  Fitness:  1.0
+Generation:  85  Leading Candidate:  141  Fitness:  1.0
+Generation:  86  Leading Candidate:  141  Fitness:  1.0
+Generation:  87  Leading Candidate:  197  Fitness:  1.0
+Generation:  88  Leading Candidate:  149  Fitness:  1.0
+Generation:  89  Leading Candidate:  99  Fitness:  1.0
+Generation:  90  Leading Candidate:  99  Fitness:  1.0
+Generation:  91  Leading Candidate:  57  Fitness:  1.0
+Generation:  92  Leading Candidate:  57  Fitness:  1.0
+Generation:  93  Leading Candidate:  163  Fitness:  1.0
+Generation:  94  Leading Candidate:  163  Fitness:  1.0
+Generation:  95  Leading Candidate:  141  Fitness:  1.0
+Generation:  96  Leading Candidate:  77  Fitness:  1.0
+Generation:  97  Leading Candidate:  99  Fitness:  1.0
+Generation:  98  Leading Candidate:  135  Fitness:  1.0
+Generation:  99  Leading Candidate:  149  Fitness:  1.0
+Generation:  100  Leading Candidate:  177  Fitness:  1.0
+Generation:  101  Leading Candidate:  149  Fitness:  1.0
+Generation:  102  Leading Candidate:  77  Fitness:  1.0
+Generation:  103  Leading Candidate:  13  Fitness:  1.0
+Generation:  104  Leading Candidate:  69  Fitness:  1.0
+Generation:  105  Leading Candidate:  69  Fitness:  1.0
+Generation:  106  Leading Candidate:  69  Fitness:  1.0
+Generation:  107  Leading Candidate:  69  Fitness:  1.0
+Generation:  108  Leading Candidate:  163  Fitness:  1.0
+Generation:  109  Leading Candidate:  99  Fitness:  1.0
+Generation:  110  Leading Candidate:  99  Fitness:  1.0
+Generation:  111  Leading Candidate:  57  Fitness:  1.0
+Generation:  112  Leading Candidate:  69  Fitness:  1.0
+Generation:  113  Leading Candidate:  141  Fitness:  1.0
+Generation:  114  Leading Candidate:  149  Fitness:  1.0
+Generation:  115  Leading Candidate:  69  Fitness:  1.0
+Generation:  116  Leading Candidate:  177  Fitness:  1.0
+Generation:  117  Leading Candidate:  135  Fitness:  1.0
+Generation:  118  Leading Candidate:  99  Fitness:  1.0
+Generation:  119  Leading Candidate:  141  Fitness:  1.0
+Generation:  120  Leading Candidate:  57  Fitness:  1.0
+Generation:  121  Leading Candidate:  163  Fitness:  1.0
+Generation:  122  Leading Candidate:  135  Fitness:  1.0
+Generation:  123  Leading Candidate:  99  Fitness:  1.0
+Generation:  124  Leading Candidate:  69  Fitness:  1.0
+Generation:  125  Leading Candidate:  69  Fitness:  1.0
+Generation:  126  Leading Candidate:  77  Fitness:  1.0
+Generation:  127  Leading Candidate:  99  Fitness:  1.0
+Generation:  128  Leading Candidate:  99  Fitness:  1.0
+Generation:  129  Leading Candidate:  135  Fitness:  1.0
+Generation:  130  Leading Candidate:  177  Fitness:  1.0
+Generation:  131  Leading Candidate:  69  Fitness:  1.0
+Generation:  132  Leading Candidate:  141  Fitness:  1.0
+Generation:  133  Leading Candidate:  177  Fitness:  1.0
+Generation:  134  Leading Candidate:  13  Fitness:  1.0
+Generation:  135  Leading Candidate:  77  Fitness:  1.0
+Generation:  136  Leading Candidate:  13  Fitness:  1.0
+Generation:  137  Leading Candidate:  69  Fitness:  1.0
+Generation:  138  Leading Candidate:  57  Fitness:  1.0
+Generation:  139  Leading Candidate:  197  Fitness:  1.0
+Generation:  140  Leading Candidate:  149  Fitness:  1.0
+Generation:  141  Leading Candidate:  77  Fitness:  1.0
+Generation:  142  Leading Candidate:  57  Fitness:  1.0
+Generation:  143  Leading Candidate:  149  Fitness:  1.0
+Generation:  144  Leading Candidate:  69  Fitness:  1.0
+Generation:  145  Leading Candidate:  197  Fitness:  1.0
+Generation:  146  Leading Candidate:  197  Fitness:  1.0
+Generation:  147  Leading Candidate:  141  Fitness:  1.0
+Generation:  148  Leading Candidate:  177  Fitness:  1.0
+Generation:  149  Leading Candidate:  149  Fitness:  1.0
+Generation:  150  Leading Candidate:  13  Fitness:  1.0
+Generation:  151  Leading Candidate:  77  Fitness:  1.0
+Generation:  152  Leading Candidate:  99  Fitness:  1.0
+Generation:  153  Leading Candidate:  99  Fitness:  1.0
+Generation:  154  Leading Candidate:  141  Fitness:  1.0
+Generation:  155  Leading Candidate:  69  Fitness:  1.0
+Generation:  156  Leading Candidate:  135  Fitness:  1.0
+Generation:  157  Leading Candidate:  141  Fitness:  1.0
+Generation:  158  Leading Candidate:  57  Fitness:  1.0
+Generation:  159  Leading Candidate:  99  Fitness:  1.0
+Generation:  160  Leading Candidate:  163  Fitness:  1.0
+Generation:  161  Leading Candidate:  197  Fitness:  1.0
+Generation:  162  Leading Candidate:  69  Fitness:  1.0
+Generation:  163  Leading Candidate:  149  Fitness:  1.0
+Generation:  164  Leading Candidate:  77  Fitness:  1.0
+Generation:  165  Leading Candidate:  69  Fitness:  1.0
+Generation:  166  Leading Candidate:  141  Fitness:  1.0
+Generation:  167  Leading Candidate:  163  Fitness:  1.0
+Generation:  168  Leading Candidate:  13  Fitness:  1.0
+Generation:  169  Leading Candidate:  149  Fitness:  1.0
+Generation:  170  Leading Candidate:  57  Fitness:  1.0
+Generation:  171  Leading Candidate:  177  Fitness:  1.0
+Generation:  172  Leading Candidate:  57  Fitness:  1.0
+Generation:  173  Leading Candidate:  177  Fitness:  1.0
+Generation:  174  Leading Candidate:  69  Fitness:  1.0
+Generation:  175  Leading Candidate:  163  Fitness:  1.0
+Generation:  176  Leading Candidate:  77  Fitness:  1.0
+Generation:  177  Leading Candidate:  149  Fitness:  1.0
+Generation:  178  Leading Candidate:  57  Fitness:  1.0
+Generation:  179  Leading Candidate:  99  Fitness:  1.0
+Generation:  180  Leading Candidate:  197  Fitness:  1.0
+Generation:  181  Leading Candidate:  13  Fitness:  1.0
+Generation:  182  Leading Candidate:  197  Fitness:  1.0
+Generation:  183  Leading Candidate:  141  Fitness:  1.0
+Generation:  184  Leading Candidate:  149  Fitness:  1.0
+Generation:  185  Leading Candidate:  163  Fitness:  1.0
+Generation:  186  Leading Candidate:  69  Fitness:  1.0
+Generation:  187  Leading Candidate:  77  Fitness:  1.0
+Generation:  188  Leading Candidate:  77  Fitness:  1.0
+Generation:  189  Leading Candidate:  13  Fitness:  1.0
+Generation:  190  Leading Candidate:  57  Fitness:  1.0
+Generation:  191  Leading Candidate:  163  Fitness:  1.0
+Generation:  192  Leading Candidate:  163  Fitness:  1.0
+Generation:  193  Leading Candidate:  141  Fitness:  1.0
+Generation:  194  Leading Candidate:  177  Fitness:  1.0
+Generation:  195  Leading Candidate:  197  Fitness:  1.0
+Generation:  196  Leading Candidate:  149  Fitness:  1.0
+Generation:  197  Leading Candidate:  13  Fitness:  1.0
+Generation:  198  Leading Candidate:  135  Fitness:  1.0
+Generation:  199  Leading Candidate:  141  Fitness:  1.0
+Generation:  200  Leading Candidate:  99  Fitness:  1.0
+Generation:  201  Leading Candidate:  197  Fitness:  1.0
+Generation:  202  Leading Candidate:  99  Fitness:  1.0
+Generation:  203  Leading Candidate:  69  Fitness:  1.0
+Generation:  204  Leading Candidate:  13  Fitness:  1.0
+Generation:  205  Leading Candidate:  141  Fitness:  1.0
+Generation:  206  Leading Candidate:  149  Fitness:  1.0
+Generation:  207  Leading Candidate:  57  Fitness:  1.0
+Generation:  208  Leading Candidate:  177  Fitness:  1.0
+Generation:  209  Leading Candidate:  13  Fitness:  1.0
+Generation:  210  Leading Candidate:  141  Fitness:  1.0
+Generation:  211  Leading Candidate:  69  Fitness:  1.0
+Generation:  212  Leading Candidate:  77  Fitness:  1.0
+Generation:  213  Leading Candidate:  13  Fitness:  1.0
+Generation:  214  Leading Candidate:  149  Fitness:  1.0
+Generation:  215  Leading Candidate:  135  Fitness:  1.0
+Generation:  216  Leading Candidate:  177  Fitness:  1.0
+Generation:  217  Leading Candidate:  13  Fitness:  1.0
+Generation:  218  Leading Candidate:  69  Fitness:  1.0
+Generation:  219  Leading Candidate:  57  Fitness:  1.0
+Generation:  220  Leading Candidate:  77  Fitness:  1.0
+Generation:  221  Leading Candidate:  149  Fitness:  1.0
+Generation:  222  Leading Candidate:  177  Fitness:  1.0
+Generation:  223  Leading Candidate:  69  Fitness:  1.0
+Generation:  224  Leading Candidate:  197  Fitness:  1.0
+Generation:  225  Leading Candidate:  163  Fitness:  1.0
+Generation:  226  Leading Candidate:  135  Fitness:  1.0
+Generation:  227  Leading Candidate:  149  Fitness:  1.0
+Generation:  228  Leading Candidate:  149  Fitness:  1.0
+Generation:  229  Leading Candidate:  99  Fitness:  1.0
+Generation:  230  Leading Candidate:  99  Fitness:  1.0
+Generation:  231  Leading Candidate:  13  Fitness:  1.0
+Generation:  232  Leading Candidate:  135  Fitness:  1.0
+Generation:  233  Leading Candidate:  135  Fitness:  1.0
+Generation:  234  Leading Candidate:  77  Fitness:  1.0
+Generation:  235  Leading Candidate:  69  Fitness:  1.0
+Generation:  236  Leading Candidate:  13  Fitness:  1.0
+Generation:  237  Leading Candidate:  149  Fitness:  1.0
+Generation:  238  Leading Candidate:  99  Fitness:  1.0
+Generation:  239  Leading Candidate:  69  Fitness:  1.0
+Generation:  240  Leading Candidate:  99  Fitness:  1.0
+Generation:  241  Leading Candidate:  57  Fitness:  1.0
+Generation:  242  Leading Candidate:  57  Fitness:  1.0
+Generation:  243  Leading Candidate:  99  Fitness:  1.0
+Generation:  244  Leading Candidate:  99  Fitness:  1.0
+Generation:  245  Leading Candidate:  149  Fitness:  1.0
+Generation:  246  Leading Candidate:  77  Fitness:  1.0
+Generation:  247  Leading Candidate:  177  Fitness:  1.0
+Generation:  248  Leading Candidate:  57  Fitness:  1.0
+Generation:  249  Leading Candidate:  77  Fitness:  1.0
+Generation:  250  Leading Candidate:  163  Fitness:  1.0
+Generation:  251  Leading Candidate:  177  Fitness:  1.0
+Generation:  252  Leading Candidate:  57  Fitness:  1.0
+Generation:  253  Leading Candidate:  149  Fitness:  1.0
+Generation:  254  Leading Candidate:  177  Fitness:  1.0
+Generation:  255  Leading Candidate:  149  Fitness:  1.0
+Generation:  256  Leading Candidate:  69  Fitness:  1.0
+Generation:  257  Leading Candidate:  57  Fitness:  1.0
+Generation:  258  Leading Candidate:  57  Fitness:  1.0
+Generation:  259  Leading Candidate:  99  Fitness:  1.0
+Generation:  260  Leading Candidate:  135  Fitness:  1.0
+Generation:  261  Leading Candidate:  149  Fitness:  1.0
+Generation:  262  Leading Candidate:  135  Fitness:  1.0
+Generation:  263  Leading Candidate:  197  Fitness:  1.0
+Generation:  264  Leading Candidate:  99  Fitness:  1.0
+Generation:  265  Leading Candidate:  69  Fitness:  1.0
+Generation:  266  Leading Candidate:  135  Fitness:  1.0
+Generation:  267  Leading Candidate:  163  Fitness:  1.0
+Generation:  268  Leading Candidate:  149  Fitness:  1.0
+Generation:  269  Leading Candidate:  57  Fitness:  1.0
+Generation:  270  Leading Candidate:  57  Fitness:  1.0
+Generation:  271  Leading Candidate:  69  Fitness:  1.0
+Generation:  272  Leading Candidate:  149  Fitness:  1.0
+Generation:  273  Leading Candidate:  197  Fitness:  1.0
+Generation:  274  Leading Candidate:  77  Fitness:  1.0
+Generation:  275  Leading Candidate:  197  Fitness:  1.0
+Generation:  276  Leading Candidate:  99  Fitness:  1.0
+Generation:  277  Leading Candidate:  135  Fitness:  1.0
+Generation:  278  Leading Candidate:  141  Fitness:  1.0
+Generation:  279  Leading Candidate:  69  Fitness:  1.0
+Generation:  280  Leading Candidate:  13  Fitness:  1.0
+Generation:  281  Leading Candidate:  57  Fitness:  1.0
+Generation:  282  Leading Candidate:  163  Fitness:  1.0
+Generation:  283  Leading Candidate:  163  Fitness:  1.0
+Generation:  284  Leading Candidate:  177  Fitness:  1.0
+Generation:  285  Leading Candidate:  135  Fitness:  1.0
+Generation:  286  Leading Candidate:  57  Fitness:  1.0
+Generation:  287  Leading Candidate:  57  Fitness:  1.0
+Generation:  288  Leading Candidate:  141  Fitness:  1.0
+Generation:  289  Leading Candidate:  149  Fitness:  1.0
+Generation:  290  Leading Candidate:  57  Fitness:  1.0
+Generation:  291  Leading Candidate:  57  Fitness:  1.0
+Generation:  292  Leading Candidate:  177  Fitness:  1.0
+Generation:  293  Leading Candidate:  77  Fitness:  1.0
+Generation:  294  Leading Candidate:  135  Fitness:  1.0
+Generation:  295  Leading Candidate:  57  Fitness:  1.0
+Generation:  296  Leading Candidate:  77  Fitness:  1.0
+Generation:  297  Leading Candidate:  69  Fitness:  1.0
+Generation:  298  Leading Candidate:  13  Fitness:  1.0
+Generation:  299  Leading Candidate:  197  Fitness:  1.0
+Generation:  300  Leading Candidate:  177  Fitness:  1.0
+Generation:  301  Leading Candidate:  141  Fitness:  1.0
+Generation:  302  Leading Candidate:  177  Fitness:  1.0
+Generation:  303  Leading Candidate:  57  Fitness:  1.0
+Generation:  304  Leading Candidate:  177  Fitness:  1.0
+Generation:  305  Leading Candidate:  99  Fitness:  1.0
+Generation:  306  Leading Candidate:  141  Fitness:  1.0
+Generation:  307  Leading Candidate:  141  Fitness:  1.0
+Generation:  308  Leading Candidate:  197  Fitness:  1.0
+Generation:  309  Leading Candidate:  69  Fitness:  1.0
+Generation:  310  Leading Candidate:  141  Fitness:  1.0
+Generation:  311  Leading Candidate:  149  Fitness:  1.0
+Generation:  312  Leading Candidate:  163  Fitness:  1.0
+Generation:  313  Leading Candidate:  69  Fitness:  1.0
+Generation:  314  Leading Candidate:  197  Fitness:  1.0
+Generation:  315  Leading Candidate:  177  Fitness:  1.0
+Generation:  316  Leading Candidate:  177  Fitness:  1.0
+Generation:  317  Leading Candidate:  149  Fitness:  1.0
+Generation:  318  Leading Candidate:  141  Fitness:  1.0
+Generation:  319  Leading Candidate:  99  Fitness:  1.0
+Generation:  320  Leading Candidate:  149  Fitness:  1.0
+Generation:  321  Leading Candidate:  177  Fitness:  1.0
+Generation:  322  Leading Candidate:  77  Fitness:  1.0
+Generation:  323  Leading Candidate:  57  Fitness:  1.0
+Generation:  324  Leading Candidate:  69  Fitness:  1.0
+Generation:  325  Leading Candidate:  149  Fitness:  1.0
+Generation:  326  Leading Candidate:  99  Fitness:  1.0
+Generation:  327  Leading Candidate:  149  Fitness:  1.0
+Generation:  328  Leading Candidate:  141  Fitness:  1.0
+Generation:  329  Leading Candidate:  57  Fitness:  1.0
+Generation:  330  Leading Candidate:  135  Fitness:  1.0
+Generation:  331  Leading Candidate:  149  Fitness:  1.0
+Generation:  332  Leading Candidate:  57  Fitness:  1.0
+Generation:  333  Leading Candidate:  135  Fitness:  1.0
+Generation:  334  Leading Candidate:  135  Fitness:  1.0
+Generation:  335  Leading Candidate:  69  Fitness:  1.0
+Generation:  336  Leading Candidate:  163  Fitness:  1.0
+Generation:  337  Leading Candidate:  197  Fitness:  1.0
+Generation:  338  Leading Candidate:  163  Fitness:  1.0
+Generation:  339  Leading Candidate:  177  Fitness:  1.0
+Generation:  340  Leading Candidate:  163  Fitness:  1.0
+Generation:  341  Leading Candidate:  69  Fitness:  1.0
+Generation:  342  Leading Candidate:  77  Fitness:  1.0
+Generation:  343  Leading Candidate:  177  Fitness:  1.0
+Generation:  344  Leading Candidate:  149  Fitness:  1.0
+Generation:  345  Leading Candidate:  77  Fitness:  1.0
+Generation:  346  Leading Candidate:  69  Fitness:  1.0
+Generation:  347  Leading Candidate:  135  Fitness:  1.0
+Generation:  348  Leading Candidate:  197  Fitness:  1.0
+Generation:  349  Leading Candidate:  57  Fitness:  1.0
+Generation:  350  Leading Candidate:  77  Fitness:  1.0
+Generation:  351  Leading Candidate:  77  Fitness:  1.0
+Generation:  352  Leading Candidate:  163  Fitness:  1.0
+Generation:  353  Leading Candidate:  135  Fitness:  1.0
+Generation:  354  Leading Candidate:  177  Fitness:  1.0
+Generation:  355  Leading Candidate:  57  Fitness:  1.0
+Generation:  356  Leading Candidate:  13  Fitness:  1.0
+Generation:  357  Leading Candidate:  163  Fitness:  1.0
+Generation:  358  Leading Candidate:  163  Fitness:  1.0
+Generation:  359  Leading Candidate:  135  Fitness:  1.0
+Generation:  360  Leading Candidate:  177  Fitness:  1.0
+Generation:  361  Leading Candidate:  197  Fitness:  1.0
+Generation:  362  Leading Candidate:  135  Fitness:  1.0
+Generation:  363  Leading Candidate:  135  Fitness:  1.0
+Generation:  364  Leading Candidate:  197  Fitness:  1.0
+Generation:  365  Leading Candidate:  57  Fitness:  1.0
+Generation:  366  Leading Candidate:  177  Fitness:  1.0
+Generation:  367  Leading Candidate:  163  Fitness:  1.0
+Generation:  368  Leading Candidate:  135  Fitness:  1.0
+Generation:  369  Leading Candidate:  141  Fitness:  1.0
+Generation:  370  Leading Candidate:  57  Fitness:  1.0
+Generation:  371  Leading Candidate:  57  Fitness:  1.0
+Generation:  372  Leading Candidate:  99  Fitness:  1.0
+Generation:  373  Leading Candidate:  163  Fitness:  1.0
+Generation:  374  Leading Candidate:  57  Fitness:  1.0
+Generation:  375  Leading Candidate:  99  Fitness:  1.0
+Generation:  376  Leading Candidate:  149  Fitness:  1.0
+Generation:  377  Leading Candidate:  141  Fitness:  1.0
+Generation:  378  Leading Candidate:  69  Fitness:  1.0
+Generation:  379  Leading Candidate:  197  Fitness:  1.0
+Generation:  380  Leading Candidate:  197  Fitness:  1.0
+Generation:  381  Leading Candidate:  197  Fitness:  1.0
+Generation:  382  Leading Candidate:  57  Fitness:  1.0
+Generation:  383  Leading Candidate:  141  Fitness:  1.0
+Generation:  384  Leading Candidate:  13  Fitness:  1.0
+Generation:  385  Leading Candidate:  197  Fitness:  1.0
+Generation:  386  Leading Candidate:  135  Fitness:  1.0
+Generation:  387  Leading Candidate:  69  Fitness:  1.0
+Generation:  388  Leading Candidate:  99  Fitness:  1.0
+Generation:  389  Leading Candidate:  197  Fitness:  1.0
+Generation:  390  Leading Candidate:  69  Fitness:  1.0
+Generation:  391  Leading Candidate:  141  Fitness:  1.0
+Generation:  392  Leading Candidate:  135  Fitness:  1.0
+Generation:  393  Leading Candidate:  149  Fitness:  1.0
+Generation:  394  Leading Candidate:  163  Fitness:  1.0
+Generation:  395  Leading Candidate:  163  Fitness:  1.0
+Generation:  396  Leading Candidate:  141  Fitness:  1.0
+Generation:  397  Leading Candidate:  13  Fitness:  1.0
+Generation:  398  Leading Candidate:  77  Fitness:  1.0
+Generation:  399  Leading Candidate:  141  Fitness:  1.0
+Generation:  400  Leading Candidate:  69  Fitness:  1.0
+Generation:  401  Leading Candidate:  197  Fitness:  1.0
+Generation:  402  Leading Candidate:  69  Fitness:  1.0
+Generation:  403  Leading Candidate:  77  Fitness:  1.0
+Generation:  404  Leading Candidate:  57  Fitness:  1.0
+Generation:  405  Leading Candidate:  13  Fitness:  1.0
+Generation:  406  Leading Candidate:  99  Fitness:  1.0
+Generation:  407  Leading Candidate:  77  Fitness:  1.0
+Generation:  408  Leading Candidate:  69  Fitness:  1.0
+Generation:  409  Leading Candidate:  163  Fitness:  1.0
+Generation:  410  Leading Candidate:  77  Fitness:  1.0
+Generation:  411  Leading Candidate:  69  Fitness:  1.0
+Generation:  412  Leading Candidate:  177  Fitness:  1.0
+Generation:  413  Leading Candidate:  177  Fitness:  1.0
+Generation:  414  Leading Candidate:  99  Fitness:  1.0
+Generation:  415  Leading Candidate:  69  Fitness:  1.0
+Generation:  416  Leading Candidate:  163  Fitness:  1.0
+Generation:  417  Leading Candidate:  141  Fitness:  1.0
+Generation:  418  Leading Candidate:  13  Fitness:  1.0
+Generation:  419  Leading Candidate:  149  Fitness:  1.0
+Generation:  420  Leading Candidate:  57  Fitness:  1.0
+Generation:  421  Leading Candidate:  69  Fitness:  1.0
+Generation:  422  Leading Candidate:  163  Fitness:  1.0
+Generation:  423  Leading Candidate:  177  Fitness:  1.0
+Generation:  424  Leading Candidate:  57  Fitness:  1.0
+Generation:  425  Leading Candidate:  69  Fitness:  1.0
+Generation:  426  Leading Candidate:  69  Fitness:  1.0
+Generation:  427  Leading Candidate:  69  Fitness:  1.0
+Generation:  428  Leading Candidate:  141  Fitness:  1.0
+Generation:  429  Leading Candidate:  149  Fitness:  1.0
+Generation:  430  Leading Candidate:  177  Fitness:  1.0
+Generation:  431  Leading Candidate:  99  Fitness:  1.0
+Generation:  432  Leading Candidate:  163  Fitness:  1.0
+Generation:  433  Leading Candidate:  141  Fitness:  1.0
+Generation:  434  Leading Candidate:  77  Fitness:  1.0
+Generation:  435  Leading Candidate:  57  Fitness:  1.0
+Generation:  436  Leading Candidate:  141  Fitness:  1.0
+Generation:  437  Leading Candidate:  13  Fitness:  1.0
+Generation:  438  Leading Candidate:  163  Fitness:  1.0
+Generation:  439  Leading Candidate:  141  Fitness:  1.0
+Generation:  440  Leading Candidate:  141  Fitness:  1.0
+Generation:  441  Leading Candidate:  99  Fitness:  1.0
+Generation:  442  Leading Candidate:  197  Fitness:  1.0
+Generation:  443  Leading Candidate:  177  Fitness:  1.0
+Generation:  444  Leading Candidate:  69  Fitness:  1.0
+Generation:  445  Leading Candidate:  57  Fitness:  1.0
+Generation:  446  Leading Candidate:  177  Fitness:  1.0
+Generation:  447  Leading Candidate:  135  Fitness:  1.0
+Generation:  448  Leading Candidate:  69  Fitness:  1.0
+Generation:  449  Leading Candidate:  99  Fitness:  1.0
+Generation:  450  Leading Candidate:  141  Fitness:  1.0
+Generation:  451  Leading Candidate:  13  Fitness:  1.0
+Generation:  452  Leading Candidate:  197  Fitness:  1.0
+Generation:  453  Leading Candidate:  57  Fitness:  1.0
+Generation:  454  Leading Candidate:  99  Fitness:  1.0
+Generation:  455  Leading Candidate:  57  Fitness:  1.0
+Generation:  456  Leading Candidate:  163  Fitness:  1.0
+Generation:  457  Leading Candidate:  135  Fitness:  1.0
+Generation:  458  Leading Candidate:  57  Fitness:  1.0
+Generation:  459  Leading Candidate:  69  Fitness:  1.0
+Generation:  460  Leading Candidate:  149  Fitness:  1.0
+Generation:  461  Leading Candidate:  77  Fitness:  1.0
+Generation:  462  Leading Candidate:  57  Fitness:  1.0
+Generation:  463  Leading Candidate:  163  Fitness:  1.0
+Generation:  464  Leading Candidate:  141  Fitness:  1.0
+Generation:  465  Leading Candidate:  163  Fitness:  1.0
+Generation:  466  Leading Candidate:  69  Fitness:  1.0
+Generation:  467  Leading Candidate:  149  Fitness:  1.0
+Generation:  468  Leading Candidate:  197  Fitness:  1.0
+Generation:  469  Leading Candidate:  141  Fitness:  1.0
+Generation:  470  Leading Candidate:  197  Fitness:  1.0
+Generation:  471  Leading Candidate:  77  Fitness:  1.0
+Generation:  472  Leading Candidate:  99  Fitness:  1.0
+Generation:  473  Leading Candidate:  149  Fitness:  1.0
+Generation:  474  Leading Candidate:  77  Fitness:  1.0
+Generation:  475  Leading Candidate:  77  Fitness:  1.0
+Generation:  476  Leading Candidate:  149  Fitness:  1.0
+Generation:  477  Leading Candidate:  141  Fitness:  1.0
+Generation:  478  Leading Candidate:  77  Fitness:  1.0
+Generation:  479  Leading Candidate:  99  Fitness:  1.0
+Generation:  480  Leading Candidate:  99  Fitness:  1.0
+Generation:  481  Leading Candidate:  197  Fitness:  1.0
+Generation:  482  Leading Candidate:  163  Fitness:  1.0
+Generation:  483  Leading Candidate:  197  Fitness:  1.0
+Generation:  484  Leading Candidate:  77  Fitness:  1.0
+Generation:  485  Leading Candidate:  57  Fitness:  1.0
+Generation:  486  Leading Candidate:  141  Fitness:  1.0
+Generation:  487  Leading Candidate:  77  Fitness:  1.0
+Generation:  488  Leading Candidate:  69  Fitness:  1.0
+Generation:  489  Leading Candidate:  177  Fitness:  1.0
+Generation:  490  Leading Candidate:  197  Fitness:  1.0
+Generation:  491  Leading Candidate:  77  Fitness:  1.0
+Generation:  492  Leading Candidate:  57  Fitness:  1.0
+Generation:  493  Leading Candidate:  77  Fitness:  1.0
+Generation:  494  Leading Candidate:  149  Fitness:  1.0
+Generation:  495  Leading Candidate:  69  Fitness:  1.0
+Generation:  496  Leading Candidate:  135  Fitness:  1.0
+Generation:  497  Leading Candidate:  197  Fitness:  1.0
+Generation:  498  Leading Candidate:  141  Fitness:  1.0
+Generation:  499  Leading Candidate:  141  Fitness:  1.0
+Generation:  500  Leading Candidate:  163  Fitness:  1.0
+Generation:  501  Leading Candidate:  77  Fitness:  1.0
+Generation:  502  Leading Candidate:  177  Fitness:  1.0
+Generation:  503  Leading Candidate:  99  Fitness:  1.0
+Generation:  504  Leading Candidate:  13  Fitness:  1.0
+Generation:  505  Leading Candidate:  177  Fitness:  1.0
+Generation:  506  Leading Candidate:  197  Fitness:  1.0
+Generation:  507  Leading Candidate:  99  Fitness:  1.0
+Generation:  508  Leading Candidate:  77  Fitness:  1.0
+Generation:  509  Leading Candidate:  149  Fitness:  1.0
+Generation:  510  Leading Candidate:  69  Fitness:  1.0
+Generation:  511  Leading Candidate:  197  Fitness:  1.0
+Generation:  512  Leading Candidate:  135  Fitness:  1.0
+Generation:  513  Leading Candidate:  135  Fitness:  1.0
+Generation:  514  Leading Candidate:  163  Fitness:  1.0
+Generation:  515  Leading Candidate:  69  Fitness:  1.0
+Generation:  516  Leading Candidate:  141  Fitness:  1.0
+Generation:  517  Leading Candidate:  177  Fitness:  1.0
+Generation:  518  Leading Candidate:  13  Fitness:  1.0
+Generation:  519  Leading Candidate:  135  Fitness:  1.0
+Generation:  520  Leading Candidate:  135  Fitness:  1.0
+Generation:  521  Leading Candidate:  163  Fitness:  1.0
+Generation:  522  Leading Candidate:  99  Fitness:  1.0
+Generation:  523  Leading Candidate:  135  Fitness:  1.0
+Generation:  524  Leading Candidate:  69  Fitness:  1.0
+Generation:  525  Leading Candidate:  77  Fitness:  1.0
+Generation:  526  Leading Candidate:  141  Fitness:  1.0
+Generation:  527  Leading Candidate:  163  Fitness:  1.0
+Generation:  528  Leading Candidate:  149  Fitness:  1.0
+Generation:  529  Leading Candidate:  197  Fitness:  1.0
+Generation:  530  Leading Candidate:  99  Fitness:  1.0
+Generation:  531  Leading Candidate:  99  Fitness:  1.0
+Generation:  532  Leading Candidate:  77  Fitness:  1.0
+Generation:  533  Leading Candidate:  163  Fitness:  1.0
+Generation:  534  Leading Candidate:  13  Fitness:  1.0
+Generation:  535  Leading Candidate:  57  Fitness:  1.0
+Generation:  536  Leading Candidate:  69  Fitness:  1.0
+Generation:  537  Leading Candidate:  177  Fitness:  1.0
+Generation:  538  Leading Candidate:  163  Fitness:  1.0
+Generation:  539  Leading Candidate:  163  Fitness:  1.0
+Generation:  540  Leading Candidate:  99  Fitness:  1.0
+Generation:  541  Leading Candidate:  69  Fitness:  1.0
+Generation:  542  Leading Candidate:  69  Fitness:  1.0
+Generation:  543  Leading Candidate:  77  Fitness:  1.0
+Generation:  544  Leading Candidate:  77  Fitness:  1.0
+Generation:  545  Leading Candidate:  135  Fitness:  1.0
+Generation:  546  Leading Candidate:  177  Fitness:  1.0
+Generation:  547  Leading Candidate:  77  Fitness:  1.0
+Generation:  548  Leading Candidate:  177  Fitness:  1.0
+Generation:  549  Leading Candidate:  197  Fitness:  1.0
+Generation:  550  Leading Candidate:  13  Fitness:  1.0
+Generation:  551  Leading Candidate:  141  Fitness:  1.0
+Generation:  552  Leading Candidate:  99  Fitness:  1.0
+Generation:  553  Leading Candidate:  57  Fitness:  1.0
+Generation:  554  Leading Candidate:  197  Fitness:  1.0
+Generation:  555  Leading Candidate:  163  Fitness:  1.0
+Generation:  556  Leading Candidate:  99  Fitness:  1.0
+Generation:  557  Leading Candidate:  163  Fitness:  1.0
+Generation:  558  Leading Candidate:  141  Fitness:  1.0
+Generation:  559  Leading Candidate:  163  Fitness:  1.0
+Generation:  560  Leading Candidate:  13  Fitness:  1.0
+Generation:  561  Leading Candidate:  163  Fitness:  1.0
+Generation:  562  Leading Candidate:  99  Fitness:  1.0
+Generation:  563  Leading Candidate:  197  Fitness:  1.0
+Generation:  564  Leading Candidate:  13  Fitness:  1.0
+Generation:  565  Leading Candidate:  197  Fitness:  1.0
+Generation:  566  Leading Candidate:  141  Fitness:  1.0
+Generation:  567  Leading Candidate:  57  Fitness:  1.0
+Generation:  568  Leading Candidate:  141  Fitness:  1.0
+Generation:  569  Leading Candidate:  177  Fitness:  1.0
+Generation:  570  Leading Candidate:  69  Fitness:  1.0
+Generation:  571  Leading Candidate:  13  Fitness:  1.0
+Generation:  572  Leading Candidate:  163  Fitness:  1.0
+Generation:  573  Leading Candidate:  163  Fitness:  1.0
+Generation:  574  Leading Candidate:  77  Fitness:  1.0
+Generation:  575  Leading Candidate:  197  Fitness:  1.0
+Generation:  576  Leading Candidate:  141  Fitness:  1.0
+Generation:  577  Leading Candidate:  149  Fitness:  1.0
+Generation:  578  Leading Candidate:  69  Fitness:  1.0
+Generation:  579  Leading Candidate:  177  Fitness:  1.0
+Generation:  580  Leading Candidate:  13  Fitness:  1.0
+Generation:  581  Leading Candidate:  135  Fitness:  1.0
+Generation:  582  Leading Candidate:  141  Fitness:  1.0
+Generation:  583  Leading Candidate:  135  Fitness:  1.0
+Generation:  584  Leading Candidate:  197  Fitness:  1.0
+Generation:  585  Leading Candidate:  99  Fitness:  1.0
+Generation:  586  Leading Candidate:  177  Fitness:  1.0
+Generation:  587  Leading Candidate:  135  Fitness:  1.0
+Generation:  588  Leading Candidate:  77  Fitness:  1.0
+Generation:  589  Leading Candidate:  99  Fitness:  1.0
+Generation:  590  Leading Candidate:  57  Fitness:  1.0
+Generation:  591  Leading Candidate:  57  Fitness:  1.0
+Generation:  592  Leading Candidate:  99  Fitness:  1.0
+Generation:  593  Leading Candidate:  13  Fitness:  1.0
+Generation:  594  Leading Candidate:  13  Fitness:  1.0
+Generation:  595  Leading Candidate:  149  Fitness:  1.0
+Generation:  596  Leading Candidate:  163  Fitness:  1.0
+Generation:  597  Leading Candidate:  77  Fitness:  1.0
+Generation:  598  Leading Candidate:  57  Fitness:  1.0
+Generation:  599  Leading Candidate:  135  Fitness:  1.0
+Generation:  600  Leading Candidate:  99  Fitness:  1.0
+Generation:  601  Leading Candidate:  13  Fitness:  1.0
+Generation:  602  Leading Candidate:  177  Fitness:  1.0
+Generation:  603  Leading Candidate:  197  Fitness:  1.0
+Generation:  604  Leading Candidate:  69  Fitness:  1.0
+Generation:  605  Leading Candidate:  99  Fitness:  1.0
+Generation:  606  Leading Candidate:  141  Fitness:  1.0
+Generation:  607  Leading Candidate:  141  Fitness:  1.0
+Generation:  608  Leading Candidate:  57  Fitness:  1.0
+Generation:  609  Leading Candidate:  163  Fitness:  1.0
+Generation:  610  Leading Candidate:  69  Fitness:  1.0
+Generation:  611  Leading Candidate:  135  Fitness:  1.0
+Generation:  612  Leading Candidate:  13  Fitness:  1.0
+Generation:  613  Leading Candidate:  69  Fitness:  1.0
+Generation:  614  Leading Candidate:  141  Fitness:  1.0
+Generation:  615  Leading Candidate:  197  Fitness:  1.0
+Generation:  616  Leading Candidate:  69  Fitness:  1.0
+Generation:  617  Leading Candidate:  77  Fitness:  1.0
+Generation:  618  Leading Candidate:  99  Fitness:  1.0
+Generation:  619  Leading Candidate:  57  Fitness:  1.0
+Generation:  620  Leading Candidate:  141  Fitness:  1.0
+Generation:  621  Leading Candidate:  99  Fitness:  1.0
+Generation:  622  Leading Candidate:  57  Fitness:  1.0
+Generation:  623  Leading Candidate:  135  Fitness:  1.0
+Generation:  624  Leading Candidate:  163  Fitness:  1.0
+Generation:  625  Leading Candidate:  69  Fitness:  1.0
+Generation:  626  Leading Candidate:  135  Fitness:  1.0
+Generation:  627  Leading Candidate:  141  Fitness:  1.0
+Generation:  628  Leading Candidate:  69  Fitness:  1.0
+Generation:  629  Leading Candidate:  135  Fitness:  1.0
+Generation:  630  Leading Candidate:  69  Fitness:  1.0
+Generation:  631  Leading Candidate:  197  Fitness:  1.0
+Generation:  632  Leading Candidate:  77  Fitness:  1.0
+Generation:  633  Leading Candidate:  177  Fitness:  1.0
+Generation:  634  Leading Candidate:  77  Fitness:  1.0
+Generation:  635  Leading Candidate:  197  Fitness:  1.0
+Generation:  636  Leading Candidate:  177  Fitness:  1.0
+Generation:  637  Leading Candidate:  177  Fitness:  1.0
+Generation:  638  Leading Candidate:  163  Fitness:  1.0
+Generation:  639  Leading Candidate:  69  Fitness:  1.0
+Generation:  640  Leading Candidate:  99  Fitness:  1.0
+Generation:  641  Leading Candidate:  141  Fitness:  1.0
+Generation:  642  Leading Candidate:  177  Fitness:  1.0
+Generation:  643  Leading Candidate:  177  Fitness:  1.0
+Generation:  644  Leading Candidate:  149  Fitness:  1.0
+Generation:  645  Leading Candidate:  149  Fitness:  1.0
+Generation:  646  Leading Candidate:  77  Fitness:  1.0
+Generation:  647  Leading Candidate:  141  Fitness:  1.0
+Generation:  648  Leading Candidate:  163  Fitness:  1.0
+Generation:  649  Leading Candidate:  99  Fitness:  1.0
+Generation:  650  Leading Candidate:  69  Fitness:  1.0
+Generation:  651  Leading Candidate:  197  Fitness:  1.0
+Generation:  652  Leading Candidate:  135  Fitness:  1.0
+Generation:  653  Leading Candidate:  197  Fitness:  1.0
+Generation:  654  Leading Candidate:  13  Fitness:  1.0
+Generation:  655  Leading Candidate:  13  Fitness:  1.0
+Generation:  656  Leading Candidate:  149  Fitness:  1.0
+Generation:  657  Leading Candidate:  99  Fitness:  1.0
+Generation:  658  Leading Candidate:  163  Fitness:  1.0
+Generation:  659  Leading Candidate:  13  Fitness:  1.0
+Generation:  660  Leading Candidate:  135  Fitness:  1.0
+Generation:  661  Leading Candidate:  77  Fitness:  1.0
+Generation:  662  Leading Candidate:  197  Fitness:  1.0
+Generation:  663  Leading Candidate:  57  Fitness:  1.0
+Generation:  664  Leading Candidate:  57  Fitness:  1.0
+Generation:  665  Leading Candidate:  13  Fitness:  1.0
+Generation:  666  Leading Candidate:  77  Fitness:  1.0
+Generation:  667  Leading Candidate:  99  Fitness:  1.0
+Generation:  668  Leading Candidate:  69  Fitness:  1.0
+Generation:  669  Leading Candidate:  177  Fitness:  1.0
+Generation:  670  Leading Candidate:  177  Fitness:  1.0
+Generation:  671  Leading Candidate:  163  Fitness:  1.0
+Generation:  672  Leading Candidate:  163  Fitness:  1.0
+Generation:  673  Leading Candidate:  177  Fitness:  1.0
+Generation:  674  Leading Candidate:  197  Fitness:  1.0
+Generation:  675  Leading Candidate:  57  Fitness:  1.0
+Generation:  676  Leading Candidate:  141  Fitness:  1.0
+Generation:  677  Leading Candidate:  163  Fitness:  1.0
+Generation:  678  Leading Candidate:  177  Fitness:  1.0
+Generation:  679  Leading Candidate:  13  Fitness:  1.0
+Generation:  680  Leading Candidate:  13  Fitness:  1.0
+Generation:  681  Leading Candidate:  57  Fitness:  1.0
+Generation:  682  Leading Candidate:  177  Fitness:  1.0
+Generation:  683  Leading Candidate:  197  Fitness:  1.0
+Generation:  684  Leading Candidate:  77  Fitness:  1.0
+Generation:  685  Leading Candidate:  197  Fitness:  1.0
+Generation:  686  Leading Candidate:  13  Fitness:  1.0
+Generation:  687  Leading Candidate:  141  Fitness:  1.0
+Generation:  688  Leading Candidate:  141  Fitness:  1.0
+Generation:  689  Leading Candidate:  57  Fitness:  1.0
+Generation:  690  Leading Candidate:  69  Fitness:  1.0
+Generation:  691  Leading Candidate:  13  Fitness:  1.0
+Generation:  692  Leading Candidate:  197  Fitness:  1.0
+Generation:  693  Leading Candidate:  99  Fitness:  1.0
+Generation:  694  Leading Candidate:  149  Fitness:  1.0
+Generation:  695  Leading Candidate:  99  Fitness:  1.0
+Generation:  696  Leading Candidate:  163  Fitness:  1.0
+Generation:  697  Leading Candidate:  57  Fitness:  1.0
+Generation:  698  Leading Candidate:  163  Fitness:  1.0
+Generation:  699  Leading Candidate:  57  Fitness:  1.0
+Generation:  700  Leading Candidate:  149  Fitness:  1.0
+Generation:  701  Leading Candidate:  197  Fitness:  1.0
+Generation:  702  Leading Candidate:  197  Fitness:  1.0
+Generation:  703  Leading Candidate:  69  Fitness:  1.0
+Generation:  704  Leading Candidate:  135  Fitness:  1.0
+Generation:  705  Leading Candidate:  99  Fitness:  1.0
+Generation:  706  Leading Candidate:  13  Fitness:  1.0
+Generation:  707  Leading Candidate:  69  Fitness:  1.0
+Generation:  708  Leading Candidate:  177  Fitness:  1.0
+Generation:  709  Leading Candidate:  141  Fitness:  1.0
+Generation:  710  Leading Candidate:  99  Fitness:  1.0
+Generation:  711  Leading Candidate:  77  Fitness:  1.0
+Generation:  712  Leading Candidate:  13  Fitness:  1.0
+Generation:  713  Leading Candidate:  99  Fitness:  1.0
+Generation:  714  Leading Candidate:  77  Fitness:  1.0
+Generation:  715  Leading Candidate:  77  Fitness:  1.0
+Generation:  716  Leading Candidate:  141  Fitness:  1.0
+Generation:  717  Leading Candidate:  77  Fitness:  1.0
+Generation:  718  Leading Candidate:  149  Fitness:  1.0
+Generation:  719  Leading Candidate:  163  Fitness:  1.0
+Generation:  720  Leading Candidate:  13  Fitness:  1.0
+Generation:  721  Leading Candidate:  57  Fitness:  1.0
+Generation:  722  Leading Candidate:  13  Fitness:  1.0
+Generation:  723  Leading Candidate:  177  Fitness:  1.0
+Generation:  724  Leading Candidate:  197  Fitness:  1.0
+Generation:  725  Leading Candidate:  13  Fitness:  1.0
+Generation:  726  Leading Candidate:  99  Fitness:  1.0
+Generation:  727  Leading Candidate:  13  Fitness:  1.0
+Generation:  728  Leading Candidate:  77  Fitness:  1.0
+Generation:  729  Leading Candidate:  99  Fitness:  1.0
+Generation:  730  Leading Candidate:  177  Fitness:  1.0
+Generation:  731  Leading Candidate:  197  Fitness:  1.0
+Generation:  732  Leading Candidate:  135  Fitness:  1.0
+Generation:  733  Leading Candidate:  197  Fitness:  1.0
+Generation:  734  Leading Candidate:  77  Fitness:  1.0
+Generation:  735  Leading Candidate:  197  Fitness:  1.0
+Generation:  736  Leading Candidate:  149  Fitness:  1.0
+Generation:  737  Leading Candidate:  177  Fitness:  1.0
+Generation:  738  Leading Candidate:  99  Fitness:  1.0
+Generation:  739  Leading Candidate:  135  Fitness:  1.0
+Generation:  740  Leading Candidate:  149  Fitness:  1.0
+Generation:  741  Leading Candidate:  149  Fitness:  1.0
+Generation:  742  Leading Candidate:  163  Fitness:  1.0
+Generation:  743  Leading Candidate:  141  Fitness:  1.0
+Generation:  744  Leading Candidate:  77  Fitness:  1.0
+Generation:  745  Leading Candidate:  69  Fitness:  1.0
+Generation:  746  Leading Candidate:  99  Fitness:  1.0
+Generation:  747  Leading Candidate:  135  Fitness:  1.0
+Generation:  748  Leading Candidate:  141  Fitness:  1.0
+Generation:  749  Leading Candidate:  197  Fitness:  1.0
+Generation:  750  Leading Candidate:  141  Fitness:  1.0
+Generation:  751  Leading Candidate:  149  Fitness:  1.0
+Generation:  752  Leading Candidate:  177  Fitness:  1.0
+Generation:  753  Leading Candidate:  69  Fitness:  1.0
+Generation:  754  Leading Candidate:  99  Fitness:  1.0
+Generation:  755  Leading Candidate:  69  Fitness:  1.0
+Generation:  756  Leading Candidate:  57  Fitness:  1.0
+Generation:  757  Leading Candidate:  177  Fitness:  1.0
+Generation:  758  Leading Candidate:  149  Fitness:  1.0
+Generation:  759  Leading Candidate:  77  Fitness:  1.0
+Generation:  760  Leading Candidate:  57  Fitness:  1.0
+Generation:  761  Leading Candidate:  177  Fitness:  1.0
+Generation:  762  Leading Candidate:  163  Fitness:  1.0
+Generation:  763  Leading Candidate:  69  Fitness:  1.0
+Generation:  764  Leading Candidate:  149  Fitness:  1.0
+Generation:  765  Leading Candidate:  13  Fitness:  1.0
+Generation:  766  Leading Candidate:  99  Fitness:  1.0
+Generation:  767  Leading Candidate:  141  Fitness:  1.0
+Generation:  768  Leading Candidate:  177  Fitness:  1.0
+Generation:  769  Leading Candidate:  77  Fitness:  1.0
+Generation:  770  Leading Candidate:  77  Fitness:  1.0
+Generation:  771  Leading Candidate:  197  Fitness:  1.0
+Generation:  772  Leading Candidate:  177  Fitness:  1.0
+Generation:  773  Leading Candidate:  99  Fitness:  1.0
+Generation:  774  Leading Candidate:  77  Fitness:  1.0
+Generation:  775  Leading Candidate:  77  Fitness:  1.0
+Generation:  776  Leading Candidate:  135  Fitness:  1.0
+Generation:  777  Leading Candidate:  135  Fitness:  1.0
+Generation:  778  Leading Candidate:  69  Fitness:  1.0
+Generation:  779  Leading Candidate:  163  Fitness:  1.0
+Generation:  780  Leading Candidate:  149  Fitness:  1.0
+Generation:  781  Leading Candidate:  149  Fitness:  1.0
+Generation:  782  Leading Candidate:  149  Fitness:  1.0
+Generation:  783  Leading Candidate:  149  Fitness:  1.0
+Generation:  784  Leading Candidate:  163  Fitness:  1.0
+Generation:  785  Leading Candidate:  149  Fitness:  1.0
+Generation:  786  Leading Candidate:  135  Fitness:  1.0
+Generation:  787  Leading Candidate:  69  Fitness:  1.0
+Generation:  788  Leading Candidate:  163  Fitness:  1.0
+Generation:  789  Leading Candidate:  57  Fitness:  1.0
+Generation:  790  Leading Candidate:  57  Fitness:  1.0
+Generation:  791  Leading Candidate:  57  Fitness:  1.0
+Generation:  792  Leading Candidate:  141  Fitness:  1.0
+Generation:  793  Leading Candidate:  135  Fitness:  1.0
+Generation:  794  Leading Candidate:  197  Fitness:  1.0
+Generation:  795  Leading Candidate:  149  Fitness:  1.0
+Generation:  796  Leading Candidate:  57  Fitness:  1.0
+Generation:  797  Leading Candidate:  99  Fitness:  1.0
+Generation:  798  Leading Candidate:  149  Fitness:  1.0
+Generation:  799  Leading Candidate:  135  Fitness:  1.0
+Generation:  800  Leading Candidate:  77  Fitness:  1.0
+Generation:  801  Leading Candidate:  69  Fitness:  1.0
+Generation:  802  Leading Candidate:  141  Fitness:  1.0
+Generation:  803  Leading Candidate:  135  Fitness:  1.0
+Generation:  804  Leading Candidate:  163  Fitness:  1.0
+Generation:  805  Leading Candidate:  99  Fitness:  1.0
+Generation:  806  Leading Candidate:  13  Fitness:  1.0
+Generation:  807  Leading Candidate:  141  Fitness:  1.0
+Generation:  808  Leading Candidate:  57  Fitness:  1.0
+Generation:  809  Leading Candidate:  177  Fitness:  1.0
+Generation:  810  Leading Candidate:  197  Fitness:  1.0
+Generation:  811  Leading Candidate:  197  Fitness:  1.0
+Generation:  812  Leading Candidate:  69  Fitness:  1.0
+Generation:  813  Leading Candidate:  57  Fitness:  1.0
+Generation:  814  Leading Candidate:  197  Fitness:  1.0
+Generation:  815  Leading Candidate:  163  Fitness:  1.0
+Generation:  816  Leading Candidate:  149  Fitness:  1.0
+Generation:  817  Leading Candidate:  77  Fitness:  1.0
+Generation:  818  Leading Candidate:  69  Fitness:  1.0
+Generation:  819  Leading Candidate:  77  Fitness:  1.0
+Generation:  820  Leading Candidate:  163  Fitness:  1.0
+Generation:  821  Leading Candidate:  141  Fitness:  1.0
+Generation:  822  Leading Candidate:  197  Fitness:  1.0
+Generation:  823  Leading Candidate:  141  Fitness:  1.0
+Generation:  824  Leading Candidate:  69  Fitness:  1.0
+Generation:  825  Leading Candidate:  177  Fitness:  1.0
+Generation:  826  Leading Candidate:  135  Fitness:  1.0
+Generation:  827  Leading Candidate:  57  Fitness:  1.0
+Generation:  828  Leading Candidate:  57  Fitness:  1.0
+Generation:  829  Leading Candidate:  77  Fitness:  1.0
+Generation:  830  Leading Candidate:  135  Fitness:  1.0
+Generation:  831  Leading Candidate:  135  Fitness:  1.0
+Generation:  832  Leading Candidate:  13  Fitness:  1.0
+Generation:  833  Leading Candidate:  141  Fitness:  1.0
+Generation:  834  Leading Candidate:  57  Fitness:  1.0
+Generation:  835  Leading Candidate:  99  Fitness:  1.0
+Generation:  836  Leading Candidate:  141  Fitness:  1.0
+Generation:  837  Leading Candidate:  69  Fitness:  1.0
+Generation:  838  Leading Candidate:  135  Fitness:  1.0
+Generation:  839  Leading Candidate:  177  Fitness:  1.0
+Generation:  840  Leading Candidate:  177  Fitness:  1.0
+Generation:  841  Leading Candidate:  149  Fitness:  1.0
+Generation:  842  Leading Candidate:  57  Fitness:  1.0
+Generation:  843  Leading Candidate:  13  Fitness:  1.0
+Generation:  844  Leading Candidate:  77  Fitness:  1.0
+Generation:  845  Leading Candidate:  141  Fitness:  1.0
+Generation:  846  Leading Candidate:  77  Fitness:  1.0
+Generation:  847  Leading Candidate:  57  Fitness:  1.0
+Generation:  848  Leading Candidate:  77  Fitness:  1.0
+Generation:  849  Leading Candidate:  141  Fitness:  1.0
+Generation:  850  Leading Candidate:  177  Fitness:  1.0
+Generation:  851  Leading Candidate:  197  Fitness:  1.0
+Generation:  852  Leading Candidate:  13  Fitness:  1.0
+Generation:  853  Leading Candidate:  163  Fitness:  1.0
+Generation:  854  Leading Candidate:  163  Fitness:  1.0
+Generation:  855  Leading Candidate:  141  Fitness:  1.0
+Generation:  856  Leading Candidate:  13  Fitness:  1.0
+Generation:  857  Leading Candidate:  163  Fitness:  1.0
+Generation:  858  Leading Candidate:  149  Fitness:  1.0
+Generation:  859  Leading Candidate:  69  Fitness:  1.0
+Generation:  860  Leading Candidate:  57  Fitness:  1.0
+Generation:  861  Leading Candidate:  99  Fitness:  1.0
+Generation:  862  Leading Candidate:  197  Fitness:  1.0
+Generation:  863  Leading Candidate:  13  Fitness:  1.0
+Generation:  864  Leading Candidate:  57  Fitness:  1.0
+Generation:  865  Leading Candidate:  99  Fitness:  1.0
+Generation:  866  Leading Candidate:  57  Fitness:  1.0
+Generation:  867  Leading Candidate:  77  Fitness:  1.0
+Generation:  868  Leading Candidate:  69  Fitness:  1.0
+Generation:  869  Leading Candidate:  149  Fitness:  1.0
+Generation:  870  Leading Candidate:  177  Fitness:  1.0
+Generation:  871  Leading Candidate:  197  Fitness:  1.0
+Generation:  872  Leading Candidate:  177  Fitness:  1.0
+Generation:  873  Leading Candidate:  69  Fitness:  1.0
+Generation:  874  Leading Candidate:  141  Fitness:  1.0
+Generation:  875  Leading Candidate:  197  Fitness:  1.0
+Generation:  876  Leading Candidate:  57  Fitness:  1.0
+Generation:  877  Leading Candidate:  57  Fitness:  1.0
+Generation:  878  Leading Candidate:  197  Fitness:  1.0
+Generation:  879  Leading Candidate:  77  Fitness:  1.0
+Generation:  880  Leading Candidate:  141  Fitness:  1.0
+Generation:  881  Leading Candidate:  99  Fitness:  1.0
+Generation:  882  Leading Candidate:  141  Fitness:  1.0
+Generation:  883  Leading Candidate:  149  Fitness:  1.0
+Generation:  884  Leading Candidate:  13  Fitness:  1.0
+Generation:  885  Leading Candidate:  135  Fitness:  1.0
+Generation:  886  Leading Candidate:  13  Fitness:  1.0
+Generation:  887  Leading Candidate:  99  Fitness:  1.0
+Generation:  888  Leading Candidate:  13  Fitness:  1.0
+Generation:  889  Leading Candidate:  141  Fitness:  1.0
+Generation:  890  Leading Candidate:  141  Fitness:  1.0
+Generation:  891  Leading Candidate:  77  Fitness:  1.0
+Generation:  892  Leading Candidate:  69  Fitness:  1.0
+Generation:  893  Leading Candidate:  57  Fitness:  1.0
+Generation:  894  Leading Candidate:  197  Fitness:  1.0
+Generation:  895  Leading Candidate:  177  Fitness:  1.0
+Generation:  896  Leading Candidate:  163  Fitness:  1.0
+Generation:  897  Leading Candidate:  197  Fitness:  1.0
+Generation:  898  Leading Candidate:  69  Fitness:  1.0
+Generation:  899  Leading Candidate:  77  Fitness:  1.0
+Generation:  900  Leading Candidate:  163  Fitness:  1.0
+Generation:  901  Leading Candidate:  69  Fitness:  1.0
+Generation:  902  Leading Candidate:  57  Fitness:  1.0
+Generation:  903  Leading Candidate:  177  Fitness:  1.0
+Generation:  904  Leading Candidate:  77  Fitness:  1.0
+Generation:  905  Leading Candidate:  57  Fitness:  1.0
+Generation:  906  Leading Candidate:  163  Fitness:  1.0
+Generation:  907  Leading Candidate:  149  Fitness:  1.0
+Generation:  908  Leading Candidate:  99  Fitness:  1.0
+Generation:  909  Leading Candidate:  197  Fitness:  1.0
+Generation:  910  Leading Candidate:  163  Fitness:  1.0
+Generation:  911  Leading Candidate:  57  Fitness:  1.0
+Generation:  912  Leading Candidate:  135  Fitness:  1.0
+Generation:  913  Leading Candidate:  69  Fitness:  1.0
+Generation:  914  Leading Candidate:  99  Fitness:  1.0
+Generation:  915  Leading Candidate:  69  Fitness:  1.0
+Generation:  916  Leading Candidate:  197  Fitness:  1.0
+Generation:  917  Leading Candidate:  197  Fitness:  1.0
+Generation:  918  Leading Candidate:  177  Fitness:  1.0
+Generation:  919  Leading Candidate:  149  Fitness:  1.0
+Generation:  920  Leading Candidate:  149  Fitness:  1.0
+Generation:  921  Leading Candidate:  149  Fitness:  1.0
+Generation:  922  Leading Candidate:  13  Fitness:  1.0
+Generation:  923  Leading Candidate:  163  Fitness:  1.0
+Generation:  924  Leading Candidate:  177  Fitness:  1.0
+Generation:  925  Leading Candidate:  13  Fitness:  1.0
+Generation:  926  Leading Candidate:  149  Fitness:  1.0
+Generation:  927  Leading Candidate:  57  Fitness:  1.0
+Generation:  928  Leading Candidate:  177  Fitness:  1.0
+Generation:  929  Leading Candidate:  57  Fitness:  1.0
+Generation:  930  Leading Candidate:  149  Fitness:  1.0
+Generation:  931  Leading Candidate:  77  Fitness:  1.0
+Generation:  932  Leading Candidate:  69  Fitness:  1.0
+Generation:  933  Leading Candidate:  69  Fitness:  1.0
+Generation:  934  Leading Candidate:  177  Fitness:  1.0
+Generation:  935  Leading Candidate:  149  Fitness:  1.0
+Generation:  936  Leading Candidate:  141  Fitness:  1.0
+Generation:  937  Leading Candidate:  141  Fitness:  1.0
+Generation:  938  Leading Candidate:  77  Fitness:  1.0
+Generation:  939  Leading Candidate:  197  Fitness:  1.0
+Generation:  940  Leading Candidate:  77  Fitness:  1.0
+Generation:  941  Leading Candidate:  197  Fitness:  1.0
+Generation:  942  Leading Candidate:  163  Fitness:  1.0
+Generation:  943  Leading Candidate:  197  Fitness:  1.0
+Generation:  944  Leading Candidate:  57  Fitness:  1.0
+Generation:  945  Leading Candidate:  141  Fitness:  1.0
+Generation:  946  Leading Candidate:  197  Fitness:  1.0
+Generation:  947  Leading Candidate:  13  Fitness:  1.0
+Generation:  948  Leading Candidate:  13  Fitness:  1.0
+Generation:  949  Leading Candidate:  57  Fitness:  1.0
+Generation:  950  Leading Candidate:  163  Fitness:  1.0
+Generation:  951  Leading Candidate:  57  Fitness:  1.0
+Generation:  952  Leading Candidate:  135  Fitness:  1.0
+Generation:  953  Leading Candidate:  163  Fitness:  1.0
+Generation:  954  Leading Candidate:  177  Fitness:  1.0
+Generation:  955  Leading Candidate:  149  Fitness:  1.0
+Generation:  956  Leading Candidate:  13  Fitness:  1.0
+Generation:  957  Leading Candidate:  77  Fitness:  1.0
+Generation:  958  Leading Candidate:  77  Fitness:  1.0
+Generation:  959  Leading Candidate:  77  Fitness:  1.0
+Generation:  960  Leading Candidate:  163  Fitness:  1.0
+Generation:  961  Leading Candidate:  149  Fitness:  1.0
+Generation:  962  Leading Candidate:  135  Fitness:  1.0
+Generation:  963  Leading Candidate:  149  Fitness:  1.0
+Generation:  964  Leading Candidate:  135  Fitness:  1.0
+Generation:  965  Leading Candidate:  69  Fitness:  1.0
+Generation:  966  Leading Candidate:  69  Fitness:  1.0
+Generation:  967  Leading Candidate:  77  Fitness:  1.0
+Generation:  968  Leading Candidate:  149  Fitness:  1.0
+Generation:  969  Leading Candidate:  163  Fitness:  1.0
+Generation:  970  Leading Candidate:  135  Fitness:  1.0
+Generation:  971  Leading Candidate:  13  Fitness:  1.0
+Generation:  972  Leading Candidate:  141  Fitness:  1.0
+Generation:  973  Leading Candidate:  13  Fitness:  1.0
+Generation:  974  Leading Candidate:  69  Fitness:  1.0
+Generation:  975  Leading Candidate:  141  Fitness:  1.0
+Generation:  976  Leading Candidate:  77  Fitness:  1.0
+Generation:  977  Leading Candidate:  69  Fitness:  1.0
+Generation:  978  Leading Candidate:  69  Fitness:  1.0
+Generation:  979  Leading Candidate:  99  Fitness:  1.0
+Generation:  980  Leading Candidate:  197  Fitness:  1.0
+Generation:  981  Leading Candidate:  77  Fitness:  1.0
+Generation:  982  Leading Candidate:  163  Fitness:  1.0
+Generation:  983  Leading Candidate:  69  Fitness:  1.0
+Generation:  984  Leading Candidate:  69  Fitness:  1.0
+Generation:  985  Leading Candidate:  163  Fitness:  1.0
+Generation:  986  Leading Candidate:  13  Fitness:  1.0
+Generation:  987  Leading Candidate:  163  Fitness:  1.0
+Generation:  988  Leading Candidate:  135  Fitness:  1.0
+Generation:  989  Leading Candidate:  197  Fitness:  1.0
+Generation:  990  Leading Candidate:  197  Fitness:  1.0
+Generation:  991  Leading Candidate:  197  Fitness:  1.0
+Generation:  992  Leading Candidate:  135  Fitness:  1.0
+Generation:  993  Leading Candidate:  163  Fitness:  1.0
+Generation:  994  Leading Candidate:  99  Fitness:  1.0
+Generation:  995  Leading Candidate:  135  Fitness:  1.0
+Generation:  996  Leading Candidate:  141  Fitness:  1.0
+Generation:  997  Leading Candidate:  99  Fitness:  1.0
+Generation:  998  Leading Candidate:  135  Fitness:  1.0
+Generation:  999  Leading Candidate:  99  Fitness:  1.0
+Generation:  1000  Leading Candidate:  141  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  69  Fitness:  1.0
+Generation:  1  Leading Candidate:  197  Fitness:  1.0
+Generation:  2  Leading Candidate:  69  Fitness:  1.0
+Generation:  3  Leading Candidate:  163  Fitness:  1.0
+Generation:  4  Leading Candidate:  141  Fitness:  1.0
+Generation:  5  Leading Candidate:  141  Fitness:  1.0
+Generation:  6  Leading Candidate:  77  Fitness:  1.0
+Generation:  7  Leading Candidate:  13  Fitness:  1.0
+Generation:  8  Leading Candidate:  163  Fitness:  1.0
+Generation:  9  Leading Candidate:  197  Fitness:  1.0
+Generation:  10  Leading Candidate:  177  Fitness:  1.0
+Generation:  11  Leading Candidate:  149  Fitness:  1.0
+Generation:  12  Leading Candidate:  197  Fitness:  1.0
+Generation:  13  Leading Candidate:  77  Fitness:  1.0
+Generation:  14  Leading Candidate:  149  Fitness:  1.0
+Generation:  15  Leading Candidate:  163  Fitness:  1.0
+Generation:  16  Leading Candidate:  149  Fitness:  1.0
+Generation:  17  Leading Candidate:  149  Fitness:  1.0
+Generation:  18  Leading Candidate:  163  Fitness:  1.0
+Generation:  19  Leading Candidate:  57  Fitness:  1.0
+Generation:  20  Leading Candidate:  135  Fitness:  1.0
+Generation:  21  Leading Candidate:  163  Fitness:  1.0
+Generation:  22  Leading Candidate:  135  Fitness:  1.0
+Generation:  23  Leading Candidate:  57  Fitness:  1.0
+Generation:  24  Leading Candidate:  197  Fitness:  1.0
+Generation:  25  Leading Candidate:  77  Fitness:  1.0
+Generation:  26  Leading Candidate:  177  Fitness:  1.0
+Generation:  27  Leading Candidate:  57  Fitness:  1.0
+Generation:  28  Leading Candidate:  69  Fitness:  1.0
+Generation:  29  Leading Candidate:  77  Fitness:  1.0
+Generation:  30  Leading Candidate:  57  Fitness:  1.0
+Generation:  31  Leading Candidate:  77  Fitness:  1.0
+Generation:  32  Leading Candidate:  69  Fitness:  1.0
+Generation:  33  Leading Candidate:  177  Fitness:  1.0
+Generation:  34  Leading Candidate:  99  Fitness:  1.0
+Generation:  35  Leading Candidate:  163  Fitness:  1.0
+Generation:  36  Leading Candidate:  177  Fitness:  1.0
+Generation:  37  Leading Candidate:  197  Fitness:  1.0
+Generation:  38  Leading Candidate:  99  Fitness:  1.0
+Generation:  39  Leading Candidate:  197  Fitness:  1.0
+Generation:  40  Leading Candidate:  77  Fitness:  1.0
+Generation:  41  Leading Candidate:  177  Fitness:  1.0
+Generation:  42  Leading Candidate:  13  Fitness:  1.0
+Generation:  43  Leading Candidate:  177  Fitness:  1.0
+Generation:  44  Leading Candidate:  197  Fitness:  1.0
+Generation:  45  Leading Candidate:  197  Fitness:  1.0
+Generation:  46  Leading Candidate:  149  Fitness:  1.0
+Generation:  47  Leading Candidate:  69  Fitness:  1.0
+Generation:  48  Leading Candidate:  135  Fitness:  1.0
+Generation:  49  Leading Candidate:  13  Fitness:  1.0
+Generation:  50  Leading Candidate:  197  Fitness:  1.0
+Generation:  51  Leading Candidate:  135  Fitness:  1.0
+Generation:  52  Leading Candidate:  57  Fitness:  1.0
+Generation:  53  Leading Candidate:  141  Fitness:  1.0
+Generation:  54  Leading Candidate:  149  Fitness:  1.0
+Generation:  55  Leading Candidate:  197  Fitness:  1.0
+Generation:  56  Leading Candidate:  197  Fitness:  1.0
+Generation:  57  Leading Candidate:  149  Fitness:  1.0
+Generation:  58  Leading Candidate:  141  Fitness:  1.0
+Generation:  59  Leading Candidate:  77  Fitness:  1.0
+Generation:  60  Leading Candidate:  197  Fitness:  1.0
+Generation:  61  Leading Candidate:  135  Fitness:  1.0
+Generation:  62  Leading Candidate:  57  Fitness:  1.0
+Generation:  63  Leading Candidate:  99  Fitness:  1.0
+Generation:  64  Leading Candidate:  163  Fitness:  1.0
+Generation:  65  Leading Candidate:  57  Fitness:  1.0
+Generation:  66  Leading Candidate:  177  Fitness:  1.0
+Generation:  67  Leading Candidate:  69  Fitness:  1.0
+Generation:  68  Leading Candidate:  197  Fitness:  1.0
+Generation:  69  Leading Candidate:  141  Fitness:  1.0
+Generation:  70  Leading Candidate:  99  Fitness:  1.0
+Generation:  71  Leading Candidate:  141  Fitness:  1.0
+Generation:  72  Leading Candidate:  149  Fitness:  1.0
+Generation:  73  Leading Candidate:  135  Fitness:  1.0
+Generation:  74  Leading Candidate:  141  Fitness:  1.0
+Generation:  75  Leading Candidate:  77  Fitness:  1.0
+Generation:  76  Leading Candidate:  197  Fitness:  1.0
+Generation:  77  Leading Candidate:  177  Fitness:  1.0
+Generation:  78  Leading Candidate:  135  Fitness:  1.0
+Generation:  79  Leading Candidate:  141  Fitness:  1.0
+Generation:  80  Leading Candidate:  77  Fitness:  1.0
+Generation:  81  Leading Candidate:  77  Fitness:  1.0
+Generation:  82  Leading Candidate:  141  Fitness:  1.0
+Generation:  83  Leading Candidate:  141  Fitness:  1.0
+Generation:  84  Leading Candidate:  135  Fitness:  1.0
+Generation:  85  Leading Candidate:  99  Fitness:  1.0
+Generation:  86  Leading Candidate:  177  Fitness:  1.0
+Generation:  87  Leading Candidate:  163  Fitness:  1.0
+Generation:  88  Leading Candidate:  163  Fitness:  1.0
+Generation:  89  Leading Candidate:  135  Fitness:  1.0
+Generation:  90  Leading Candidate:  135  Fitness:  1.0
+Generation:  91  Leading Candidate:  149  Fitness:  1.0
+Generation:  92  Leading Candidate:  149  Fitness:  1.0
+Generation:  93  Leading Candidate:  141  Fitness:  1.0
+Generation:  94  Leading Candidate:  177  Fitness:  1.0
+Generation:  95  Leading Candidate:  149  Fitness:  1.0
+Generation:  96  Leading Candidate:  149  Fitness:  1.0
+Generation:  97  Leading Candidate:  99  Fitness:  1.0
+Generation:  98  Leading Candidate:  135  Fitness:  1.0
+Generation:  99  Leading Candidate:  177  Fitness:  1.0
+Generation:  100  Leading Candidate:  141  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  1  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  2  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  3  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  4  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  5  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  6  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  7  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  8  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  9  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  10  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  11  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  12  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  13  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  14  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  15  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  16  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  17  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  18  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  19  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  20  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  21  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  22  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  23  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  24  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  25  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  26  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  27  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  28  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  29  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  30  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  31  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  32  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  33  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  34  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  35  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  36  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  37  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  38  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  39  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  40  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  41  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  42  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  43  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  44  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  45  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  46  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  47  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  48  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  49  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  50  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  51  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  52  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  53  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  54  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  55  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  56  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  57  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  58  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  59  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  60  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  61  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  62  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  63  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  64  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  65  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  66  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  67  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  68  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  69  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  70  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  71  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  72  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  73  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  74  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  75  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  76  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  77  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  78  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  79  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  80  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  81  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  82  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  83  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  84  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  85  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  86  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  87  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  88  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  89  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  90  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  91  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  92  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  93  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  94  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  95  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  96  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  97  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  98  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  99  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  100  Leading Candidate:  57  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  1  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  2  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  3  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  4  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  5  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  6  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  7  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  8  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  9  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  10  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  11  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  12  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  13  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  14  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  15  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  16  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  17  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  18  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  19  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  20  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  21  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  22  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  23  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  24  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  25  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  26  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  27  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  28  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  29  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  30  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  31  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  32  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  33  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  34  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  35  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  36  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  37  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  38  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  39  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  40  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  41  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  42  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  43  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  44  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  45  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  46  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  47  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  48  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  49  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  50  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  51  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  52  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  53  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  54  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  55  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  56  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  57  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  58  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  59  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  60  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  61  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  62  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  63  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  64  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  65  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  66  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  67  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  68  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  69  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  70  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  71  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  72  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  73  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  74  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  75  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  76  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  77  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  78  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  79  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  80  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  81  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  82  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  83  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  84  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  85  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  86  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  87  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  88  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  89  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  90  Leading Candidate:  77  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  91  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  92  Leading Candidate:  177  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  93  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  94  Leading Candidate:  69  Fitness:  1.0
+comparing:  [[0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  95  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  96  Leading Candidate:  135  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  97  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  98  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  99  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  100  Leading Candidate:  141  Fitness:  1.0
+Reached Max Generation!
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  1  Leading Candidate:  197  Fitness:  1.0
+comparing:  [[1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  2  Leading Candidate:  57  Fitness:  1.0
+comparing:  [[1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  3  Leading Candidate:  149  Fitness:  1.0
+comparing:  [[1 0 1 0 1 0 0 0 1 0 0 0 1 0 1 1 0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 0 1 1 0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  4  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  5  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  6  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  7  Leading Candidate:  13  Fitness:  1.0
+comparing:  [[1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  8  Leading Candidate:  141  Fitness:  1.0
+comparing:  [[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  9  Leading Candidate:  163  Fitness:  1.0
+comparing:  [[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Generation:  10  Leading Candidate:  99  Fitness:  1.0
+comparing:  [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]] [[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  163  Fitness:  1.0
+Generation:  1  Leading Candidate:  135  Fitness:  1.0
+Generation:  2  Leading Candidate:  197  Fitness:  1.0
+Generation:  3  Leading Candidate:  177  Fitness:  1.0
+Generation:  4  Leading Candidate:  163  Fitness:  1.0
+Generation:  5  Leading Candidate:  69  Fitness:  1.0
+Generation:  6  Leading Candidate:  69  Fitness:  1.0
+Generation:  7  Leading Candidate:  77  Fitness:  1.0
+Generation:  8  Leading Candidate:  135  Fitness:  1.0
+Generation:  9  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  197  Fitness:  1.0
+Generation:  1  Leading Candidate:  57  Fitness:  1.0
+Generation:  2  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  13  Fitness:  1.0
+Generation:  1  Leading Candidate:  197  Fitness:  1.0
+Generation:  2  Leading Candidate:  177  Fitness:  1.0
+Generation:  3  Leading Candidate:  141  Fitness:  1.0
+Generation:  4  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  197  Fitness:  1.0
+Generation:  1  Leading Candidate:  163  Fitness:  1.0
+Generation:  2  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  105  Fitness:  1.0
+Found the rule! It is:  105
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  109  Fitness:  1.0
+Generation:  1  Leading Candidate:  109  Fitness:  1.0
+Generation:  2  Leading Candidate:  105  Fitness:  1.0
+Found the rule! It is:  105
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  109  Fitness:  1.0
+Generation:  1  Leading Candidate:  109  Fitness:  1.0
+Generation:  2  Leading Candidate:  105  Fitness:  1.0
+Found the rule! It is:  105
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  109  Fitness:  1.0
+Generation:  1  Leading Candidate:  105  Fitness:  1.0
+Found the rule! It is:  105
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  208  Fitness:  1.0
+Generation:  1  Leading Candidate:  2  Fitness:  1.0
+Generation:  2  Leading Candidate:  130  Fitness:  1.0
+Generation:  3  Leading Candidate:  236  Fitness:  1.0
+Found the rule! It is:  236
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  36  Fitness:  1.0
+Found the rule! It is:  36
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  68  Fitness:  1.0
+Found the rule! It is:  68
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  140  Fitness:  1.0
+Found the rule! It is:  140
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  108  Fitness:  1.0
+Found the rule! It is:  108
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  42  Fitness:  1.0
+Generation:  1  Leading Candidate:  176  Fitness:  1.0
+Generation:  2  Leading Candidate:  10  Fitness:  1.0
+Generation:  3  Leading Candidate:  184  Fitness:  1.0
+Generation:  4  Leading Candidate:  144  Fitness:  1.0
+Generation:  5  Leading Candidate:  164  Fitness:  1.0
+Found the rule! It is:  164
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  163  Fitness:  1.0
+Generation:  1  Leading Candidate:  141  Fitness:  1.0
+Generation:  2  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  69  Fitness:  1.0
+Generation:  1  Leading Candidate:  13  Fitness:  1.0
+Generation:  2  Leading Candidate:  57  Fitness:  1.0
+Generation:  3  Leading Candidate:  149  Fitness:  1.0
+Generation:  4  Leading Candidate:  163  Fitness:  1.0
+Generation:  5  Leading Candidate:  135  Fitness:  1.0
+Generation:  6  Leading Candidate:  13  Fitness:  1.0
+Generation:  7  Leading Candidate:  57  Fitness:  1.0
+Generation:  8  Leading Candidate:  149  Fitness:  1.0
+Generation:  9  Leading Candidate:  77  Fitness:  1.0
+Generation:  10  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/crossover
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/getCellularAutomata
+clj꞉cellularAutomata.cell꞉> 
+Please enter a rule number between 0 and 255: 
+Please enter a number of rows (above 0): 
+Please enter the number of cells per row (above 0): 
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■ ■]
+[□ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □ □ □ □]
+[■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■ ■]
+[□ □ □ □ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □ □ □]
+[■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■ ■]
+[□ □ □ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □ □]
+[■ ■ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ ■ ■]
+[□ □ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ □]
+[■ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ ■]
+[□ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □]
+[■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■]
+[□ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □]
+[■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □]
+[□ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■]
+[■ □ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □]
+[□ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ ■ □ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ ■ □ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ ■ □ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[■ □ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □]
+[□ ■ □ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■]
+[[0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]]
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  13  Fitness:  1.0
+Generation:  1  Leading Candidate:  149  Fitness:  1.0
+Generation:  2  Leading Candidate:  57  Fitness:  1.0
+Generation:  3  Leading Candidate:  149  Fitness:  1.0
+Generation:  4  Leading Candidate:  149  Fitness:  1.0
+Generation:  5  Leading Candidate:  163  Fitness:  1.0
+Generation:  6  Leading Candidate:  69  Fitness:  1.0
+Generation:  7  Leading Candidate:  141  Fitness:  1.0
+Generation:  8  Leading Candidate:  135  Fitness:  1.0
+Generation:  9  Leading Candidate:  57  Fitness:  1.0
+Generation:  10  Leading Candidate:  57  Fitness:  1.0
+Generation:  11  Leading Candidate:  163  Fitness:  1.0
+Generation:  12  Leading Candidate:  197  Fitness:  1.0
+Generation:  13  Leading Candidate:  77  Fitness:  1.0
+Generation:  14  Leading Candidate:  77  Fitness:  1.0
+Generation:  15  Leading Candidate:  177  Fitness:  1.0
+Generation:  16  Leading Candidate:  163  Fitness:  1.0
+Generation:  17  Leading Candidate:  13  Fitness:  1.0
+Generation:  18  Leading Candidate:  177  Fitness:  1.0
+Generation:  19  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Please enter a rule number between 0 and 255: 
+Please enter a number of rows (above 0): 
+Please enter the number of cells per row (above 0): 
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+clj꞉cellularAutomata.cell꞉> 
+Please enter a rule number between 0 and 255: 
+Please enter a number of rows (above 0): 
+Please enter the number of cells per row (above 0): 
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ □ ■ ■ ■ □ □ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ □ ■ ■ □ □ □ □ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ □ ■ ■ ■ □ □ □ □ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ □ ■ ■ □ ■ □ □ □ ■ ■ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ □ ■ ■ ■ ■ ■ □ □ ■ ■ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ □ ■ ■ □ □ □ ■ □ ■ ■ ■ □ □ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ □ ■ ■ ■ □ □ ■ ■ ■ ■ □ ■ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ □ ■ ■ □ ■ □ ■ ■ □ □ ■ ■ ■ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[□ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ □ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ □ □ □ □ □ □ ■ ■ ■ ■ □ □ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □]
+[■ ■ □ □ □ □ □ ■ ■ □ □ ■ □ ■ ■ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■]
+[□ ■ □ □ □ □ ■ ■ ■ □ ■ ■ ■ ■ □ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■]
+[■ ■ □ □ □ ■ ■ □ ■ ■ ■ □ □ ■ □ □ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ ■]
+[□ ■ □ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ □]
+[■ ■ □ ■ ■ □ □ □ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ ■ ■ ■ □ □]
+[■ ■ ■ ■ ■ □ □ ■ ■ □ □ □ □ □ □ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ ■ ■ □ ■ □ ■]
+[□ □ □ □ ■ □ ■ ■ ■ □ □ □ □ □ ■ ■ □ ■ □ □ □ □ □ □ □ □ □ □ ■ ■ ■ ■ ■ ■ ■]
+[□ □ □ ■ ■ ■ ■ □ ■ □ □ □ □ ■ ■ ■ ■ ■ □ □ □ □ □ □ □ □ □ ■ ■ □ □ □ □ □ ■]
+[□ □ ■ ■ □ □ ■ ■ ■ □ □ □ ■ ■ □ □ □ ■ □ □ □ □ □ □ □ □ ■ ■ ■ □ □ □ □ ■ ■]
+[□ ■ ■ ■ □ ■ ■ □ ■ □ □ ■ ■ ■ □ □ ■ ■ □ □ □ □ □ □ □ ■ ■ □ ■ □ □ □ ■ ■ ■]
+[■ ■ □ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ □ ■ ■ ■ □ □ □ □ □ □ ■ ■ ■ ■ ■ □ □ ■ ■ □ ■]
+[□ ■ ■ ■ □ □ □ □ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ □ □ □ □ □ ■ ■ □ □ □ ■ □ ■ ■ ■ ■ ■]
+[■ ■ □ ■ □ □ □ ■ ■ □ □ □ □ □ □ ■ ■ ■ □ □ □ □ ■ ■ ■ □ □ ■ ■ ■ ■ □ □ □ ■]
+[□ ■ ■ ■ □ □ ■ ■ ■ □ □ □ □ □ ■ ■ □ ■ □ □ □ ■ ■ □ ■ □ ■ ■ □ □ ■ □ □ ■ ■]
+[■ ■ □ ■ □ ■ ■ □ ■ □ □ □ □ ■ ■ ■ ■ ■ □ □ ■ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ ■ ■]
+[□ ■ ■ ■ ■ ■ ■ ■ ■ □ □ □ ■ ■ □ □ □ ■ □ ■ ■ □ □ □ □ □ □ ■ ■ ■ ■ ■ ■ □ □]
+[■ ■ □ □ □ □ □ □ ■ □ □ ■ ■ ■ □ □ ■ ■ ■ ■ ■ □ □ □ □ □ ■ ■ □ □ □ □ ■ □ □]
+[■ ■ □ □ □ □ □ ■ ■ □ ■ ■ □ ■ □ ■ ■ □ □ □ ■ □ □ □ □ ■ ■ ■ □ □ □ ■ ■ □ ■]
+[□ ■ □ □ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ □ ■ ■ □ □ □ ■ ■ □ ■ □ □ ■ ■ ■ ■ ■]
+[■ ■ □ □ □ ■ ■ □ □ □ □ □ □ □ □ □ ■ □ ■ ■ ■ □ □ ■ ■ ■ ■ ■ □ ■ ■ □ □ □ ■]
+[□ ■ □ □ ■ ■ ■ □ □ □ □ □ □ □ □ ■ ■ ■ ■ □ ■ □ ■ ■ □ □ □ ■ ■ ■ ■ □ □ ■ ■]
+[■ ■ □ ■ ■ □ ■ □ □ □ □ □ □ □ ■ ■ □ □ ■ ■ ■ ■ ■ ■ □ □ ■ ■ □ □ ■ □ ■ ■ ■]
+[□ ■ ■ ■ ■ ■ ■ □ □ □ □ □ □ ■ ■ ■ □ ■ ■ □ □ □ □ ■ □ ■ ■ ■ □ ■ ■ ■ ■ □ □]
+[■ ■ □ □ □ □ ■ □ □ □ □ □ ■ ■ □ ■ ■ ■ ■ □ □ □ ■ ■ ■ ■ □ ■ ■ ■ □ □ ■ □ □]
+[■ ■ □ □ □ ■ ■ □ □ □ □ ■ ■ ■ ■ ■ □ □ ■ □ □ ■ ■ □ □ ■ ■ ■ □ ■ □ ■ ■ □ ■]
+[□ ■ □ □ ■ ■ ■ □ □ □ ■ ■ □ □ □ ■ □ ■ ■ □ ■ ■ ■ □ ■ ■ □ ■ ■ ■ ■ ■ ■ ■ ■]
+[■ ■ □ ■ ■ □ ■ □ □ ■ ■ ■ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ ■ □ □ □ □ □ □ ■]
+[□ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ □ ■ ■ □ □ □ □ □ ■ ■ ■ □ □ □ □ ■ □ □ □ □ □ ■ ■]
+[■ ■ □ □ □ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ □ □ □ □ ■ ■ □ ■ □ □ □ ■ ■ □ □ □ □ ■ ■ ■]
+[□ ■ □ □ □ ■ ■ □ □ □ □ □ □ □ ■ □ □ □ ■ ■ ■ ■ ■ □ □ ■ ■ ■ □ □ □ ■ ■ □ □]
+[■ ■ □ □ ■ ■ ■ □ □ □ □ □ □ ■ ■ □ □ ■ ■ □ □ □ ■ □ ■ ■ □ ■ □ □ ■ ■ ■ □ □]
+[■ ■ □ ■ ■ □ ■ □ □ □ □ □ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ □ ■ □ ■]
+[□ ■ ■ ■ ■ ■ ■ □ □ □ □ ■ ■ □ ■ ■ ■ □ ■ □ ■ ■ □ □ □ □ □ ■ ■ ■ ■ ■ ■ ■ ■]
+[■ ■ □ □ □ □ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ ■ □ □ □ □ ■ ■ □ □ □ □ □ □ ■]
+[□ ■ □ □ □ ■ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □ □ □ □ ■ □ □ □ ■ ■ ■ □ □ □ □ □ ■ ■]
+[■ ■ □ □ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ □ □ □ ■ ■ □ □ ■ ■ □ ■ □ □ □ □ ■ ■ ■]
+[□ ■ □ ■ ■ □ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ □ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ □ □]
+[■ ■ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ ■ ■ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ ■ □ □]
+[■ □ □ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ □ ■ □ ■]
+[■ □ □ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ □ □ □ □ □ ■ ■ ■ □ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■]
+[■ □ □ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ ■ □ □ □ □ ■ ■ □ ■ ■ ■ □ □ □ □ □ □ □ □ □]
+[■ □ □ ■ ■ □ □ □ ■ ■ ■ □ □ □ □ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ □ □ □ □ □ □ □ □ ■]
+[■ □ ■ ■ ■ □ □ ■ ■ □ ■ □ □ □ ■ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □ □ □ □ □ □ □ ■ ■]
+[■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ □ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ □ □ □ □ □ □ ■ ■ □]
+[■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ ■ ■ □ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ □ □ □ □ ■ ■ ■ ■]
+[■ ■ ■ □ □ □ ■ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ □ □ □ ■ ■ □ □ □]
+[■ □ ■ □ □ ■ ■ □ ■ ■ □ □ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □ □ ■]
+[■ ■ ■ □ ■ ■ ■ ■ ■ ■ □ □ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ □ ■ ■]
+[□ □ ■ ■ ■ □ □ □ □ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ ■ ■ □]
+[□ ■ ■ □ ■ □ □ □ ■ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ □ □ □ □ ■ □]
+[■ ■ ■ ■ ■ □ □ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ □ □ ■ □ □ □ □ ■ ■ □]
+[■ □ □ □ ■ □ ■ ■ □ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ □ □ ■ ■ ■ ■]
+[■ □ □ ■ ■ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ ■ □ ■ ■ ■ □ □ ■ ■ □ □ □]
+[■ □ ■ ■ □ □ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ □ □ ■]
+[■ ■ ■ ■ □ □ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■]
+[□ □ □ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ □ □ ■ ■ ■ ■ ■ □]
+[□ □ ■ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ □ □ ■ □]
+[□ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ □ □ ■ ■ □]
+[■ ■ □ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ □]
+[■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ ■]
+[□ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □]
+[□ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ □]
+[□ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □]
+[■ ■ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ □ □ ■ □]
+[■ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ □ □ ■ □ □ ■ ■ ■]
+[□ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ ■ □ □]
+[■ ■ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ ■ □ □]
+[■ □ □ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ □ □ □ ■ □ ■]
+[■ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ □ □ ■ □ □ □ ■ ■ ■ ■]
+[■ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ □ ■ ■ □ □ □]
+[■ □ □ □ □ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ □ ■ ■ ■ □ □ ■]
+[■ □ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ ■ ■ ■ □ ■ □ ■ ■]
+[■ □ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ □ □ ■ ■ ■ □ ■ ■ ■ ■ ■ □]
+[■ □ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ ■ ■ □ □ □ ■ ■]
+[■ ■ ■ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ ■ □ □ ■ ■ □]
+[■ □ □ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ □ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ ■ ■ ■ ■]
+[■ □ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ □ □ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ □ □ □]
+[■ ■ ■ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ ■ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ ■ □ □ ■]
+[□ □ ■ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ ■ ■ □ ■ ■]
+[□ ■ ■ ■ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■]
+[■ ■ □ □ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ ■]
+[□ ■ □ □ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ □ ■ ■ □ ■ ■ ■ ■ ■ □ □ □ ■ □ ■ ■]
+[[0 1 0 0 0 0 1 1 0 1 1 1 1 1 0 0 0 1 0 0 1 1 0 1 1 1 1 1 0 0 0 1 0 1 1]]
+clj꞉cellularAutomata.cell꞉> 
+#function[cellularAutomata.cell/getCellularAutomataHard]
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  69  Fitness:  1.0
+Generation:  1  Leading Candidate:  163  Fitness:  1.0
+Generation:  2  Leading Candidate:  149  Fitness:  1.0
+Generation:  3  Leading Candidate:  77  Fitness:  1.0
+Generation:  4  Leading Candidate:  177  Fitness:  1.0
+Generation:  5  Leading Candidate:  57  Fitness:  1.0
+Generation:  6  Leading Candidate:  177  Fitness:  1.0
+Generation:  7  Leading Candidate:  141  Fitness:  1.0
+Generation:  8  Leading Candidate:  177  Fitness:  1.0
+Generation:  9  Leading Candidate:  135  Fitness:  1.0
+Generation:  10  Leading Candidate:  141  Fitness:  1.0
+Generation:  11  Leading Candidate:  13  Fitness:  1.0
+Generation:  12  Leading Candidate:  69  Fitness:  1.0
+Generation:  13  Leading Candidate:  177  Fitness:  1.0
+Generation:  14  Leading Candidate:  135  Fitness:  1.0
+Generation:  15  Leading Candidate:  57  Fitness:  1.0
+Generation:  16  Leading Candidate:  163  Fitness:  1.0
+Generation:  17  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/crossover
+clj꞉cellularAutomata.cell꞉> 
+#'cellularAutomata.cell/figureOutRuleWithEvo
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  177  Fitness:  1.0
+Generation:  1  Leading Candidate:  149  Fitness:  1.0
+Generation:  2  Leading Candidate:  57  Fitness:  1.0
+Generation:  3  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  77  Fitness:  1.0
+Generation:  1  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  177  Fitness:  1.0
+Generation:  1  Leading Candidate:  197  Fitness:  1.0
+Generation:  2  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
+Generation:  0  Leading Candidate:  197  Fitness:  1.0
+Generation:  1  Leading Candidate:  69  Fitness:  1.0
+Generation:  2  Leading Candidate:  13  Fitness:  1.0
+Generation:  3  Leading Candidate:  77  Fitness:  1.0
+Generation:  4  Leading Candidate:  99  Fitness:  1.0
+Found the rule! It is:  99
+nil
+clj꞉cellularAutomata.cell꞉> 
