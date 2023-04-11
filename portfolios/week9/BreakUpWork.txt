@@ -1,0 +1,17 @@
+1. Create java classes to mimic Decision Transformer
+
+	Take in actions, state, and positions, encode, and interleave
+
+	positional encoding: one-hot player position?, hierarchical game/round/action
+
+3. Hook up game engine to parse outputted action probabilities and one-hot encode states, rewards, and actions
+
+	- HeadsUpTest which is One-hot tests really
+	- Read through HeadUp file and understand the states and inputs of things
+	- 
+
+4. Hook up evolution to game engine / past generated hands and transformer to evolve policy and value functions
+
+	Maybe I can make a pretend block that’s just like a point wise MLP or something
+
+		MILESTONE 1 - Week 1

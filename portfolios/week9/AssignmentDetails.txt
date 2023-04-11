@@ -1,0 +1,91 @@
+#3: 
+
+- utils.clj (don't need to look through, but you may see a lot of calls to functions from this namespace)  
+
+- headsup.clj (understand how agents interact with the game engine, how game-history is updated - and how to change that behavior, what's in game-state)
+
+- onehot.clj (examples on how to one-hot encode info extracted from game-state)
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+One-Hot Encoding:
+	Action:
+		encode-action: [action-type action-value] -> [encoded action-type] concatenated with [encoded action-value]
+		encode-type: action-type -> [length 5 vector] for #{"Check" "Call" "Fold" "Bet" "All-In"} (a lot of people don't consider bet and raise to be separate actions
+		encode-amount: idk how we should do this yet, so it should be flexible with lots of default arguments
+			monetary-amount, 
+			pot,
+			stack,
+			bb-buckets (default 1 through 10), 
+			pot-buckets (default 1/2, 3/4, 1, 3/2, 2), 	 	
+			stack-buckets (default 5%, 10%, 20%, 40%) 	-> 	[0s except for buckets in which monetary-amount falls, which are 1s]. 
+				example: monetary-amount = 5.1bb, pot = 10bb, and stack = 200bb. Out of the bb-buckets, the 5bb bucket fits this best (i.e. money in the interval [4.5,5.5]). 
+					Out of the pot-buckets, 1/2 pot fits this best (money in the interval [0pot,5/8pot]). Out of the stack-buckets, 5% stack fits this best (money in the 
+					interval [0%stack, 7.5%stack])
+				Alternate example: (maybe write and test this if you have time, but comment out using "#_") same variables as before, but we're considering all of the 
+						   buckets at once. In this case monetary-amount is 0.1bb away from the 5bb and 1/2pot buckets, but 4.9bb away from the 5%stack bucket, so 
+						   5bb and 1/2 pot get 1s, while everything else is 0.
+		
+	State:
+		Cards:
+			[cards] -> [encoded-cards]
+				Does the same thing as AlphaHoldem. 4x13 matrix (implemented as a length 52 vector) with 1s in positions corresponding to the cards in the given cards.
+
+			[2 cards] -> [encoded-cards]
+				Alternate version that takes 2 cards and encodes it as one of a possible (52 choose 2) = 1225 pairs of cards. 
+				This enables a model to predict the opponent's hand as "either AA or KQ suited" as opposed to only being able to say "high chance of having As, Ks, or Qs"
+
+			[2 cards] -> [52x or 1225x 0s]
+				Alternate version for opponent's cards since we don't know what they are
+
+		(Optional) pot-size:
+			- one version where we just include it as is
+			- one version where we one-hot encode it into buckets. pot, buckets (default 10 buckets on a logarithmic scale from 1 to 400)-> [0s except for buckets in which pot 
+			  falls]
+
+		* Finally concatenate all encodings (community cards, my hand) into one vector *
+
+	Position:
+		- int for which game it is (maybe edit code to include a :game-number field in game-state, which will have to be updated in iterate-games-reset)
+		- int for which round it is
+		- int for which action in the round it is
+
+		* turn these into a vector [game-num round-num action-num] *
+
+	Person:
+		- one-hot encode for which person it is out of 2 people. Takes in a player's id, probably also the two ids of the two players, and returns [0,1] or [1,0] for which player it 
+		  is. It's important that this is different from current-person in game-state because the players will switch positions every game. We need to use player id to accurately 	
+		  track each player across multiple games
+
+Changing Game-History:
+
+	- instead of using state-to-history (which I commented out) to update the game-history at the very end, continually update game-history with states and actions every time an action 
+	  occurs, i.e. in parse-action
+
+	- game-history should be a map {:person person :positions positions :states states :actions actions :rewards rewards} where the values are vectors with approximately the same shared 
+	  length (can be off by 1)
+		* include all cards relevant to the state, we can mask out information that should be hidden when it's time to get an action from the agent 
+		* positions should be the 
+		* states should be a bunch of vectors, where each vector is the one-hot encoded state information
+		* positions should be a bunch of [game-num round-num action-num] vectors
+		* actions should be a bunch of vectors, where each vector is the one-hot encoded action information
+		* rewards should be a bunch of maps {:id1 reward1 :id2 reward2} for the reward each agent receives at that action. 0 reward for no change, -[amount] reward for putting money 
+		  into the pot, +[amount] reward for winning a pot
+		* every time we call parse-action, we should also update all of the values in game-history once. For example, if player1 is betting 2bb on the flop of the 3rd game, we should 
+		  update position by appending [3, 1, 0] for game 2, round 1, and action 0 (since these are 0-indexed). We should append the encoding of "Bet 2bb" to the actions, append the 
+		  encoding of the revealed cards and hands to the state, and append the reward {:player1 -2, :player2 0} to the rewards.
+
+	- Storing this will be easy, just a call to spit and with-out-string, so there's no need to implement a special method for it.
+
+
+
+
+
+	~~~~~~	You can directly edit headsup.clj. I don't anticipate needing to change anything, but if I do I'll let you know and we can coordinate. ~~~~~~
+	
+	
+	
+		

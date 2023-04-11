@@ -1,0 +1,47 @@
+Below, you can find notes on some of the background reading that I did this week to further understand both poker playing agents and more specifically transformers. I will put the papers that I read and took notes on at the top, and the title of the papers that I have read / skimmed but did not take serious notes on at the bottom.
+
+Decision Transformer: Reinforcement Learning via Sequence Modeling:
+- Discusses a framework that abstracts reinforcement learning as a sequence modeling problem
+- Uses Decision Transformer which gets best actions by using a masked transformer
+- Decision Transformer either matched or beat RL baseline models
+- Lots of good figures that depict DTs and their architecture
+
+Attention Is All You Need
+- The Transformer is only based on attention mechanisms which gets rid of using recursion and convolutions
+- The authors use a English-to-German translation task to track the quality and efficiency of the transformer against other models
+- The transformer was able to establish new state of the art standards over previous best models
+- Transformer allows for a lot more parallelization as compared to LSTM, gated recurrent neural networks, and standard recurrent neural networks
+- Transformers use encoder and decoder stacks
+- Can use variety of attention functions, and the one outlined in this paper uses a function that takes in a matrix, key, and values, and uses a softmax combination of them to generate the attention
+- You can also have multi-head attention which would allow for performing more than one attention function
+- Can also make "self-attention" layers
+- Transformer had great performance
+
+Opponent Modeling and Exploitation in Poker Using Evolved Recurrent Neural Networks:
+- Many poker playing agents have been based on Nash equilibrium, but their ability to model opponents is very insufficient
+- This paper uses evolution to get opponent models using LSTM, pattern recognition trees, and Recurrent neural networks. 
+- This method produced playing agents that could beat opponents never seen in training and outperformed the baseline that we use in our project, Slumbot 2017
+	~ Slumbot is a Nash equilibrium based agent
+- Uses ASHE Architecture
+	~ consists of two parts
+		1) rule based decision algorithm
+		2) opponent model
+	~ opponent model consists of a showdown win rate estimator, opponent fold rate estimator, and a pattern recognition tree
+- The evolutionary approach of this method (specifically for opponent modeling and opponent exploitation) produced an efficient poker playing agent that was able to exploit weak opponents and evolve to become better by playing stronger opponents.
+
+AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning
+- Heads-Up no-limit Texas Hold'em is the best game for imperfect information
+- AlphaHoldem is "a high- performance and lightweight HUNL AI obtained with an end- to-end self-play reinforcement learning framework."
+- Was able to beat slumber and deep-stack using only a single computer with 3 days of training
+- "The pro- posed framework adopts a pseudo-siamese architecture to di- rectly learn from the input state information to the output ac- tions by competing the learned model with its different his- torical versions."
+- "The main technical contributions include a novel state representation of card and betting information, a multi-task self-play training loss function, and a new model evaluation and selection metric to generate the final model."
+
+Other papers
+____________
+
+- Dota II With Large-Scale Reinforcement Learning
+- Evolutionary Reinforcement Learning
+- Reinforcement Learning versus Evolutionary Computation: A survey on hybrid algorithms
+- Transformer Models - An Introduction and Catalog
+- Proximal Policy Optimization Algorithms
+- AlphaStar - an Evolutionary Computation Perspective

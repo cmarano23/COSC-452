@@ -1,0 +1,9 @@
+This week, my project group got together on Tuesday to discuss what we are going to do and what our plan is. We decided that we are going to be making a poker playing agent and using Andrew’s existing code and poker engine that he built in closure to do so. We then got into a discussion about how he thinks it would be best to have our agent be a transformer. As such, the rest of the group have started reading up on papers regarding both transformers and poker playing agents. The current standard best, open source poker playing agent for us to test against is slumbot, and so we will be using that as our standard to test against and try to outperform. I have not had any time this week to write code myself since I was too busy trying to go through and understand the code that we already have (found at https://github.com/andrewni420/Evolutionary-Computation/tree/main/poker). Instead, I spent the majority of my time reading papers and taking notes.
+
+In this submission, you can find:
+
+- Text.txt: My notes on the readings and texts.
+
+- Rice: I do not have a RICE text file this week as we only met as a group and not to discuss RICE things.
+
+- Code: I do not have any of my own code yet, as I've been parsing through https://github.com/andrewni420/Evolutionary-Computation/tree/main/poker.
