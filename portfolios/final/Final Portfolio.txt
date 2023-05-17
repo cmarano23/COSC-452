@@ -1,0 +1,42 @@
+This is Carson Marano's final portfolio submission. In this document, you can find the following: 
+- Final Project Code (in the form of a GitHub link)
+- A breakdown of my work and contributions to the final project code
+- My interpretation of final results
+- My final thoughts on the course
+
+****************************
+*	    Code	   *
+****************************
+
+The final project code can be found at https://github.com/andrewni420/Evolutionary-Computation/tree/main/poker. Since our project was a continuation of Andrew's previous work, the GitHub repository is vast.
+The main code files that relate to our work on using Transformers to train poker playing AI bots can be found in the 'src\clojure\poker\' and 'src\java\poker\' folders. 
+The main files to look for are 'src\clojure\poker\headsup.clj', which is the heads-up poker game engine, 'src\clojure\poker\transformer.clj' which contains the code for our transformer, and 'src\java\poker\Carson\GUI.java' which contains the Graphical User Interface component to play against the Transformer-based AI bot.
+In order to launch the GUI, you can use the file 'src\clojure\poker\Carson\test.clj' and run the clojure code.
+
+****************************
+*  Personal Contributions  *
+****************************
+
+As we discussed a few weeks ago, this project was incredibly hard to jump into given that Andrew wanted to continue using his previously written code. As such, we discussed how we (the other group members) may be able to best help.
+My first task that I did was to refactor the 'headsup.clj' file to better implement functional programming and use functional programming to pass along information regarding the history of actions to train the transformer models.
+After spending a lot of time working on that task, I requested to meet with you because I felt as though I wasn't able to contribute in the ways I was hoping due to the structure of Andrew's code and the sheer volume that he was hoping to build on top of for our project.
+I explained that I read and took notes on well over 15 published research papers regarding transformers, previously established poker playing agents such as slumbot, and how evolutionary and genetic algorithms relate to both imperfect and perfect information games.
+I tried to convey this information as best as I could in my portfolios. I also thought it would be a good idea to meet with you to discuss this topic.
+You suggested that I create a Graphical User Interface that the user can use to play against our transformer model. As such, I spent a lot of time writing the GUI.java file that connects to the headsup.clj file via CljCommunicator.java file.
+I create the initial GUI that the rest of the group built on top of, and Charles added work to store the ai, community, and player cards on the board. From there, I then hooked up buttons to control the behavior on the board.
+Mikhail wrote code to get data from the transformer in clojure using the headsup.clj file, which he named CljCommunicator.java. His original file consisted of just a main(), but it did not work as intended so I had to refactor it so that we could implement it in the GUI.java file.
+While we tried to split the work up evenly among the GUI group, there were many occasions where problems arose and we didn't know how best to approach it as a group. I took the lead in trying to debug and get the code to work with our evolved transformer.
+I spent a lot of time working on this project, and many long nights trying to parse through both Andrew's previously written code, which can be seen in the commit history of the GitHub repo. While I may not have had a big role in writing the evolutionary aspects of this project,
+I have a good understanding of how the code works and the methods that we are using to obtain our results. In addition, before we started final project work, I was able to implement my own evolutionary algorithm that was able to determine a 1D cellular automata rule along with many other evolution-based projects in my previous portfolios.
+
+****************************
+*      Interpretation	   *
+****************************
+
+
+
+****************************
+*      Final Thoughts	   *
+****************************
+
+I am proud of the work that I was able to accomplish in this course, and feel confident that my portfolios and this project demonstrate a strong understanding and willingness to engage with evolutionary computation and functional programming.
